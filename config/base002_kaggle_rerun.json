@@ -1,0 +1,49 @@
+{
+  "amendment_id": "BASE-002-GATE3-CONVERGENCE-2026-10-06",
+  "approved_by": "project lead",
+  "approved_date": "2026-10-06",
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "expected_feature_contract_sha256": "8885be549b24719dad67f37943d105b6bd25535979a9c43e64d692501c8839f5",
+  "amended_gate3_protocol_sha256": "3fa6ba8c8c900cbc4b26a7674fefddbcb1095454718a31bcbc4de1a0bc951bb4",
+  "expected_rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338,
+    "train": 20094094
+  },
+  "expected_sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+  "expected_training_rows": 446363,
+  "original_gate3_protocol_sha256": "6a6040dcd48260519bfb5a2d1cca28575c1c597619855a634107c6156e5a9ef0",
+  "models": {
+    "LR": {
+      "amended_max_iter": 1000,
+      "original_max_iter": 300,
+      "run_id": "LR-amended-maxiter1000"
+    },
+    "MLP": {
+      "amended_max_iter": 200,
+      "original_max_iter": 50,
+      "run_id": "MLP-amended-maxiter200"
+    }
+  },
+  "minimum_output_free_bytes": 5368709120,
+  "required_package_versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "polars": "1.44.2",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "required_python_major_minor": "3.12",
+  "seed": 2027,
+  "training_cap_per_device_class": 2000
+}

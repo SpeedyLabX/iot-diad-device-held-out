@@ -1,0 +1,10 @@
+{
+  "acceptance_status": "blocked",
+  "amendment_id": "BASE-002-GATE3-CONVERGENCE-2026-10-06",
+  "fit_statuses": {
+    "LR": "convergence_failure",
+    "MLP": "passed"
+  },
+  "next_action": "preserve outputs and reopen Gate 3 because a convergence warning remains",
+  "verification_status": "passed"
+}

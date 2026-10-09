@@ -1,0 +1,14 @@
+{
+  "amendment_id": "BASE-002-GATE3-LR-NEWTON-CHOLESKY-2026-10-06",
+  "fit_status": "passed",
+  "iterations": [
+    69
+  ],
+  "model_sha256": "50fe703861ac05b37afd981561f5842cb580312867fb86975ce472ee52448a80",
+  "rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338
+  },
+  "run_config_sha256": "79eeba4ad3f92b61d22c958382eb335c241ce5e346e76a4c7cad0919ec412f06",
+  "status": "passed"
+}

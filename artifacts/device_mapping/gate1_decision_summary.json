@@ -1,0 +1,16 @@
+{
+  "decision_date": "2026-10-05",
+  "decision_authority": "project lead",
+  "primary_evaluation": "packet physical-device-held-out",
+  "flow_evaluation": "no unseen-physical-device claim; separately framed analysis only until an authoritative Flow-IP-to-device correspondence is verified",
+  "source_candidate_sha256": "d61282ef809a0bd7afb2c96b51c8ab8f38079c5c9bf7435e93681eacaa4ca969",
+  "source_alias_sha256": "1e8c00cda673506d635405bf8f481354c50b539dfc2fd154abdfdf01b802ab60",
+  "total_identifiers": 115,
+  "total_rows": 35672839,
+  "approved_identifiers": 68,
+  "approved_rows": 34627307,
+  "ambiguous_excluded_identifiers": 1,
+  "ambiguous_excluded_rows": 35755,
+  "unresolved_excluded_identifiers": 46,
+  "unresolved_excluded_rows": 1009777
+}

@@ -1,0 +1,114 @@
+# Raw and local data
+/data/*
+!/data/README.md
+*.part
+
+# Python environments, caches, and build products
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+build/
+dist/
+*.tmp
+
+# Editor and operating-system metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Local research coordination and working plans
+/.agents/
+/.codex/
+/.ag-kit-backups/
+/AGENTS.md
+/docs/status/
+/docs/handoffs/
+/docs/operations/
+/docs/templates/
+/docs/decisions/
+/docs/research/
+/docs/paper/CLAIM_EVIDENCE_MATRIX.csv
+/docs/paper/WRITING_PROTOCOL.md
+/*-plan.md
+/base002-kaggle-rerun.md
+/complete-aistats-paper.md
+/strengthen-teacher-manuscript.md
+/public-repository-cleanup.md
+
+# Private and pre-release manuscript material
+/Thu_version/
+/paper/
+/docs/reports/teacher_*.md
+/docs/reports/write*.md
+/docs/reports/human_gate4_review.md
+/docs/reports/literature_expansion_review.md
+/docs/reports/submission_candidate_audit.md
+/scripts/audit_integrated_manuscript.py
+/scripts/audit_teacher_manuscript.py
+/scripts/check_teacher_finite_proofs.py
+/scripts/package_integrated_manuscript.py
+/scripts/package_teacher_manuscript.py
+/scripts/plot_teacher_revision.py
+/scripts/prepare_teacher_revision_inputs.py
+/scripts/reconcile_teacher_outputs.py
+/scripts/render_teacher_accepted_tables.py
+/scripts/replay_teacher_tables.py
+
+# Licensed literature and manuscript working artifacts
+/artifacts/research/
+/artifacts/teacher_revision/
+/artifacts/paper/
+/artifacts/device_mapping/literature/*.pdf
+/artifacts/device_mapping/literature/*.html
+/artifacts/device_mapping/literature/*.xml
+/artifacts/device_mapping/literature/*.png
+
+# Large regenerable mapping evidence
+/artifacts/device_mapping/candidate_mapping.csv
+/artifacts/device_mapping/packet_endpoint_evidence.csv
+/artifacts/device_mapping/flow_endpoint_evidence.csv
+
+# Large regenerable baseline artifacts
+/artifacts/experiments/baselines/cache/
+/artifacts/experiments/baselines/transformed/
+/artifacts/experiments/baselines/attempts/
+/artifacts/experiments/baselines/kaggle_rerun_bundle/
+/artifacts/experiments/baselines/logs/
+/artifacts/experiments/baselines/training_sample.parquet
+/artifacts/experiments/baselines/training_sample_manifest.csv
+/artifacts/experiments/baselines/file_inventory.csv
+/artifacts/experiments/baselines/.runner.lock
+/artifacts/experiments/baselines/**/probabilities/
+/artifacts/experiments/baselines/**/model.joblib
+/artifacts/experiments/baselines/**/training_sample_manifest.csv
+/artifacts/experiments/baselines/**/transform_cache.json
+
+# Large regenerable conformal outputs
+/artifacts/experiments/conformal/logs/
+/artifacts/experiments/conformal/*/calibration/
+/artifacts/experiments/conformal/*/sets/
+/artifacts/experiments/conformal/*/sorted_scores/
+
+# Generated EDA samples are local; compact summaries and figures are public
+/artifacts/eda/samples/
+
+# Internal state validator is not part of the public package surface
+/src/iot_diad/project_state.py
+/tests/test_project_state.py
+
+# LaTeX auxiliary files (applies if manuscript source is released later)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

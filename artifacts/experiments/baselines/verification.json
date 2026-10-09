@@ -1,0 +1,91 @@
+{
+  "acceptance": "failed",
+  "artifact_integrity": "passed",
+  "inference_performed": false,
+  "runs": [
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "convergence_failure",
+      "max_probability_sum_error": 6.661338147750939e-16,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "LR",
+      "test_mean_device_macro_f1": 0.45366036698620915
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "passed",
+      "max_probability_sum_error": 4.596323321948148e-13,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "ET",
+      "test_mean_device_macro_f1": 0.48706978365559805
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "passed",
+      "max_probability_sum_error": 8.881784197001252e-16,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "HGB",
+      "test_mean_device_macro_f1": 0.7540987259826436
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "passed",
+      "max_probability_sum_error": 3.552713678800501e-15,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "RF",
+      "test_mean_device_macro_f1": 0.60002223089212
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "convergence_failure",
+      "max_probability_sum_error": 5.551115123125783e-16,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "MLP",
+      "test_mean_device_macro_f1": 0.5875314138175615
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "passed",
+      "max_probability_sum_error": 0.0,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "DUMMY",
+      "test_mean_device_macro_f1": 0.07278212633819461
+    },
+    {
+      "artifact_integrity": "passed",
+      "fit_status": "passed",
+      "max_probability_sum_error": 7.771561172376096e-16,
+      "rows_by_partition": {
+        "calibration": 6620817,
+        "test": 7912338
+      },
+      "run_id": "HGB-cap1000",
+      "test_mean_device_macro_f1": 0.7366007837564145
+    }
+  ],
+  "transform_cache": {
+    "cache_key": "85a2f1078e9b70ffff6b630f6ce97c973d183feed9bfc5cd4c4d4d0d509cc15a",
+    "chunks": 765,
+    "direct_transform_probes": 3,
+    "rows": 14533155
+  },
+  "verification_seconds": 238.65126265100002
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "inventory_entries": 110,
+  "local_identifiers": 115,
+  "local_packet_rows": 35672839,
+  "candidate_matched_identifiers": 65,
+  "candidate_matched_rows": 33493631,
+  "ambiguous_identifiers": [
+    "Raspberry Pi 4-2 GB"
+  ],
+  "approved_identities": 0,
+  "checks": [
+    "inventory and local counts conserve",
+    "candidate arrays and pages resolve to inventory entries",
+    "match predicates hold for every identifier",
+    "all canonical identities remain blank",
+    "source and script hashes match summary",
+    "visually inspected Table 1 anchor values are present"
+  ]
+}

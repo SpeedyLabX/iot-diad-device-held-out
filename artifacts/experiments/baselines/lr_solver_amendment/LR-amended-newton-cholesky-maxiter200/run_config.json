@@ -1,0 +1,49 @@
+{
+  "amendment_id": "BASE-002-GATE3-LR-NEWTON-CHOLESKY-2026-10-06",
+  "amendment_report_sha256": "30124779973f459b99a37957762b9ff12f6b56dac69998feb4dd82552fa846b5",
+  "amendment_sha256": "0d664bccce48b4dc48a90205cda4b7f867c4ea5d561682be30e2d01a42d76093",
+  "base_bundle_manifest_sha256": "b73090234b76a504a55f2a7281da71681eaa04abddbae35c32a1d247592ce0c4",
+  "cap": 2000,
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "config_sha256": "84cf8d95df36735e7de013c9968db7ad88aae528d03baf54c7b92f8de03042b7",
+  "estimator": {
+    "C": 1,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 200,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 2027,
+    "solver": "newton-cholesky",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "feature_contract_sha256": "8885be549b24719dad67f37943d105b6bd25535979a9c43e64d692501c8839f5",
+  "model_id": "LR",
+  "run_id": "LR-amended-newton-cholesky-maxiter200",
+  "runner_source_sha256": "929b8fe78e458daababb58318e5b990cdfd14c8b5cc19967000dd30da6cca466",
+  "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+  "seed": 2027,
+  "software_versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "polars": "1.44.2",
+    "python": "3.12.15",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  }
+}

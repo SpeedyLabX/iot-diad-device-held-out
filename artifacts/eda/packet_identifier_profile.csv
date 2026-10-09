@@ -1,0 +1,116 @@
+value,representation,class_count,classes,row_count,capture_count
+00:02:75:f4:97:45,MAC address,1,DDoS,205,1
+00:0c:29:03:b2:98,MAC address,1,Recon,3,2
+00:0c:29:07:63:da,MAC address,1,Recon,3,2
+00:0c:29:1c:55:4a,MAC address,2,DDoS|Recon,19144,4
+00:0c:29:20:ab:ec,MAC address,1,Recon,102,1
+00:0c:29:3e:f0:e0,MAC address,1,Recon,1,1
+00:0c:29:50:6c:2d,MAC address,1,Recon,3,1
+00:0c:29:ac:93:48,MAC address,1,Recon,3,2
+00:0c:29:b3:ad:30,MAC address,1,Recon,2,1
+00:0c:29:b7:36:65,MAC address,1,Recon,2,1
+00:0c:29:c3:9b:8a,MAC address,1,Recon,2,1
+00:0c:29:dd:6e:c7,MAC address,1,Recon,5,2
+00:0c:29:de:c3:45,MAC address,1,Recon,2,1
+00:0c:29:df:f9:35,MAC address,1,Recon,3,1
+00:0c:29:f2:f3:74,MAC address,1,Recon,4,2
+00:a3:d1:07:6f:03,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,36766,140
+00:a3:d1:07:6f:05,MAC address,1,DoS,187,13
+00:a3:d1:07:6f:09,MAC address,1,DoS,72,2
+00:a3:d1:07:6f:47,MAC address,6,Brute Force|DDoS|Mirai|Recon|Spoofing|Web-based,1583,10
+02:89:a7:0b:1c:b0,MAC address,1,DDoS,12,1
+24:05:88:30:6f:89,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,44575,142
+2e:dd:48:1b:a7:34,MAC address,1,Recon,673,2
+3a:51:4e:e1:8b:81,MAC address,1,Recon,1,1
+3c:18:a0:41:c3:a0,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,331694,170
+3e:7b:c4:b0:52:60,MAC address,1,Recon,1,1
+46:42:03:ec:ea:29,MAC address,1,Web-based,1,1
+56:4f:8a:e1:f3:2d,MAC address,7,Benign|Brute Force|DDoS|Mirai|Recon|Spoofing|Web-based,285599,92
+5c:26:0a:28:80:77,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,9846,109
+7e:cf:20:e9:21:00,MAC address,1,DoS,1382,13
+7e:e2:31:7d:a2:8e,MAC address,1,Recon,1,1
+82:1f:98:3c:52:2e,MAC address,1,DoS,356,3
+8c:ae:4c:dd:1e:39,MAC address,1,Web-based,503,4
+94:39:e5:5d:27:a6,MAC address,1,Brute Force,3408,1
+9a:ea:61:72:84:69,MAC address,1,Web-based,1,1
+a6:b5:6a:d9:57:58,MAC address,1,Recon,1,1
+a6:db:bb:6d:dd:fc,MAC address,1,DDoS,1,1
+ac:17:02:05:34:27,MAC address,5,Benign|DDoS|DoS|Recon|Web-based,332014,104
+b0:09:da:3e:82:6b,MAC address,4,DDoS|DoS|Mirai|Web-based,2712,89
+b0:09:da:3e:82:6c,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,22991,80
+b0:a4:60:fc:07:f1,MAC address,1,DoS,2,1
+d4:81:d7:97:d0:29,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,7223,124
+dc:a6:32:c9:e4:90,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,4184791,117
+dc:a6:32:c9:e4:ab,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,3742025,133
+dc:a6:32:c9:e4:c6,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,17694,88
+dc:a6:32:c9:e4:d5,MAC address,6,Benign|DDoS|Mirai|Recon|Spoofing|Web-based,3763864,112
+dc:a6:32:c9:e5:a4,MAC address,7,Benign|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,2973494,130
+dc:a6:32:c9:e5:ef,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,3147372,124
+dc:a6:32:dc:27:d5,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,5591687,157
+dc:a6:32:dc:28:48,MAC address,1,Recon,5087,3
+e4:5f:01:55:90:c4,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,3857315,123
+e8:1b:69:f8:d4:e3,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,17145,136
+e8:1b:69:f8:d6:e6,MAC address,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,15632,160
+ec:b5:fa:1c:48:0f,MAC address,1,DoS,50,1
+ee:06:3b:b8:d1:df,MAC address,2,DDoS|DoS,4936,51
+f6:8c:76:3a:54:90,MAC address,1,Recon,1,1
+not sure,ambiguous text,2,DDoS|DoS,220842,33
+AMCREST WiFi Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,99768,175
+AeoTec Smart Home Hub,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,55859,177
+Amazon Echo Dot 1,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,333389,164
+Amazon Echo Dot 2,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,115129,106
+Amazon Echo Show,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,242700,159
+Amazon Echo Spot,device name,7,Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,354970,118
+Amazon Echo Studio,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,365943,156
+Amazon Plug,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,32130,156
+Arlo Base Station,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,47152,178
+Arlo Q Indoor Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,716571,166
+Atomi Coffee Maker,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,17898,163
+Borun/Sichuan-AI Camera,device name,7,Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,121457,118
+Cocoon Smart HVAC Fan,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,13149,101
+DCS8000LHA1 D-Link Mini Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,90609,139
+Eufy HomeBase 2,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,69553,125
+Globe Lamp ESP_B1680C,device name,7,Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,18128,169
+GoSund Bulb,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,130379,167
+GoSund Power strip (2),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,163285,180
+GoSund Smart Plug WP2 (2),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,21776,178
+GoSund Smart Plug WP3 (1),device name,7,Benign|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,42767,171
+GoSund Smart plug WP2 (1),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,204202,177
+GoSund Smart plug WP2 (3),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,176552,178
+Google Nest Mini Speaker,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,349797,160
+Gosund Power strip (1),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,90777,180
+Gosund Smart Plug WP3 (2),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,62032,180
+Govee Smart Humidifer,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,8298,111
+HeimVision Smart WiFi Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,45244,159
+HeimVision SmartLife Radio/Lamp,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,154500,94
+Home Eye Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,76311,173
+LG Smart TV,device name,5,Benign|DDoS|DoS|Recon|Spoofing,141500,95
+LIFX Lightbulb,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,6051,97
+LampUX RGB,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,130751,176
+Levoit Air Purifier,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,15660,161
+Lumiman bulb,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,25577,146
+Luohe Cam Dog,device name,6,Brute Force|DDoS|DoS|Mirai|Spoofing|Web-based,4629,69
+Nest Indoor Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,310232,153
+Netatmo Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,89089,162
+Netatmo Weather Station,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,17008,162
+Philips Hue Bridge,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,53835,158
+Raspberry Pi 4-2 GB,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,35755,92
+Rbcior Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,267016,177
+SIMCAM 1S (AMPAKTec),device name,7,Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,158874,63
+Smart Board,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,19015,82
+SmartThings Hub,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,122543,177
+Sonos One Speaker,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,103931,142
+TP-Link Tapo Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,45017,164
+Teckin Light Strip,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,35310,169
+Teckin Plug 1,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,167052,178
+Teckin Plug 2,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,24143,180
+Wemo smart plug 1 (Wemo id: Wemo.Mini.AD3),device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,192248,63
+Wemo smart plug 2 (Wemo id: Wemo.Mini.4A3),device name,7,Benign|Brute Force|DDoS|DoS|Recon|Spoofing|Web-based,105601,72
+Wyze Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,92864,168
+Yi Indoor 2 Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,119447,93
+Yi Indoor Camera,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,28605,106
+Yi Outdoor Camera,device name,7,Benign|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,209918,122
+Yutron Plug 1,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,15898,178
+Yutron Plug 2,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,211133,179
+harman kardon (Ampak Technology),device name,7,Benign|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,50122,77
+iRobot Roomba,device name,8,Benign|Brute Force|DDoS|DoS|Mirai|Recon|Spoofing|Web-based,10666,153

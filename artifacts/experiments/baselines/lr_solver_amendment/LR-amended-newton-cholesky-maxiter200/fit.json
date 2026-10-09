@@ -1,0 +1,26 @@
+{
+  "acceptance_checks": {
+    "finite_coefficients_and_intercepts": true,
+    "finite_normalized_training_probabilities": true,
+    "no_convergence_warning": true,
+    "stopped_before_iteration_limit": true
+  },
+  "execution_seconds": 2822.540123315999,
+  "iterations": [
+    69
+  ],
+  "model_sha256": "50fe703861ac05b37afd981561f5842cb580312867fb86975ce472ee52448a80",
+  "preprocessor": {
+    "fit_partition": "train",
+    "input_categorical_features": 4,
+    "input_numeric_features": 116,
+    "output_features": 244,
+    "training_device_count": 40,
+    "training_device_set_sha256": "18407c84103c2ba79f2b131f2acd85b3e0b13e890d3090dd1828f1342ecc639e"
+  },
+  "runner_source_sha256": "929b8fe78e458daababb58318e5b990cdfd14c8b5cc19967000dd30da6cca466",
+  "status": "passed",
+  "training_probability_max_sum_error": 4.440892098500626e-16,
+  "training_rows": 446363,
+  "warnings": []
+}

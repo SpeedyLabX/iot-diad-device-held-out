@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software or its evaluation artifacts, please cite this repository and the CIC IoT-DIAD dataset paper."
+title: "Device-Held-Out Evaluation for CIC IoT-DIAD 2024"
+type: software
+license: Apache-2.0
+authors:
+  - name: "SpeedyLabX"
+version: 0.1.0
+repository-code: "https://github.com/SpeedyLabX/iot-diad-device-held-out"
+keywords:
+  - IoT intrusion detection
+  - device-held-out evaluation
+  - conformal prediction
+  - reproducible research
+preferred-citation:
+  type: article
+  title: "Device Identification and Anomaly Detection in IoT Environments"
+  authors:
+    - family-names: Rabbani
+      given-names: Mahdi
+    - family-names: Gui
+      given-names: Jinkun
+    - family-names: Nejati
+      given-names: Fatemeh
+    - family-names: Zhou
+      given-names: Zeming
+    - family-names: Kaniyamattam
+      given-names: Arun
+    - family-names: Mirani
+      given-names: Mansur
+    - family-names: Piya
+      given-names: Gunjan
+    - family-names: Opushnyev
+      given-names: Igor
+    - family-names: Lu
+      given-names: Rongxing
+    - family-names: Ghorbani
+      given-names: Ali A.
+  journal: "IEEE Internet of Things Journal"
+  year: 2025
+  volume: 12
+  issue: 10
+  start: 13625
+  end: 13643
+  doi: "10.1109/JIOT.2024.3522863"

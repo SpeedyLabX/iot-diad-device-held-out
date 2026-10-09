@@ -1,0 +1,4 @@
+feature_view,schema_status,schema_hash,column_count,file_count,row_count,example_path
+flow,canonical,4c8e76aa2f4bf7e62e77d8147b0810db8f6d892df06784feef6950f8a3fb0135,84,127,27809999,Anomaly Detection - Flow Based features/Benign/BenignTraffic.pcap_Flow.csv
+flow,headerless,4c8e76aa2f4bf7e62e77d8147b0810db8f6d892df06784feef6950f8a3fb0135,84,5,5,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood.pcap_Flow.csv
+packet,canonical,6518d0a3781b021dfc71d8d5669678c800b197f8ce26a97389ab95a921bf2f07,135,180,35672839,Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic.csv

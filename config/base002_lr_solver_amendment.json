@@ -1,0 +1,32 @@
+{
+  "amendment_id": "BASE-002-GATE3-LR-NEWTON-CHOLESKY-2026-10-06",
+  "approved_by": "project lead",
+  "approved_date": "2026-10-06",
+  "amendment_report_sha256": "30124779973f459b99a37957762b9ff12f6b56dac69998feb4dd82552fa846b5",
+  "base_bundle_manifest_sha256": "b73090234b76a504a55f2a7281da71681eaa04abddbae35c32a1d247592ce0c4",
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "expected_feature_contract_sha256": "8885be549b24719dad67f37943d105b6bd25535979a9c43e64d692501c8839f5",
+  "expected_rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338,
+    "train": 20094094
+  },
+  "expected_sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+  "expected_training_rows": 446363,
+  "max_iter": 200,
+  "minimum_output_free_bytes": 2684354560,
+  "model_id": "LR",
+  "run_id": "LR-amended-newton-cholesky-maxiter200",
+  "solver": "newton-cholesky",
+  "seed": 2027,
+  "training_cap_per_device_class": 2000
+}

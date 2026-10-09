@@ -1,0 +1,17 @@
+feature_view,coarse_label,file_count,row_count,size_bytes
+flow,Benign,4,398330,217273291
+flow,Brute Force,1,3619,1746742
+flow,DDoS,61,3478814,1760417526
+flow,DoS,30,23143929,12277113746
+flow,Mirai,29,174588,90949868
+flow,Recon,1,442158,227366191
+flow,Spoofing,3,157238,83923800
+flow,Web-based,3,11328,6056125
+packet,Benign,4,1182798,1555660506
+packet,Brute Force,1,131477,164967707
+packet,DDoS,101,22471481,27067919895
+packet,DoS,38,3503680,3329287714
+packet,Mirai,22,6097219,4907128789
+packet,Recon,5,1148459,1221031824
+packet,Spoofing,3,883823,1272113139
+packet,Web-based,6,253902,309949965

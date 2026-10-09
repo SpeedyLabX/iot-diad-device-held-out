@@ -1,0 +1,15 @@
+{
+  "class_count": 8,
+  "complete_inventory": true,
+  "discovered_file_count": 312,
+  "feature_views": [
+    "flow",
+    "packet"
+  ],
+  "file_count": 312,
+  "headerless_file_count": 5,
+  "identifier_profiled": true,
+  "raw_directory": "data/raw/CIC-IoT-IDAD-Dataset-2024",
+  "row_count": 63482843,
+  "size_bytes": 54492906828
+}

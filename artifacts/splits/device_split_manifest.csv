@@ -1,0 +1,69 @@
+canonical_device_id,local_identifier,published_name,published_mac,partition,row_count,capture_count,supported_coarse_classes
+T1-01-left,Amazon Echo Dot 1,Amazon Alexa Echo Dot 1,1c:fe:2b:98:16:dd,calibration,333389,164,8
+T1-01-right,Lumiman bulb,Lumiman bulb,84:e3:42:42:ed:0b,train,25577,146,8
+T1-02-left,Amazon Echo Dot 2,Amazon Alexa Echo Dot 2,a0:d0:dc:c4:08:ff,test,115129,106,8
+T1-02-right,Philips Hue Bridge,Philips Hue Bridge,00:17:88:60:d6:4f,train,53835,158,8
+T1-03-left,Amazon Echo Spot,Amazon Alexa Echo Spot,1c:12:b0:9b:0c:ec,calibration,354970,118,7
+T1-03-right,Smart Board,Smart Board,00:02:75:f6:e3:cb,calibration,19015,82,8
+T1-04-left,Amazon Echo Studio,Amazon Alexa Echo Studio,08:7c:39:ce:6e:2a,train,365943,156,8
+T1-04-right,Teckin Light Strip,Teckin Light Strip,18:69:d8:eb:d4:3e,train,35310,169,8
+T1-05-left,Amazon Echo Show,Amazon Echo Show,2c:71:ff:05:f1:15,test,242700,159,8
+T1-05-right,Teckin Plug 1,Teckin Plug 1,d4:a6:51:76:06:64,test,167052,178,8
+T1-06-left,Google Nest Mini Speaker,Google Nest Mini Speaker,cc:f4:11:9c:d0:00,calibration,349797,160,8
+T1-06-right,Teckin Plug 2,Teckin Plug 2,d4:a6:51:78:97:4e,train,24143,180,8
+T1-07-left,harman kardon (Ampak Technology),harman kardon (Ampak Technology),b0:f1:ec:d3:e7:98,calibration,50122,77,7
+T1-07-right,Wemo smart plug 1 (Wemo id: Wemo.Mini.AD3),Wemo smart plug 1 (Wemo id: Wemo.Mini.AD3),30:23:03:f3:84:2b,calibration,192248,63,8
+T1-08-left,Sonos One Speaker,Sonos One Speaker,48:a6:b8:f9:1b:88,train,103931,142,8
+T1-08-right,Wemo smart plug 2 (Wemo id: Wemo.Mini.4A3),Wemo smart plug 2 (Wemo id: Wemo.Mini.4A3),30:23:03:f3:57:cb,calibration,105601,72,7
+T1-09-left,AMCREST WiFi Camera,AMCREST WiFi Camera,9c:8e:cd:1d:ab:9f,train,99768,175,8
+T1-09-right,Yutron Plug 1,Yutron Plug 1,d4:a6:51:20:91:d1,train,15898,178,8
+T1-10-left,Arlo Base Station,Arlo Base Station,3c:37:86:6f:b9:51,calibration,47152,178,8
+T1-10-right,Yutron Plug 2,Yutron Plug 2,d4:a6:51:21:6c:29,calibration,211133,179,8
+T1-11-left,Arlo Q Indoor Camera,Arlo Q Indoor Camera,40:5d:82:35:14:c8,train,716571,166,8
+T1-11-right,LG Smart TV,LG Smart TV,ac:f1:08:4e:00:82,test,141500,95,5
+T1-12-left,Borun/Sichuan-AI Camera,Borun/Sichuan-AI Camera,c0:e7:bf:0a:79:d1,test,121457,118,7
+T1-12-right,Netatmo Weather Station,Netatmo Weather Station,70:ee:50:6b:a8:1a,train,17008,162,8
+T1-13-left,DCS8000LHA1 D-Link Mini Camera,DCS8000LHA1 D-Link Mini Camera,b0:c5:54:59:2e:99,train,90609,139,8
+T1-14-left,HeimVision Smart WiFi Camera,HeimVision Smart WiFi Camera,44:01:bb:ec:10:4a,train,45244,159,8
+T1-14-right,dc:a6:32:c9:e4:c6,Raspberry Pi 4—2 GB,dc:a6:32:c9:e4:c6,train,17694,88,8
+T1-15-left,Home Eye Camera,Home Eye Camera,34:75:63:73:f3:36,test,76311,173,8
+T1-16-left,Luohe Cam Dog,Luohe Cam Dog,7c:a7:b0:cd:18:32,train,4629,69,6
+T1-17-left,Nest Indoor Camera,Nest Indoor Camera,44:bb:3b:00:39:07,calibration,310232,153,8
+T1-18-left,Netatmo Camera,Netatmo Camera,70:ee:50:68:0e:32,train,89089,162,8
+T1-19-left,Rbcior Camera,Rbcior Camera,10:5a:17:97:a5:c6,train,267016,177,8
+T1-20-left,SIMCAM 1S (AMPAKTec),SIMCAM 1S (AMPAKTec),10:2c:6b:1b:43:be,test,158874,63,7
+T1-21-left,TP-Link Tapo Camera,TP-Link Tapo Camera,6c:5a:b0:44:1d:90,train,45017,164,8
+T1-22-left,Wyze Camera,Wyze Camera,7c:78:b2:86:0d:81,train,92864,168,8
+T1-23-left,Yi Indoor Camera,Yi Indoor Camera,84:7a:b6:64:62:58,train,28605,106,8
+T1-24-left,Yi Indoor 2 Camera,Yi Indoor 2 Camera,84:7a:b6:62:3a:6c,test,119447,93,8
+T1-25-left,Yi Outdoor Camera,Yi Outdoor Camera,2c:d2:6b:66:d2:87,train,209918,122,7
+T1-26-left,Eufy HomeBase 2,Eufy HomeBase 2,8c:85:80:6c:b6:47,train,69553,125,8
+T1-27-left,Amazon Plug,Amazon Plug,b8:5f:98:d0:76:e6,test,32130,156,8
+T1-28-left,Atomi Coffee Maker,Atomi Coffee Maker,68:57:2d:56:ac:47,train,17898,163,8
+T1-29-left,Cocoon Smart HVAC Fan,Cocoon Smart HVAC Fan,08:3a:f2:1f:bc:68,train,13149,101,8
+T1-30-left,Globe Lamp ESP_B1680C,Globe Lamp ESP_B1680C,50:02:91:b1:68:0c,train,18128,169,7
+T1-31-left,GoSund Bulb,GoSund Bulb,c4:dd:57:13:07:c6,test,130379,167,8
+T1-32-left,Gosund Power strip (1),Gosund Power strip (1),50:02:91:1a:ce:e1,train,90777,180,8
+T1-33-left,GoSund Power strip (2),GoSund Power strip (2),b8:f0:09:03:9a:af,calibration,163285,180,8
+T1-34-left,GoSund Smart plug WP2 (1),GoSund Smart plug WP2 (1),b8:f0:09:03:29:79,train,204202,177,8
+T1-35-left,GoSund Smart Plug WP2 (2),GoSund Smart Plug WP2 (2),50:02:91:10:ac:d8,train,21776,178,8
+T1-36-left,GoSund Smart plug WP2 (3),GoSund Smart plug WP2 (3),50:02:91:10:09:8f,calibration,176552,178,8
+T1-37-left,GoSund Smart Plug WP3 (1),GoSund Smart Plug WP3 (1),c4:dd:57:0c:39:94,train,42767,171,7
+T1-38-left,Gosund Smart Plug WP3 (2),Gosund Smart Plug WP3 (2),24:a1:60:14:7f:f9,train,62032,180,8
+T1-39-left,Govee Smart Humidifer,Govee Smart Humidifer,d4:ad:fc:29:c8:a2,train,8298,111,8
+T1-40-left,HeimVision SmartLife Radio/Lamp,HeimVision SmartLife Radio/Lamp,d4:a6:51:30:64:b7,test,154500,94,8
+T1-41-left,iRobot Roomba,iRobot Roomba,50:14:79:37:80:18,train,10666,153,8
+T1-42-left,LampUX RGB,LampUX RGB,f4:cf:a2:34:48:6b,train,130751,176,8
+T1-43-left,Levoit Air Purifier,Levoit Air Purifier,1c:9d:c2:8c:9a:94,train,15660,161,8
+T1-44-left,LIFX Lightbulb,LIFX Lightbulb,d0:73:d5:35:fb:c8,train,6051,97,8
+T1-45-left,SmartThings Hub,SmartThings Hub,28:6d:97:7a:2b:2d,calibration,122543,177,8
+T1-46-left,AeoTec Smart Home Hub,AeoTec Smart Home Hub,28:6d:97:9e:f4:d5,train,55859,177,8
+T1-51-left,e4:5f:01:55:90:c4,Raspberry Pi 4—4 GB,e4:5f:01:55:90:c4,train,3857315,123,8
+T1-51-right,dc:a6:32:c9:e4:d5,Raspberry Pi 4—2 GB,dc:a6:32:c9:e4:d5,train,3763864,112,6
+T1-52-left,dc:a6:32:dc:27:d5,Raspberry Pi 4—8 GB,dc:a6:32:dc:27:d5,train,5591687,157,8
+T1-52-right,dc:a6:32:c9:e5:ef,Raspberry Pi 4—2 GB,dc:a6:32:c9:e5:ef,test,3147372,124,8
+T1-53-left,dc:a6:32:c9:e4:ab,Raspberry Pi 4—2 GB,dc:a6:32:c9:e4:ab,train,3742025,133,8
+T1-53-right,dc:a6:32:c9:e4:90,Raspberry Pi 4—2 GB,dc:a6:32:c9:e4:90,calibration,4184791,117,8
+T1-54-left,dc:a6:32:c9:e5:a4,Raspberry Pi 4—2 GB,dc:a6:32:c9:e5:a4,test,2973494,130,7
+T1-54-right,b0:09:da:3e:82:6c,Ring Base Station,b0:09:da:3e:82:6c,train,22991,80,8
+T1-55-left,ac:17:02:05:34:27,Fibaro Home Center Lite,ac:17:02:05:34:27,test,332014,104,5

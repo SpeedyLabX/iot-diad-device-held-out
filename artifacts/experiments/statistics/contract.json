@@ -1,0 +1,134 @@
+{
+  "accepted_models": [
+    "LR",
+    "ET",
+    "HGB",
+    "RF",
+    "MLP"
+  ],
+  "bootstrap": {
+    "bca_bias_ties": "half weight for bootstrap estimates equal to the observed estimate",
+    "confidence_level": 0.95,
+    "estimands": "five model means and three frozen confirmatory paired mean differences",
+    "percentile_quantile_method": "linear",
+    "replicates": 50000,
+    "sample_size": 14,
+    "seed": 2027,
+    "unit": "complete physical device record"
+  },
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "confirmatory_correction": "Holm within exactly three hypotheses",
+  "confirmatory_method": "two-sided paired Wilcoxon signed-rank with exhaustive sign enumeration",
+  "confirmatory_models": [
+    "LR",
+    "ET",
+    "HGB"
+  ],
+  "confirmatory_pairs": [
+    [
+      "LR",
+      "ET"
+    ],
+    [
+      "LR",
+      "HGB"
+    ],
+    [
+      "ET",
+      "HGB"
+    ]
+  ],
+  "device_count": 14,
+  "exploratory_correction": "Benjamini-Hochberg within exactly 24 hypotheses",
+  "exploratory_family": "three confirmatory-model pairs across eight per-class recalls",
+  "inference_unit": "physical test device",
+  "limitation": "Bootstrap intervals are approximate with only 14 outer physical devices. The benchmark is deterministic, temporally structured, and capture-shared; packet rows are not independent inferential replicates.",
+  "model_routing": [
+    {
+      "artifact_directory": "artifacts/experiments/baselines/lr_solver_amendment/LR-amended-newton-cholesky-maxiter200",
+      "exports_sha256": "e82af4e46a0941bd6af0660955587892e85225fed0a3002db3eb0b2c2d409fca",
+      "fit_sha256": "5417e11566acb30c30442e0b9986bbfd1591a9f1b5d0464e8304f28c9a7f2870",
+      "metrics_sha256": "8caa8012ef43c56d0b4d662df267eb65d6200e381a793555e97179f82c57509f",
+      "model_id": "LR",
+      "model_sha256": "50fe703861ac05b37afd981561f5842cb580312867fb86975ce472ee52448a80",
+      "run_config_sha256": "79eeba4ad3f92b61d22c958382eb335c241ce5e346e76a4c7cad0919ec412f06",
+      "run_id": "LR-amended-newton-cholesky-maxiter200",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c"
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/ET",
+      "exports_sha256": "97e106b1f3e6ed7b017bfea02074d70d56eff0bd6317a0482a9432c6acfc4290",
+      "fit_sha256": "cb7843475d92826a75adb256ba2dd9f61545961d41055aa0e48d5bfbfda9712c",
+      "metrics_sha256": "3ececf93d020ee2c4a1e86f65e68743a2e8e083d1709984230cbda10bf7a4f12",
+      "model_id": "ET",
+      "model_sha256": "531a28fdf52a60868ae096094752e574ae67587525581f20c1e970ddf9d56f60",
+      "run_config_sha256": "03762d4710bfc6f9f217a4d121c1b39caca3161d8fdee9801c7365644ac508bb",
+      "run_id": "ET",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c"
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/HGB",
+      "exports_sha256": "65d8f850b9bc15f6a57f11f84b97509297d5394222afa7df479ef04729b4f619",
+      "fit_sha256": "da8171acc96f5d64680961520b105e79ad50a8aba7d93b7d9a9ff9f477f4358d",
+      "metrics_sha256": "62ec94f330dc7d44fa9ee2ee3fb5f1b2077c37478417fe0bc71ff2bd0a2d094c",
+      "model_id": "HGB",
+      "model_sha256": "cd6cd33bdfd345b27c05d074ca65a01ceaa34ba5d8af8677c577bf4355f5c10e",
+      "run_config_sha256": "393ceae04cdac6903d2ee9d2fc470988d3059b1a62928de39fc34c6a4a771270",
+      "run_id": "HGB",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c"
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/RF",
+      "exports_sha256": "7dbd96acc45c8f312b61d3a627dfc1bbff0aa1d266429591f2d0d3f8e3f1b9a8",
+      "fit_sha256": "e4c42684f4fd74ff4db2fc7eab13dda9741e02a4ef861b63986849e847b551c9",
+      "metrics_sha256": "3171a81a5fb7cc27670956dbd45f23db8eade51968a65606602e73b62cf22386",
+      "model_id": "RF",
+      "model_sha256": "2b759161492308671bc614e4924dca04a92616ef10003f5a66ab9049ebf4c74e",
+      "run_config_sha256": "5eee0ebe2a18ce90e4b8b23e84c4ab296f57931a23ec7025de885cd33d5281b1",
+      "run_id": "RF",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c"
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/amended_rerun/MLP-amended-maxiter200",
+      "exports_sha256": "8fc78046eb83157dae76474e4ba43f44045ab66a528bb093812f776ef58e06e1",
+      "fit_sha256": "0b639dd2d34161725010b26b6d48c0d37fa6a596343cdad6c240506c8f7cc37b",
+      "metrics_sha256": "71c167fc70ec9c6dfeba243d31e920ef55971dd9f156a99daff833156c7badbe",
+      "model_id": "MLP",
+      "model_sha256": "ddb3cd2ceef6b07f5fc12f0045adc0662c5f20c71da730df4dd722bbf321c232",
+      "run_config_sha256": "2e13b58d2af3507d7c30194e04cabf2df23ffb68b5243d63000673962c383157",
+      "run_id": "MLP-amended-maxiter200",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c"
+    }
+  ],
+  "registry_primary_metric": "equal-device mean per-device macro-F1",
+  "runner_sha256": "888ef433fe842dcf7f94fad3bfd5427a2394b5ec707237a0fe6ebc350bff66f0",
+  "software": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "polars": "1.44.2",
+    "python": "3.12.15",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "source_sha256": {
+    "artifacts/experiments/baselines/accepted_model_registry.json": "bbc59f587588f9c4e3b238d224a5ad60b49cbfb4804cada1c039ba4cdde4a6fe",
+    "artifacts/splits/cross_partition_duplicate_exclusions.csv": "75d23a414656eee534b3814625ed35b24e7fb70f2e1054a90e5f4097ae346994",
+    "artifacts/splits/device_split_manifest.csv": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+    "docs/reports/gate3_effective_protocol.md": "2dcd0b24513bf1d541fdc83bd523d57a822a10ee14ec777175e303d9f3e73edb",
+    "docs/reports/gate3_protocol.md": "3fa6ba8c8c900cbc4b26a7674fefddbcb1095454718a31bcbc4de1a0bc951bb4"
+  },
+  "status": "frozen",
+  "task_id": "STAT-001",
+  "tie_handling": "average ranks for exact absolute ties; enumerate all signs of nonzero paired differences",
+  "zero_difference_handling": "discard exact zero differences before ranking; all-zero vector has p=1"
+}

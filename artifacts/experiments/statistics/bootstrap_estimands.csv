@@ -1,0 +1,9 @@
+column_index,estimand_id,type
+0,LR,model_mean
+1,ET,model_mean
+2,HGB,model_mean
+3,RF,model_mean
+4,MLP,model_mean
+5,LR-ET,confirmatory_paired_mean_difference
+6,LR-HGB,confirmatory_paired_mean_difference
+7,ET-HGB,confirmatory_paired_mean_difference

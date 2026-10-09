@@ -1,0 +1,1175 @@
+{
+  "cap": 2000,
+  "chunk_rows": 50000,
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "contracts": {
+    "artifacts/eda/column_roles.csv": "087e3a8e3ee8fe8cd1785f5d1eb65ad9a1b849f7877b56888ef67ec254745a0c",
+    "artifacts/splits/cross_partition_duplicate_exclusions.csv": "75d23a414656eee534b3814625ed35b24e7fb70f2e1054a90e5f4097ae346994",
+    "artifacts/splits/device_split_manifest.csv": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+    "artifacts/splits/gate2_decision_summary.json": "652d180dcb89fb9b9d3c92760934a1b0708a71e6c1711c1ccf7bdb7b340774dc",
+    "docs/reports/gate3_protocol.md": "6a6040dcd48260519bfb5a2d1cca28575c1c597619855a634107c6156e5a9ef0"
+  },
+  "estimators": {
+    "DUMMY": {
+      "constant": null,
+      "random_state": 2027,
+      "strategy": "prior"
+    },
+    "ET": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": 256,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 2027,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "HGB": {
+      "categorical_features": "from_dtype",
+      "class_weight": "balanced",
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 200,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 2027,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "LR": {
+      "C": 1,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 300,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 2027,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "MLP": {
+      "activation": "relu",
+      "alpha": 0.0001,
+      "batch_size": 2048,
+      "beta_1": 0.9,
+      "beta_2": 0.999,
+      "early_stopping": true,
+      "epsilon": 1e-08,
+      "hidden_layer_sizes": [
+        128
+      ],
+      "learning_rate": "constant",
+      "learning_rate_init": 0.001,
+      "max_fun": 15000,
+      "max_iter": 50,
+      "momentum": 0.9,
+      "n_iter_no_change": 5,
+      "nesterovs_momentum": true,
+      "power_t": 0.5,
+      "random_state": 2027,
+      "shuffle": true,
+      "solver": "adam",
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": false,
+      "warm_start": false
+    },
+    "RF": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced_subsample",
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": 256,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 5,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 300,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 2027,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "features": {
+    "categorical": [
+      "handshake_version",
+      "http_request_method",
+      "highest_layer",
+      "http_content_type"
+    ],
+    "numeric": [
+      "inter_arrival_time",
+      "time_since_previously_displayed_frame",
+      "port_class_dst",
+      "l4_tcp",
+      "l4_udp",
+      "ttl",
+      "eth_size",
+      "tcp_window_size",
+      "payload_entropy",
+      "handshake_cipher_suites_length",
+      "handshake_ciphersuites",
+      "handshake_extensions_length",
+      "handshake_sig_hash_alg_len",
+      "http_response_code",
+      "dns_query_type",
+      "dns_len_qry",
+      "dns_interval",
+      "dns_len_ans",
+      "payload_length",
+      "http_content_len",
+      "icmp_type",
+      "icmp_checksum_status",
+      "icmp_data_size",
+      "jitter",
+      "stream_1_count",
+      "stream_1_mean",
+      "stream_1_var",
+      "src_ip_1_count",
+      "src_ip_1_mean",
+      "src_ip_1_var",
+      "src_ip_mac_1_count",
+      "src_ip_mac_1_mean",
+      "src_ip_mac_1_var",
+      "channel_1_count",
+      "channel_1_mean",
+      "channel_1_var",
+      "stream_jitter_1_sum",
+      "stream_jitter_1_mean",
+      "stream_jitter_1_var",
+      "stream_5_count",
+      "stream_5_mean",
+      "stream_5_var",
+      "src_ip_5_count",
+      "src_ip_5_mean",
+      "src_ip_5_var",
+      "src_ip_mac_5_count",
+      "src_ip_mac_5_mean",
+      "src_ip_mac_5_var",
+      "channel_5_count",
+      "channel_5_mean",
+      "channel_5_var",
+      "stream_jitter_5_sum",
+      "stream_jitter_5_mean",
+      "stream_jitter_5_var",
+      "stream_10_count",
+      "stream_10_mean",
+      "stream_10_var",
+      "src_ip_10_count",
+      "src_ip_10_mean",
+      "src_ip_10_var",
+      "src_ip_mac_10_count",
+      "src_ip_mac_10_mean",
+      "src_ip_mac_10_var",
+      "channel_10_count",
+      "channel_10_mean",
+      "channel_10_var",
+      "stream_jitter_10_sum",
+      "stream_jitter_10_mean",
+      "stream_jitter_10_var",
+      "stream_30_count",
+      "stream_30_mean",
+      "stream_30_var",
+      "src_ip_30_count",
+      "src_ip_30_mean",
+      "src_ip_30_var",
+      "src_ip_mac_30_count",
+      "src_ip_mac_30_mean",
+      "src_ip_mac_30_var",
+      "channel_30_count",
+      "channel_30_mean",
+      "channel_30_var",
+      "stream_jitter_30_sum",
+      "stream_jitter_30_mean",
+      "stream_jitter_30_var",
+      "stream_60_count",
+      "stream_60_mean",
+      "stream_60_var",
+      "src_ip_60_count",
+      "src_ip_60_mean",
+      "src_ip_60_var",
+      "src_ip_mac_60_count",
+      "src_ip_mac_60_mean",
+      "src_ip_mac_60_var",
+      "channel_60_count",
+      "channel_60_mean",
+      "channel_60_var",
+      "stream_jitter_60_sum",
+      "stream_jitter_60_mean",
+      "stream_jitter_60_var",
+      "ntp_interval",
+      "most_freq_spot",
+      "min_et",
+      "q1",
+      "min_e",
+      "var_e",
+      "q1_e",
+      "sum_p",
+      "min_p",
+      "max_p",
+      "med_p",
+      "average_p",
+      "var_p",
+      "q3_p",
+      "q1_p",
+      "iqr_p",
+      "l3_ip_dst_count"
+    ]
+  },
+  "sampling": "bottom-k SplitMix64(seed/capture SHA256 salt XOR raw row index); ties by row key",
+  "seed": 2027,
+  "software_versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "polars": "1.44.2",
+    "python": "3.12.15",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "sources": [
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic",
+      "mtime_ns": 1790883638847889385,
+      "size_bytes": 365658072
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic1",
+      "mtime_ns": 1790883795679651725,
+      "size_bytes": 397092624
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic2",
+      "mtime_ns": 1790883941204990990,
+      "size_bytes": 394933663
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic3",
+      "mtime_ns": 1790884105735026083,
+      "size_bytes": 397976147
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/BruteForce/DictionaryBruteForce/DictionaryBruteForce",
+      "mtime_ns": 1790884178268686678,
+      "size_bytes": 164967707
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation",
+      "mtime_ns": 1790884285665626080,
+      "size_bytes": 382726394
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation1",
+      "mtime_ns": 1790884409318161756,
+      "size_bytes": 373796088
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation10",
+      "mtime_ns": 1790884546208183000,
+      "size_bytes": 376940872
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation11",
+      "mtime_ns": 1790884716423426631,
+      "size_bytes": 373597760
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation12",
+      "mtime_ns": 1790884917996816328,
+      "size_bytes": 379226054
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation2",
+      "mtime_ns": 1790885136030798525,
+      "size_bytes": 375467016
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation3",
+      "mtime_ns": 1790885260353349979,
+      "size_bytes": 379018438
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation4",
+      "mtime_ns": 1790885372914470843,
+      "size_bytes": 252602851
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation5",
+      "mtime_ns": 1790885490721783774,
+      "size_bytes": 386711552
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation6",
+      "mtime_ns": 1790885617776435245,
+      "size_bytes": 385502297
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation7",
+      "mtime_ns": 1790885800750133937,
+      "size_bytes": 385710692
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation8",
+      "mtime_ns": 1790885951281640649,
+      "size_bytes": 383331317
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation9",
+      "mtime_ns": 1790886068445921465,
+      "size_bytes": 376137702
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-HTTP_Flood/DDoS-HTTP_Flood-",
+      "mtime_ns": 1790886245968407614,
+      "size_bytes": 395133213
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation",
+      "mtime_ns": 1790902915124131273,
+      "size_bytes": 412752287
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation1",
+      "mtime_ns": 1790903068696461452,
+      "size_bytes": 394507353
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation10",
+      "mtime_ns": 1790903212369448047,
+      "size_bytes": 432066799
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation11",
+      "mtime_ns": 1790903366877810720,
+      "size_bytes": 428949173
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation12",
+      "mtime_ns": 1790903564759678799,
+      "size_bytes": 422845505
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation13",
+      "mtime_ns": 1790903715638910609,
+      "size_bytes": 437871207
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation14",
+      "mtime_ns": 1790903859148883600,
+      "size_bytes": 432235231
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation15",
+      "mtime_ns": 1790904031973872439,
+      "size_bytes": 437076141
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation16",
+      "mtime_ns": 1790904193250461096,
+      "size_bytes": 438468366
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation17",
+      "mtime_ns": 1790904327216103352,
+      "size_bytes": 425228199
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation18",
+      "mtime_ns": 1790904518764741014,
+      "size_bytes": 407445455
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation19",
+      "mtime_ns": 1790904703357148460,
+      "size_bytes": 434697640
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation2",
+      "mtime_ns": 1790904839106881236,
+      "size_bytes": 421159738
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation3",
+      "mtime_ns": 1790904969369422694,
+      "size_bytes": 424444102
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation4",
+      "mtime_ns": 1790905158981033289,
+      "size_bytes": 406489578
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation5",
+      "mtime_ns": 1790905390587108008,
+      "size_bytes": 427734683
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation6",
+      "mtime_ns": 1790905686810435507,
+      "size_bytes": 429550257
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation7",
+      "mtime_ns": 1790905879240149452,
+      "size_bytes": 432658303
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation8",
+      "mtime_ns": 1790906031268453846,
+      "size_bytes": 425201587
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation9",
+      "mtime_ns": 1790906180218650838,
+      "size_bytes": 425025018
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SlowLoris/DDoS-SlowLoris",
+      "mtime_ns": 1790906329645864480,
+      "size_bytes": 383768930
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood",
+      "mtime_ns": 1790906407772590385,
+      "size_bytes": 178271597
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood1",
+      "mtime_ns": 1790906457787335443,
+      "size_bytes": 128736767
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood10",
+      "mtime_ns": 1790906514276306393,
+      "size_bytes": 143913834
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood11",
+      "mtime_ns": 1790906582540688195,
+      "size_bytes": 152467881
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood12",
+      "mtime_ns": 1790906653463162742,
+      "size_bytes": 160611047
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood13",
+      "mtime_ns": 1790906731409882577,
+      "size_bytes": 154845794
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood2",
+      "mtime_ns": 1790906790047930618,
+      "size_bytes": 144721116
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood3",
+      "mtime_ns": 1790906862180449979,
+      "size_bytes": 168036879
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood4",
+      "mtime_ns": 1790906938027099065,
+      "size_bytes": 150576053
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood5",
+      "mtime_ns": 1790907003837397611,
+      "size_bytes": 149527519
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood6",
+      "mtime_ns": 1790907058882320158,
+      "size_bytes": 139306235
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood7",
+      "mtime_ns": 1790907123210566944,
+      "size_bytes": 149537051
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood8",
+      "mtime_ns": 1790907222014017826,
+      "size_bytes": 157919695
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood9",
+      "mtime_ns": 1790907289674380984,
+      "size_bytes": 162673015
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood",
+      "mtime_ns": 1790907321855504967,
+      "size_bytes": 55884538
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood1",
+      "mtime_ns": 1790907378849495586,
+      "size_bytes": 54746171
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood10",
+      "mtime_ns": 1790907422646025257,
+      "size_bytes": 63827780
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood11",
+      "mtime_ns": 1790907463475451298,
+      "size_bytes": 55655541
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood12",
+      "mtime_ns": 1790907508153011745,
+      "size_bytes": 55948568
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood13",
+      "mtime_ns": 1790907560194829400,
+      "size_bytes": 60642400
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood14",
+      "mtime_ns": 1790907599544203747,
+      "size_bytes": 54509168
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood15",
+      "mtime_ns": 1790907659123284656,
+      "size_bytes": 56368919
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood16",
+      "mtime_ns": 1790907704508869822,
+      "size_bytes": 56401377
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood17",
+      "mtime_ns": 1790907748154394207,
+      "size_bytes": 61220347
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood2",
+      "mtime_ns": 1790907807218463846,
+      "size_bytes": 55891435
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood3",
+      "mtime_ns": 1790907854745130558,
+      "size_bytes": 59952904
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood4",
+      "mtime_ns": 1790907908159003736,
+      "size_bytes": 56671861
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood5",
+      "mtime_ns": 1790908012782672790,
+      "size_bytes": 67210240
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood6",
+      "mtime_ns": 1790908076219897471,
+      "size_bytes": 56530431
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood7",
+      "mtime_ns": 1790908133407902998,
+      "size_bytes": 54989380
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood8",
+      "mtime_ns": 1790908272974797482,
+      "size_bytes": 55578433
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood9",
+      "mtime_ns": 1790908335702997299,
+      "size_bytes": 59554880
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood",
+      "mtime_ns": 1790908413211715455,
+      "size_bytes": 92018846
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood1",
+      "mtime_ns": 1790908504370912327,
+      "size_bytes": 90831509
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood10",
+      "mtime_ns": 1790908627213220287,
+      "size_bytes": 269443994
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood11",
+      "mtime_ns": 1790908805374468479,
+      "size_bytes": 292639908
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood12",
+      "mtime_ns": 1790908921153534049,
+      "size_bytes": 306413263
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood13",
+      "mtime_ns": 1790909103314930636,
+      "size_bytes": 292862973
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood14",
+      "mtime_ns": 1790909233352496900,
+      "size_bytes": 312922575
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood15",
+      "mtime_ns": 1790909373354413054,
+      "size_bytes": 283843876
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood16",
+      "mtime_ns": 1790909424655214482,
+      "size_bytes": 47038806
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood17",
+      "mtime_ns": 1790909492188585903,
+      "size_bytes": 84425004
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood18",
+      "mtime_ns": 1790909549830610003,
+      "size_bytes": 85217938
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood19",
+      "mtime_ns": 1790909613614849777,
+      "size_bytes": 91973012
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood2",
+      "mtime_ns": 1790909653372245856,
+      "size_bytes": 91102128
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood20",
+      "mtime_ns": 1790909747657556671,
+      "size_bytes": 153526416
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood3",
+      "mtime_ns": 1790909946620543661,
+      "size_bytes": 302175057
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood4",
+      "mtime_ns": 1790910110339293264,
+      "size_bytes": 291039497
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood5",
+      "mtime_ns": 1790910221566199426,
+      "size_bytes": 290102104
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood6",
+      "mtime_ns": 1790910337793281177,
+      "size_bytes": 309343829
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood7",
+      "mtime_ns": 1790910484206423024,
+      "size_bytes": 241501854
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood8",
+      "mtime_ns": 1790910618517139846,
+      "size_bytes": 268615836
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood9",
+      "mtime_ns": 1790910723665832543,
+      "size_bytes": 263070765
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation",
+      "mtime_ns": 1790910922585811840,
+      "size_bytes": 403788636
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation1",
+      "mtime_ns": 1790911127826998245,
+      "size_bytes": 429606338
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation10",
+      "mtime_ns": 1790911331107115986,
+      "size_bytes": 417727715
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation11",
+      "mtime_ns": 1790911573368598636,
+      "size_bytes": 411052258
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation12",
+      "mtime_ns": 1790911800690558197,
+      "size_bytes": 401868630
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation2",
+      "mtime_ns": 1790912065078824390,
+      "size_bytes": 416698922
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation3",
+      "mtime_ns": 1790912320887795069,
+      "size_bytes": 412852189
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation4",
+      "mtime_ns": 1790912585832086104,
+      "size_bytes": 404967111
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation5",
+      "mtime_ns": 1790912841324045669,
+      "size_bytes": 406887579
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation6",
+      "mtime_ns": 1790912976154773155,
+      "size_bytes": 406109412
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation7",
+      "mtime_ns": 1790913149145836207,
+      "size_bytes": 401615532
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation8",
+      "mtime_ns": 1790913423497451793,
+      "size_bytes": 408302632
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation9",
+      "mtime_ns": 1790913620263348119,
+      "size_bytes": 417527097
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood",
+      "mtime_ns": 1790913733649322116,
+      "size_bytes": 225356569
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood1",
+      "mtime_ns": 1790913813617124856,
+      "size_bytes": 221655328
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood",
+      "mtime_ns": 1790913856728635844,
+      "size_bytes": 72998781
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood1",
+      "mtime_ns": 1790913894082945047,
+      "size_bytes": 56128770
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood2",
+      "mtime_ns": 1790913930464220145,
+      "size_bytes": 60171281
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood3",
+      "mtime_ns": 1790913994798475257,
+      "size_bytes": 58504214
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood4",
+      "mtime_ns": 1790914065322948424,
+      "size_bytes": 57781116
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood5",
+      "mtime_ns": 1790914151389966637,
+      "size_bytes": 61036333
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood6",
+      "mtime_ns": 1790914200613692824,
+      "size_bytes": 69080940
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood7",
+      "mtime_ns": 1790914231407772715,
+      "size_bytes": 59912871
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood",
+      "mtime_ns": 1790914293904964377,
+      "size_bytes": 68002770
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood1",
+      "mtime_ns": 1790914323829013758,
+      "size_bytes": 32102591
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood10",
+      "mtime_ns": 1790914366627514624,
+      "size_bytes": 63554516
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood2",
+      "mtime_ns": 1790914414709200761,
+      "size_bytes": 74203934
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood3",
+      "mtime_ns": 1790914458373731996,
+      "size_bytes": 64586215
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood4",
+      "mtime_ns": 1790914530727269300,
+      "size_bytes": 62415762
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood5",
+      "mtime_ns": 1790914583012102834,
+      "size_bytes": 63790959
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood6",
+      "mtime_ns": 1790914620580420287,
+      "size_bytes": 65796735
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood7",
+      "mtime_ns": 1790914677013399301,
+      "size_bytes": 59936253
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood8",
+      "mtime_ns": 1790914748689912878,
+      "size_bytes": 60687061
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood9",
+      "mtime_ns": 1790914805711912543,
+      "size_bytes": 59504393
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood",
+      "mtime_ns": 1790914867319073003,
+      "size_bytes": 94152604
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood1",
+      "mtime_ns": 1790914925062097944,
+      "size_bytes": 76147999
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood10",
+      "mtime_ns": 1790914995507568355,
+      "size_bytes": 98489938
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood11",
+      "mtime_ns": 1790915052012550163,
+      "size_bytes": 100400592
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood12",
+      "mtime_ns": 1790915131489338045,
+      "size_bytes": 100263151
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood13",
+      "mtime_ns": 1790915187356297747,
+      "size_bytes": 112964035
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood14",
+      "mtime_ns": 1790915241483196408,
+      "size_bytes": 116231354
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood15",
+      "mtime_ns": 1790915301556303646,
+      "size_bytes": 115161243
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood16",
+      "mtime_ns": 1790915351511055956,
+      "size_bytes": 111788205
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood2",
+      "mtime_ns": 1790915434035950761,
+      "size_bytes": 102654300
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood3",
+      "mtime_ns": 1790915515565810666,
+      "size_bytes": 97611333
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood4",
+      "mtime_ns": 1790915568979684317,
+      "size_bytes": 103404231
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood5",
+      "mtime_ns": 1790915633475946710,
+      "size_bytes": 87149473
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood6",
+      "mtime_ns": 1790915680041580144,
+      "size_bytes": 94835607
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood7",
+      "mtime_ns": 1790915736504560745,
+      "size_bytes": 97684634
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood8",
+      "mtime_ns": 1790915793280552332,
+      "size_bytes": 99013386
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood9",
+      "mtime_ns": 1790915840886222240,
+      "size_bytes": 104128237
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood",
+      "mtime_ns": 1790915923252111466,
+      "size_bytes": 169186590
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood1",
+      "mtime_ns": 1790916004236952251,
+      "size_bytes": 204985625
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood10",
+      "mtime_ns": 1790916104328464537,
+      "size_bytes": 218517460
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood11",
+      "mtime_ns": 1790916243121337729,
+      "size_bytes": 209153893
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood12",
+      "mtime_ns": 1790916330450403954,
+      "size_bytes": 216433731
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood13",
+      "mtime_ns": 1790916463400071969,
+      "size_bytes": 212905056
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood14",
+      "mtime_ns": 1790922973092575405,
+      "size_bytes": 228221560
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood15",
+      "mtime_ns": 1790923991771280376,
+      "size_bytes": 235863910
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood16",
+      "mtime_ns": 1790924320145785533,
+      "size_bytes": 225066982
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood17",
+      "mtime_ns": 1790924740991530556,
+      "size_bytes": 211992776
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood18",
+      "mtime_ns": 1790924972164630072,
+      "size_bytes": 228578089
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood19",
+      "mtime_ns": 1790925359543202489,
+      "size_bytes": 228129981
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood2",
+      "mtime_ns": 1790925992068641723,
+      "size_bytes": 240349681
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood20",
+      "mtime_ns": 1790932432787511533,
+      "size_bytes": 241184213
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood21",
+      "mtime_ns": 1790933096576886067,
+      "size_bytes": 225256130
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood3",
+      "mtime_ns": 1790933515164819797,
+      "size_bytes": 259921747
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood4",
+      "mtime_ns": 1790933853291901038,
+      "size_bytes": 208695466
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood5",
+      "mtime_ns": 1790934626065191647,
+      "size_bytes": 243436312
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood6",
+      "mtime_ns": 1790935327147236717,
+      "size_bytes": 224613673
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood7",
+      "mtime_ns": 1790936075060661022,
+      "size_bytes": 234295517
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood8",
+      "mtime_ns": 1790952135210990019,
+      "size_bytes": 234445076
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood9",
+      "mtime_ns": 1790953281111149996,
+      "size_bytes": 205895321
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-HostDiscovery/Recon-HostDiscovery",
+      "mtime_ns": 1790957178677592590,
+      "size_bytes": 260397556
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-OSScan/Recon-OSScan",
+      "mtime_ns": 1790959185303471463,
+      "size_bytes": 354637252
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-PingSweep/Recon-PingSweep",
+      "mtime_ns": 1790959277757215961,
+      "size_bytes": 28071705
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-PortScan/Recon-PortScan",
+      "mtime_ns": 1790960405042117617,
+      "size_bytes": 298658542
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Recon/VulnerabilityScan/VulnerabilityScan",
+      "mtime_ns": 1790961297394574576,
+      "size_bytes": 279266769
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Spoofing/DNS_Spoofing/DNS_Spoofing",
+      "mtime_ns": 1790961981177119987,
+      "size_bytes": 382822809
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Spoofing/MITM-ArpSpoofing/MITM-ArpSpoofing",
+      "mtime_ns": 1790962415853297060,
+      "size_bytes": 452902078
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Spoofing/MITM-ArpSpoofing/MITM-ArpSpoofing1",
+      "mtime_ns": 1790962694761165623,
+      "size_bytes": 436388252
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/Backdoor_Malware/Backdoor_Malware",
+      "mtime_ns": 1790962719978936089,
+      "size_bytes": 39251555
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/BrowserHijacking/BrowserHijacking",
+      "mtime_ns": 1790962761029190277,
+      "size_bytes": 77275857
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/CommandInjection/CommandInjection",
+      "mtime_ns": 1790962798238327110,
+      "size_bytes": 68869413
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/SqlInjection/SqlInjection",
+      "mtime_ns": 1790962844361736298,
+      "size_bytes": 62947641
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/Uploading_Attack/Uploading_Attack",
+      "mtime_ns": 1790962864055337986,
+      "size_bytes": 14772835
+    },
+    {
+      "capture_id": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/XSS/XSS",
+      "mtime_ns": 1790962894791277048,
+      "size_bytes": 46832664
+    }
+  ]
+}

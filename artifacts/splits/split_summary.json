@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-05",
+  "seed": 2027,
+  "random_candidates": 50000,
+  "objective_score": 0.03424091436395395,
+  "objective": "fixed device counts; minimize total-row, per-class-row, and per-class device-support fraction deviations; enforce minimum class device support",
+  "approved_device_count": 68,
+  "eligible_row_count": 34627307,
+  "excluded_identifier_count": 47,
+  "excluded_row_count": 1045532,
+  "partitions": {
+    "train": {
+      "device_count": 40,
+      "row_count": 20094118,
+      "row_fraction": 0.580296873793853,
+      "minimum_class_device_support": 37
+    },
+    "calibration": {
+      "device_count": 14,
+      "row_count": 6620830,
+      "row_fraction": 0.19120256738417457,
+      "minimum_class_device_support": 13
+    },
+    "test": {
+      "device_count": 14,
+      "row_count": 7912359,
+      "row_fraction": 0.2285005588219725,
+      "minimum_class_device_support": 11
+    }
+  },
+  "coarse_labels": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "largest_single_device_class_row_fraction": 0.6934047559340019,
+  "config_sha256": "1b8ef95683b3392ff5826f7471170c015382f70ca4465069f969b395290fe2f7",
+  "approved_mapping_sha256": "34cedb70ae1dc2453a61b9c041d93f2cc7c817202b981ecec2dc0cae75475462",
+  "coverage_sha256": "dff1167081849c9756371e1d5528e110bc443d0e6f3c55c96cd46711e31f193e",
+  "manifest_sha256": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+  "class_counts_sha256": "d4da06837bbd3ad795410dd732ee36a23922aade46b6e993f609b8249d745b68",
+  "excluded_sha256": "a8e1347609446733aabce88047b6b1ff775364dfd9bac5137488f07c30aa4641"
+}

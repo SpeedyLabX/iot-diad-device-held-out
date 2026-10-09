@@ -1,0 +1,27 @@
+{
+  "accepted_models": [
+    "LR",
+    "ET",
+    "HGB",
+    "RF",
+    "MLP"
+  ],
+  "bootstrap_replicates": 50000,
+  "checks": [
+    "accepted registry routing and source hashes",
+    "test physical-device identity and partition membership",
+    "confusion-matrix metric reconstruction",
+    "paired Friedman and exhaustive signed-rank calculations",
+    "Holm and separate Benjamini-Hochberg families",
+    "complete-device sampling, percentile and BCa intervals, and leave-one-device-out estimates",
+    "artifact hashes and manifest"
+  ],
+  "confirmatory_hypotheses": 3,
+  "contract_sha256": "56a26f02161047a652fb90c244ff0a5480b2a91d0afb9b3392abdc45fcf0f0e4",
+  "exploratory_hypotheses": 24,
+  "manifest_sha256": "b488dc9a5327588d64095505e56eaba221e6b82fca7711e9ca06e057c6a0cc4e",
+  "status": "passed",
+  "task_id": "STAT-001",
+  "test_devices": 14,
+  "verifier_sha256": "5d5770f20933cf0ba23be435c4370718cbe59bbbcd6acafd7a43eec2cf4c2d86"
+}

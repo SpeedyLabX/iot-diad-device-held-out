@@ -1,0 +1,25 @@
+feature_view,field,coarse_label,distinct_values,row_count,field_capture_occurrences
+flow,Dst IP,Benign,68,156208,222
+flow,Dst IP,Brute Force,43,1440,43
+flow,Dst IP,DDoS,245,3153059,3815
+flow,Dst IP,DoS,235,22854223,1858
+flow,Dst IP,Mirai,85,84623,1371
+flow,Dst IP,Recon,68,230036,68
+flow,Dst IP,Spoofing,120,64502,177
+flow,Dst IP,Web-based,65,4897,92
+flow,Src IP,Benign,70,375097,259
+flow,Src IP,Brute Force,99,3471,99
+flow,Src IP,DDoS,251,3428908,4647
+flow,Src IP,DoS,238,23060168,1991
+flow,Src IP,Mirai,81,162563,1895
+flow,Src IP,Recon,70,404504,70
+flow,Src IP,Spoofing,135,149170,223
+flow,Src IP,Web-based,106,10631,176
+packet,device_mac,Benign,72,1182798,281
+packet,device_mac,Brute Force,72,131477,72
+packet,device_mac,DDoS,85,22471481,6234
+packet,device_mac,DoS,84,3503680,2088
+packet,device_mac,Mirai,76,6097219,1365
+packet,device_mac,Recon,98,1148459,372
+packet,device_mac,Spoofing,77,883823,203
+packet,device_mac,Web-based,81,253902,376

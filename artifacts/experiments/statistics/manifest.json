@@ -1,0 +1,71 @@
+{
+  "files": [
+    {
+      "path": "contract.json",
+      "sha256": "56a26f02161047a652fb90c244ff0a5480b2a91d0afb9b3392abdc45fcf0f0e4",
+      "size_bytes": 6263
+    },
+    {
+      "path": "device_macro_f1.csv",
+      "sha256": "ed5391a93b3d9c87d3de8184c885cf20ccddf8c8a5ef1ba914421e1eced65cca",
+      "size_bytes": 8428
+    },
+    {
+      "path": "device_class_recall.csv",
+      "sha256": "c5a738246db7693636a1e69faf121f66f7f1e38c38084b6290866313048a0de0",
+      "size_bytes": 32468
+    },
+    {
+      "path": "friedman.json",
+      "sha256": "ac0c0007f8d16e98b10088c3dcdd1ce086c2c4c7dc2a8d2db8505d3a79c438f7",
+      "size_bytes": 377
+    },
+    {
+      "path": "confirmatory_comparisons.csv",
+      "sha256": "20f81e89cf19cf8305588cdcb2b1e7f323a23c6551ff6a7fb16e376b5e6d7b96",
+      "size_bytes": 1446
+    },
+    {
+      "path": "confirmatory_device_differences.csv",
+      "sha256": "ff444793163548c4d47a6e1ed0b6c891d668e9be95ae57a8c6c80e8f76fbdf6f",
+      "size_bytes": 4200
+    },
+    {
+      "path": "exploratory_recall_comparisons.csv",
+      "sha256": "1d206b5934ba4dfed4f83cfa28b73d795812715b4a4082064eca0bc30dd773ee",
+      "size_bytes": 9608
+    },
+    {
+      "path": "exploratory_recall_device_differences.csv",
+      "sha256": "ac5845ac32613c70784bd7bad1817d0c97fd2ec1403ae4f576582de6eb8e7d7c",
+      "size_bytes": 35410
+    },
+    {
+      "path": "bootstrap_device_indices.npy",
+      "sha256": "e484495d605ec18460ffd48a0e452fe3994efe5322e56f3b045d543fb6335232",
+      "size_bytes": 1400128
+    },
+    {
+      "path": "bootstrap_estimates.npy",
+      "sha256": "3e674fa02f5d6792dd869bf2f6e5db2c44ef49e8b9e346b15ee6b3b38765d35f",
+      "size_bytes": 3200128
+    },
+    {
+      "path": "bootstrap_estimands.csv",
+      "sha256": "0f6bbfd529bee2679a71fed9d5784b361348d6cb2b51482768d669dafff38d10",
+      "size_bytes": 246
+    },
+    {
+      "path": "bootstrap_summary.csv",
+      "sha256": "bc61f740d36c6aeda32f4a1371dba52cc256dc1e91e805725fa1cba1927381ba",
+      "size_bytes": 3604
+    },
+    {
+      "path": "leave_one_device_out.csv",
+      "sha256": "40012e2309be9f351ad2e21bb6d7c3c7f8fc2c69641bbe864885e3d4b384aaae",
+      "size_bytes": 4039
+    }
+  ],
+  "status": "complete",
+  "task_id": "STAT-001"
+}

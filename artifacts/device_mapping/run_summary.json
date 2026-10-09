@@ -1,0 +1,42 @@
+{
+  "evidence_scope": "exact_full_data_projected_identifiers",
+  "physical_identities_approved": 0,
+  "raw_directory": "data/raw/CIC-IoT-IDAD-Dataset-2024",
+  "file_count": 312,
+  "row_count": 63482843,
+  "rows_by_view": {
+    "packet": 35672839,
+    "flow": 27810004
+  },
+  "headerless_files": 5,
+  "audit_identifier_reconciliation": "exact_match_rows_and_capture_counts",
+  "packet_identifier_count": 115,
+  "packet_orientation_rows": {
+    "src": 30299051,
+    "dst": 5147553,
+    "both": 5393,
+    "neither": 220842
+  },
+  "packet_rfc1918_ips": 257,
+  "packet_rfc1918_ips_with_multiple_identifiers": 251,
+  "flow_rfc1918_ips": 266,
+  "candidate_row_count": 130860,
+  "inventory_sha256": "fab9b5d35d74ba0e3b094dea3f04b9210f61c6cc044799ff4a188bc65b9565be",
+  "audit_identifiers_sha256": "dcbe89d3d8ec07e5fd8860a11af90f9869e3494fb74e2f292ad60672562df901",
+  "extractor_sha256": "6abf475dd3062ec28a6c557939e96f5e52cfc49bf65092bce35d37f0b79f81f3",
+  "polars_version": "1.44.2",
+  "python_version": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:20:25) [GCC 14.3.0]",
+  "polars_threads": 4,
+  "input_fingerprint_scope": "path/size/mtime/schema and ordered grouped projected values; not full raw SHA256",
+  "normalization": "strip whitespace; case/separator normalization only for valid MAC-form values; preserve label case",
+  "flow_link_rule": "same coarse/fine label and exact capture basename after removing .pcap_Flow; same endpoint IP; tentative only",
+  "row_count_semantics": "Flow candidate counts repeat for multiple candidate identities; packet both orientation counts repeat per side; use evidence and coverage tables for totals",
+  "artifact_sha256": {
+    "candidate_mapping.csv": "47df1eb34d77fff3f9420d40989db70aab8a460afeb779cb5757164591d2457f",
+    "flow_endpoint_evidence.csv": "b402c0c91176de274a87cbdedb1b0bb2f68b51d3c2a0642be633e45d907659c7",
+    "packet_endpoint_evidence.csv": "2dce08c5026b4519c0e8d9b5c12ce16108a25a450657fd37521169e5a82ba108",
+    "packet_identifier_coverage.csv": "dff1167081849c9756371e1d5528e110bc443d0e6f3c55c96cd46711e31f193e",
+    "packet_identifier_summary.csv": "0d6882fca594faf7a91af58e4120e6113126177b042a810b4ecddcb98642a213",
+    "source_manifest.csv": "5eba4164cfa5aed1b5263b6861a945f752bde68bd21cc583a7bad547a1dce59e"
+  }
+}

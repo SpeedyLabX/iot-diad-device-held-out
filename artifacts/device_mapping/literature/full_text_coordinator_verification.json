@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "paper_sha256": "6e9971aab17a22733d2a62d92d31fa9e75550e1bd12922ee386dba18048bbb18",
+  "paper_pages": 19,
+  "page_evidence_checked": [
+    13627,
+    13636,
+    13639,
+    13640
+  ],
+  "alias_candidates": 4,
+  "alias_rows": 1169431,
+  "combined_candidate_identifiers": 69,
+  "combined_candidate_rows": 34663062,
+  "approved_identities": 0
+}

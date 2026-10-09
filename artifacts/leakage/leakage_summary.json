@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-10-05",
+  "manifest_sha256": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+  "coverage_sha256": "dff1167081849c9756371e1d5528e110bc443d0e6f3c55c96cd46711e31f193e",
+  "approved_devices": 68,
+  "identifier_overlap_count": 0,
+  "physical_device_overlap_count": 0,
+  "capture_count": 180,
+  "captures_spanning_multiple_partitions": 180,
+  "captures_spanning_all_three_partitions": 180,
+  "device_capture_graph_components": [
+    {
+      "device_count": 68,
+      "capture_count": 180
+    }
+  ],
+  "nontrivial_device_and_capture_disjoint_split_possible": false,
+  "capture_overlap_sha256": "ea9833c5aeb7f21bc767559d158939c4f9a1a4880a2401ffde20d178a9411cfe",
+  "feature_hash_audit": {
+    "hash_method": "two independent Polars UInt64 hashes over raw candidate-feature strings",
+    "candidate_feature_count": 116,
+    "eligible_rows_hashed": 34627307,
+    "cross_partition_hash_group_count": 8,
+    "cross_partition_rows_by_mask": [
+      {
+        "partition_mask": 5,
+        "hash_group_count": 3,
+        "train_rows": 3,
+        "calibration_rows": 0,
+        "test_rows": 4,
+        "cross_label_hash_group_count": 0
+      },
+      {
+        "partition_mask": 7,
+        "hash_group_count": 5,
+        "train_rows": 21,
+        "calibration_rows": 13,
+        "test_rows": 17,
+        "cross_label_hash_group_count": 0
+      }
+    ],
+    "cross_partition_hashes_sha256": "d708fa6336aca8954299f47f814495d06c980815ac1badcbfd1c185716a82bce"
+  },
+  "raw_duplicate_verification": {
+    "status": "passed",
+    "candidate_feature_count": 116,
+    "cross_partition_feature_vector_count": 8,
+    "affected_rows": 58,
+    "cross_label_feature_vector_count": 0,
+    "verification": "SHA-256 over canonical JSON arrays of all raw candidate-feature strings",
+    "verified_rows_sha256": "5dabe0e911db0cedd93e0a8e26b09eb6e058400c1239cd0e0502cbf340692c88"
+  }
+}

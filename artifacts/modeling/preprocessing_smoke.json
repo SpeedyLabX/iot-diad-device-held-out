@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "source": "Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic.csv",
+  "raw_prefix_rows": 20000,
+  "eligible_prefix_rows": 18759,
+  "training_prefix_rows": 11564,
+  "input_features": 120,
+  "output_rows": 1000,
+  "output_features": 139,
+  "all_outputs_finite": true,
+  "preprocessor_audit": {
+    "fit_partition": "train",
+    "training_device_count": 36,
+    "training_device_set_sha256": "79d4327d6053e60f26485b66925c2a58cfd14f68a65d4058b34970761862286c",
+    "input_numeric_features": 116,
+    "input_categorical_features": 4,
+    "output_features": 139
+  },
+  "roles_sha256": "087e3a8e3ee8fe8cd1785f5d1eb65ad9a1b849f7877b56888ef67ec254745a0c",
+  "manifest_sha256": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+  "exclusions_sha256": "75d23a414656eee534b3814625ed35b24e7fb70f2e1054a90e5f4097ae346994"
+}

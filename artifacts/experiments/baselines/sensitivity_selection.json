@@ -1,0 +1,28 @@
+{
+  "cap": 1000,
+  "changes_to_primary_model": false,
+  "leader": "HGB",
+  "ranking": [
+    [
+      0.7540987259826436,
+      "HGB"
+    ],
+    [
+      0.60002223089212,
+      "RF"
+    ],
+    [
+      0.5875314138175615,
+      "MLP"
+    ],
+    [
+      0.48706978365559805,
+      "ET"
+    ],
+    [
+      0.45366036698620915,
+      "LR"
+    ]
+  ],
+  "rule": "highest primary test point metric; model-ID tie break; descriptive only"
+}

@@ -1,0 +1,11 @@
+{
+  "analysis_rows_per_class": 20000,
+  "complete_run": true,
+  "correlation_feature_count": 25,
+  "correlation_rows_per_view": 50000,
+  "discovered_file_count": 312,
+  "histogram_bins": 30,
+  "sample_rows_per_capture": 1000,
+  "seed": 2027,
+  "selected_file_count": 312
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "candidate_feature_count": 116,
+  "cross_partition_feature_vector_count": 8,
+  "affected_rows": 58,
+  "cross_label_feature_vector_count": 0,
+  "verification": "SHA-256 over canonical JSON arrays of all raw candidate-feature strings",
+  "verified_rows_sha256": "5dabe0e911db0cedd93e0a8e26b09eb6e058400c1239cd0e0502cbf340692c88"
+}

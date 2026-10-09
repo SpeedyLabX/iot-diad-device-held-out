@@ -1,0 +1,19 @@
+[paths]
+raw_dir = "data/raw/CIC-IoT-IDAD-Dataset-2024"
+output_dir = "artifacts/data_audit"
+report_path = "docs/reports/data_summary.md"
+
+[audit]
+workers = 4
+private_ipv4_pattern = "^(10\\.|192\\.168\\.|172\\.(1[6-9]|2[0-9]|3[01])\\.)"
+
+[eda]
+output_dir = "artifacts/eda"
+sample_dir = "artifacts/eda/samples"
+report_path = "docs/reports/eda_report.md"
+sample_rows_per_capture = 1000
+analysis_rows_per_class = 20000
+correlation_rows_per_view = 50000
+correlation_feature_count = 25
+histogram_bins = 30
+seed = 2027

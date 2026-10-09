@@ -1,0 +1,25 @@
+{
+  "execution_code_sha256": {
+    "src/iot_diad/modeling/__init__.py": "0cffba54bf23c6f65124002f89d209ec62f963edff52ad89e317c460b89ede85",
+    "src/iot_diad/modeling/baselines.py": "aa18b5b34d2e98de747d27912157a27015f0b462a2e259958dcd02a4c942d64b",
+    "src/iot_diad/modeling/data.py": "d10227e0f94257157572381abe105999cefdab5ed76e83e85279cb7b4a8610c2",
+    "src/iot_diad/modeling/features.py": "f2c469b6906a7ed9ebf2467abf7b25974b876e3641d675913fd044b2cd712c44",
+    "src/iot_diad/modeling/pipeline.py": "b6a47d4f7bd7a8602d398d684b80dc2d9a4eceeb3ee572eee38bba201a34631a",
+    "src/iot_diad/modeling/preprocessing.py": "214e5eb6971e0a0a32fb0d9fbae166c64a63702fe9dc2fd7a50cf12431bde730"
+  },
+  "fit_seconds": 466.6888846290003,
+  "iterations": [],
+  "model_sha256": "531a28fdf52a60868ae096094752e574ae67587525581f20c1e970ddf9d56f60",
+  "preprocessor": {
+    "fit_partition": "train",
+    "input_categorical_features": 4,
+    "input_numeric_features": 116,
+    "output_features": 244,
+    "training_device_count": 40,
+    "training_device_set_sha256": "18407c84103c2ba79f2b131f2acd85b3e0b13e890d3090dd1828f1342ecc639e"
+  },
+  "status": "passed",
+  "training_only_validation": false,
+  "training_rows": 446363,
+  "warnings": []
+}

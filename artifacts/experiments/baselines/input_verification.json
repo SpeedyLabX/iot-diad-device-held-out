@@ -1,0 +1,13 @@
+{
+  "every_evaluation_feature_and_row_key_compared_to_raw": true,
+  "raw_packet_rows": 35672839,
+  "rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338,
+    "train": 20094094
+  },
+  "runtime_seconds": 642.1213997030009,
+  "source_sha256_verified": 180,
+  "status": "passed",
+  "training_manifest_reconstructed_from_raw": true
+}

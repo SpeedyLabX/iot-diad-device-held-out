@@ -1,0 +1,34 @@
+{
+  "retrieval_date": "2026-10-05",
+  "paper_doi": "10.1109/JIOT.2024.3522863",
+  "paper_pages": 19,
+  "paper_sha256": "6e9971aab17a22733d2a62d92d31fa9e75550e1bd12922ee386dba18048bbb18",
+  "layout_text_sha256": "30dcdf8eb0162b555494eca1b2e20ee5ebe8e097834f8cd51f0b4828d390c3bd",
+  "raw_text_sha256": "1d3a44d0a78756924042a006ab145b7c6f8bbc65e4d47bb1f73607ba50480808",
+  "provenance": "PDF supplied by project lead; IEEE licensed copy downloaded via RMIT University Library",
+  "paper_evidence": {
+    "dataset_continuity": "CICIoT2023 PCAP files are the stated source; pp. 13627 and 13636",
+    "device_target": "device_mac is the multiclass target; p. 13639",
+    "device_split": "70:30 train-test split over samples; pp. 13639-13640",
+    "held_out_physical_devices": "not reported",
+    "preprocessing_fit_scope": "not reported",
+    "device_count_discrepancy": "40 device classes on p. 13636 versus 45 devices/classes on pp. 13639-13640"
+  },
+  "base_candidate_identifiers": 65,
+  "base_candidate_rows": 33493631,
+  "new_alias_candidate_identifiers": 4,
+  "new_alias_candidate_rows": 1169431,
+  "combined_candidate_identifiers": 69,
+  "combined_candidate_rows": 34663062,
+  "combined_candidate_row_fraction": 0.9716933939572345,
+  "remaining_unmatched_identifiers": 46,
+  "remaining_unmatched_rows": 1009777,
+  "remaining_unmatched_mac_identifiers": 45,
+  "remaining_unmatched_mac_rows": 788935,
+  "remaining_locally_administered_mac_identifiers": 14,
+  "remaining_locally_administered_mac_rows": 292966,
+  "remaining_text_identifiers": [
+    "not sure"
+  ],
+  "approved_identities": 0
+}

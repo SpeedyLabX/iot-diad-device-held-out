@@ -1,0 +1,5 @@
+identifier,local_row_count,local_capture_count,alias_rule,candidate_entry_count,candidate_entry_ids_json,candidate_names_json,candidate_macs_json,source_doi,continuity_source_doi,status,canonical_device_id
+Amazon Echo Dot 1,333389,164,published_name_remove_token_alexa,1,"[""T1-01-left""]","[""Amazon Alexa Echo Dot 1""]","[""1c:fe:2b:98:16:dd""]",10.3390/s23135941,10.1109/JIOT.2024.3522863,deterministic_name_alias_candidate_not_approved,
+Amazon Echo Dot 2,115129,106,published_name_remove_token_alexa,1,"[""T1-02-left""]","[""Amazon Alexa Echo Dot 2""]","[""a0:d0:dc:c4:08:ff""]",10.3390/s23135941,10.1109/JIOT.2024.3522863,deterministic_name_alias_candidate_not_approved,
+Amazon Echo Spot,354970,118,published_name_remove_token_alexa,1,"[""T1-03-left""]","[""Amazon Alexa Echo Spot""]","[""1c:12:b0:9b:0c:ec""]",10.3390/s23135941,10.1109/JIOT.2024.3522863,deterministic_name_alias_candidate_not_approved,
+Amazon Echo Studio,365943,156,published_name_remove_token_alexa,1,"[""T1-04-left""]","[""Amazon Alexa Echo Studio""]","[""08:7c:39:ce:6e:2a""]",10.3390/s23135941,10.1109/JIOT.2024.3522863,deterministic_name_alias_candidate_not_approved,

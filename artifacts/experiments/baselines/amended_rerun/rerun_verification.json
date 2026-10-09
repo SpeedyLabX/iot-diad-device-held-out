@@ -1,0 +1,30 @@
+{
+  "amendment_id": "BASE-002-GATE3-CONVERGENCE-2026-10-06",
+  "models": [
+    {
+      "fit_status": "convergence_failure",
+      "iterations": [
+        1000
+      ],
+      "model_id": "LR",
+      "model_sha256": "42cb85b38ce10bdf0326a656744961b6a513788b6c1ff5cfa5661e8557381388",
+      "rows": 14533155,
+      "run_config_sha256": "f1c1d21f48532e0e27382f32c1f9e9e065569589355d7c2ff9df9c8c558d4d5f",
+      "run_id": "LR-amended-maxiter1000"
+    },
+    {
+      "fit_status": "passed",
+      "iterations": 79,
+      "model_id": "MLP",
+      "model_sha256": "ddb3cd2ceef6b07f5fc12f0045adc0662c5f20c71da730df4dd722bbf321c232",
+      "rows": 14533155,
+      "run_config_sha256": "2e13b58d2af3507d7c30194e04cabf2df23ffb68b5243d63000673962c383157",
+      "run_id": "MLP-amended-maxiter200"
+    }
+  ],
+  "rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338
+  },
+  "status": "passed"
+}

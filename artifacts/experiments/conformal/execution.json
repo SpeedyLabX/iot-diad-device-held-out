@@ -1,0 +1,32 @@
+{
+  "limitation": "Hierarchical exchangeability is an assumption, not an audited property. The deterministic, temporally structured, capture-shared benchmark supports empirical coverage reporting, not unconditional distribution-free coverage. The equal-row classwise comparator has no clustered-device validity claim.",
+  "models": [
+    {
+      "manifest_sha256": "3736401401810a9167ee733bde3374fda7e453430100f534f4b8d8ee9380feb4",
+      "model_id": "LR",
+      "runtime_seconds": 83.80984607499886
+    },
+    {
+      "manifest_sha256": "b746fe3e7c6f9bf467b26280e0d311af602bf656b199ad4938ad229087748f7c",
+      "model_id": "ET",
+      "runtime_seconds": 99.3927367310007
+    },
+    {
+      "manifest_sha256": "8e3d6085c5e59f582a9b671d46e9754ef1ddd48984bea83c3d5155cd128f1c4f",
+      "model_id": "HGB",
+      "runtime_seconds": 89.611270211999
+    },
+    {
+      "manifest_sha256": "a3257e2f10315e5e11de300fcb7080fe5c49906e355195ab7e2f754ba8ebebf5",
+      "model_id": "RF",
+      "runtime_seconds": 89.87810920499942
+    },
+    {
+      "manifest_sha256": "2e5b2ab6d3017b880898baa903d24ba36a86c2ea7a2a97782a7fa62023982a16",
+      "model_id": "MLP",
+      "runtime_seconds": 101.51582152299852
+    }
+  ],
+  "runtime_seconds": 486.78034130800006,
+  "status": "complete"
+}

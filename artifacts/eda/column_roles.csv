@@ -1,0 +1,220 @@
+feature_view,column_index,column,inferred_kind,role,primary_baseline_action,rationale
+flow,0,Flow ID,categorical,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+flow,1,Src IP,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+flow,2,Src Port,numeric,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+flow,3,Dst IP,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+flow,4,Dst Port,numeric,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+flow,5,Protocol,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,6,Timestamp,categorical,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+flow,7,Flow Duration,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,8,Total Fwd Packet,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,9,Total Bwd packets,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,10,Total Length of Fwd Packet,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,11,Total Length of Bwd Packet,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,12,Fwd Packet Length Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,13,Fwd Packet Length Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,14,Fwd Packet Length Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,15,Fwd Packet Length Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,16,Bwd Packet Length Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,17,Bwd Packet Length Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,18,Bwd Packet Length Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,19,Bwd Packet Length Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,20,Flow Bytes/s,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,21,Flow Packets/s,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,22,Flow IAT Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,23,Flow IAT Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,24,Flow IAT Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,25,Flow IAT Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,26,Fwd IAT Total,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,27,Fwd IAT Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,28,Fwd IAT Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,29,Fwd IAT Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,30,Fwd IAT Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,31,Bwd IAT Total,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,32,Bwd IAT Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,33,Bwd IAT Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,34,Bwd IAT Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,35,Bwd IAT Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,36,Fwd PSH Flags,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,37,Bwd PSH Flags,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,38,Fwd URG Flags,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,39,Bwd URG Flags,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,40,Fwd Header Length,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,41,Bwd Header Length,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,42,Fwd Packets/s,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,43,Bwd Packets/s,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,44,Packet Length Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,45,Packet Length Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,46,Packet Length Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,47,Packet Length Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,48,Packet Length Variance,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,49,FIN Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,50,SYN Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,51,RST Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,52,PSH Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,53,ACK Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,54,URG Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,55,CWR Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,56,ECE Flag Count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,57,Down/Up Ratio,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,58,Average Packet Size,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,59,Fwd Segment Size Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,60,Bwd Segment Size Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,61,Fwd Bytes/Bulk Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,62,Fwd Packet/Bulk Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,63,Fwd Bulk Rate Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,64,Bwd Bytes/Bulk Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,65,Bwd Packet/Bulk Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,66,Bwd Bulk Rate Avg,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,67,Subflow Fwd Packets,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,68,Subflow Fwd Bytes,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,69,Subflow Bwd Packets,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,70,Subflow Bwd Bytes,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,71,FWD Init Win Bytes,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,72,Bwd Init Win Bytes,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,73,Fwd Act Data Pkts,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,74,Fwd Seg Size Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,75,Active Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,76,Active Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,77,Active Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,78,Active Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,79,Idle Mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,80,Idle Std,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,81,Idle Max,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,82,Idle Min,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+flow,83,Label,categorical,source_label,exclude,Not a reliable task label and must not be used as a feature.
+packet,0,stream,numeric,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+packet,1,src_mac,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+packet,2,dst_mac,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+packet,3,src_ip,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+packet,4,dst_ip,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+packet,5,src_port,numeric,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+packet,6,dst_port,numeric,session_identifier,exclude,May identify sessions or captures; exclude from model inputs.
+packet,7,inter_arrival_time,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,8,time_since_previously_displayed_frame,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,9,port_class_dst,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,10,l4_tcp,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,11,l4_udp,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,12,ttl,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,13,eth_size,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,14,tcp_window_size,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,15,payload_entropy,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,16,handshake_version,categorical,candidate_feature,encode_after_validation,Eligible for the primary baseline after train-only preprocessing.
+packet,17,handshake_cipher_suites_length,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,18,handshake_ciphersuites,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,19,handshake_extensions_length,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,20,tls_server,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,21,handshake_sig_hash_alg_len,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,22,http_request_method,categorical,candidate_feature,encode_after_validation,Eligible for the primary baseline after train-only preprocessing.
+packet,23,http_host,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,24,http_response_code,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,25,user_agent,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,26,dns_server,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,27,dns_query_type,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,28,dns_len_qry,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,29,dns_interval,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,30,dns_len_ans,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,31,device_mac,categorical,group_identifier,exclude,Retain for grouping and leakage checks; exclude from model inputs.
+packet,32,eth_src_oui,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,33,eth_dst_oui,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,34,payload_length,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,35,highest_layer,categorical,candidate_feature,encode_after_validation,Eligible for the primary baseline after train-only preprocessing.
+packet,36,http_uri,categorical,high_risk_metadata,exclude,Potential shortcut or device fingerprint; reserve for named ablations.
+packet,37,http_content_len,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,38,http_content_type,categorical,candidate_feature,encode_after_validation,Eligible for the primary baseline after train-only preprocessing.
+packet,39,icmp_type,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,40,icmp_checksum_status,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,41,icmp_data_size,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,42,jitter,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,43,stream_1_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,44,stream_1_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,45,stream_1_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,46,src_ip_1_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,47,src_ip_1_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,48,src_ip_1_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,49,src_ip_mac_1_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,50,src_ip_mac_1_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,51,src_ip_mac_1_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,52,channel_1_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,53,channel_1_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,54,channel_1_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,55,stream_jitter_1_sum,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,56,stream_jitter_1_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,57,stream_jitter_1_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,58,stream_5_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,59,stream_5_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,60,stream_5_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,61,src_ip_5_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,62,src_ip_5_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,63,src_ip_5_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,64,src_ip_mac_5_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,65,src_ip_mac_5_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,66,src_ip_mac_5_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,67,channel_5_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,68,channel_5_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,69,channel_5_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,70,stream_jitter_5_sum,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,71,stream_jitter_5_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,72,stream_jitter_5_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,73,stream_10_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,74,stream_10_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,75,stream_10_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,76,src_ip_10_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,77,src_ip_10_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,78,src_ip_10_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,79,src_ip_mac_10_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,80,src_ip_mac_10_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,81,src_ip_mac_10_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,82,channel_10_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,83,channel_10_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,84,channel_10_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,85,stream_jitter_10_sum,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,86,stream_jitter_10_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,87,stream_jitter_10_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,88,stream_30_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,89,stream_30_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,90,stream_30_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,91,src_ip_30_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,92,src_ip_30_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,93,src_ip_30_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,94,src_ip_mac_30_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,95,src_ip_mac_30_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,96,src_ip_mac_30_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,97,channel_30_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,98,channel_30_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,99,channel_30_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,100,stream_jitter_30_sum,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,101,stream_jitter_30_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,102,stream_jitter_30_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,103,stream_60_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,104,stream_60_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,105,stream_60_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,106,src_ip_60_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,107,src_ip_60_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,108,src_ip_60_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,109,src_ip_mac_60_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,110,src_ip_mac_60_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,111,src_ip_mac_60_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,112,channel_60_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,113,channel_60_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,114,channel_60_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,115,stream_jitter_60_sum,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,116,stream_jitter_60_mean,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,117,stream_jitter_60_var,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,118,ntp_interval,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,119,most_freq_spot,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,120,min_et,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,121,q1,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,122,min_e,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,123,var_e,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,124,q1_e,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,125,sum_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,126,min_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,127,max_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,128,med_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,129,average_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,130,var_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,131,q3_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,132,q1_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,133,iqr_p,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.
+packet,134,l3_ip_dst_count,numeric,candidate_feature,include_numeric,Eligible for the primary baseline after train-only preprocessing.

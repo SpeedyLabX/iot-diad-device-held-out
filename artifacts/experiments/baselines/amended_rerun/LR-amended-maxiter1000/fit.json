@@ -1,0 +1,33 @@
+{
+  "execution_code_sha256": {
+    "src/iot_diad/modeling/__init__.py": "0cffba54bf23c6f65124002f89d209ec62f963edff52ad89e317c460b89ede85",
+    "src/iot_diad/modeling/baselines.py": "aa18b5b34d2e98de747d27912157a27015f0b462a2e259958dcd02a4c942d64b",
+    "src/iot_diad/modeling/data.py": "d10227e0f94257157572381abe105999cefdab5ed76e83e85279cb7b4a8610c2",
+    "src/iot_diad/modeling/features.py": "f2c469b6906a7ed9ebf2467abf7b25974b876e3641d675913fd044b2cd712c44",
+    "src/iot_diad/modeling/kaggle_rerun.py": "606b2f6b3b780bc7ef9dcedf8abbbe09ce450a892d6b1bf92bd6b6858c833bda",
+    "src/iot_diad/modeling/pipeline.py": "b6a47d4f7bd7a8602d398d684b80dc2d9a4eceeb3ee572eee38bba201a34631a",
+    "src/iot_diad/modeling/preprocessing.py": "214e5eb6971e0a0a32fb0d9fbae166c64a63702fe9dc2fd7a50cf12431bde730"
+  },
+  "fit_seconds": 446.88019151399976,
+  "iterations": [
+    1000
+  ],
+  "model_sha256": "42cb85b38ce10bdf0326a656744961b6a513788b6c1ff5cfa5661e8557381388",
+  "preprocessor": {
+    "fit_partition": "train",
+    "input_categorical_features": 4,
+    "input_numeric_features": 116,
+    "output_features": 244,
+    "training_device_count": 40,
+    "training_device_set_sha256": "18407c84103c2ba79f2b131f2acd85b3e0b13e890d3090dd1828f1342ecc639e"
+  },
+  "status": "convergence_failure",
+  "training_only_validation": false,
+  "training_rows": 446363,
+  "warnings": [
+    {
+      "category": "ConvergenceWarning",
+      "message": "lbfgs failed to converge after 1000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=1000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html\nPlease also refer to the documentation for alternative solver options:\n    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression"
+    }
+  ]
+}

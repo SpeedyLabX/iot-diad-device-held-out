@@ -1,0 +1,193 @@
+{
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "confirmatory_model_family": [
+    "LR",
+    "ET",
+    "HGB"
+  ],
+  "evaluation_rows": {
+    "calibration": 6620817,
+    "test": 7912338
+  },
+  "models": [
+    {
+      "artifact_directory": "artifacts/experiments/baselines/lr_solver_amendment/LR-amended-newton-cholesky-maxiter200",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "e82af4e46a0941bd6af0660955587892e85225fed0a3002db3eb0b2c2d409fca",
+      "fit_sha256": "5417e11566acb30c30442e0b9986bbfd1591a9f1b5d0464e8304f28c9a7f2870",
+      "metrics_sha256": "8caa8012ef43c56d0b4d662df267eb65d6200e381a793555e97179f82c57509f",
+      "model_id": "LR",
+      "model_sha256": "50fe703861ac05b37afd981561f5842cb580312867fb86975ce472ee52448a80",
+      "primary_learned_model": true,
+      "run_config_sha256": "79eeba4ad3f92b61d22c958382eb335c241ce5e346e76a4c7cad0919ec412f06",
+      "run_id": "LR-amended-newton-cholesky-maxiter200",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/ET",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "97e106b1f3e6ed7b017bfea02074d70d56eff0bd6317a0482a9432c6acfc4290",
+      "fit_sha256": "cb7843475d92826a75adb256ba2dd9f61545961d41055aa0e48d5bfbfda9712c",
+      "metrics_sha256": "3ececf93d020ee2c4a1e86f65e68743a2e8e083d1709984230cbda10bf7a4f12",
+      "model_id": "ET",
+      "model_sha256": "531a28fdf52a60868ae096094752e574ae67587525581f20c1e970ddf9d56f60",
+      "primary_learned_model": true,
+      "run_config_sha256": "03762d4710bfc6f9f217a4d121c1b39caca3161d8fdee9801c7365644ac508bb",
+      "run_id": "ET",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/HGB",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "65d8f850b9bc15f6a57f11f84b97509297d5394222afa7df479ef04729b4f619",
+      "fit_sha256": "da8171acc96f5d64680961520b105e79ad50a8aba7d93b7d9a9ff9f477f4358d",
+      "metrics_sha256": "62ec94f330dc7d44fa9ee2ee3fb5f1b2077c37478417fe0bc71ff2bd0a2d094c",
+      "model_id": "HGB",
+      "model_sha256": "cd6cd33bdfd345b27c05d074ca65a01ceaa34ba5d8af8677c577bf4355f5c10e",
+      "primary_learned_model": true,
+      "run_config_sha256": "393ceae04cdac6903d2ee9d2fc470988d3059b1a62928de39fc34c6a4a771270",
+      "run_id": "HGB",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/RF",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "7dbd96acc45c8f312b61d3a627dfc1bbff0aa1d266429591f2d0d3f8e3f1b9a8",
+      "fit_sha256": "e4c42684f4fd74ff4db2fc7eab13dda9741e02a4ef861b63986849e847b551c9",
+      "metrics_sha256": "3171a81a5fb7cc27670956dbd45f23db8eade51968a65606602e73b62cf22386",
+      "model_id": "RF",
+      "model_sha256": "2b759161492308671bc614e4924dca04a92616ef10003f5a66ab9049ebf4c74e",
+      "primary_learned_model": true,
+      "run_config_sha256": "5eee0ebe2a18ce90e4b8b23e84c4ab296f57931a23ec7025de885cd33d5281b1",
+      "run_id": "RF",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/amended_rerun/MLP-amended-maxiter200",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "8fc78046eb83157dae76474e4ba43f44045ab66a528bb093812f776ef58e06e1",
+      "fit_sha256": "0b639dd2d34161725010b26b6d48c0d37fa6a596343cdad6c240506c8f7cc37b",
+      "metrics_sha256": "71c167fc70ec9c6dfeba243d31e920ef55971dd9f156a99daff833156c7badbe",
+      "model_id": "MLP",
+      "model_sha256": "ddb3cd2ceef6b07f5fc12f0045adc0662c5f20c71da730df4dd722bbf321c232",
+      "primary_learned_model": true,
+      "run_config_sha256": "2e13b58d2af3507d7c30194e04cabf2df23ffb68b5243d63000673962c383157",
+      "run_id": "MLP-amended-maxiter200",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/DUMMY",
+      "cap": 2000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "cd6d549847d09a913dd45fb17d82d114bdf210c8d313dfbc61953b020755f3cb",
+      "fit_sha256": "5ef70f5c97514a11ca75f8666bedba718d5c1ab155202b5fb88214e22ee22b0a",
+      "metrics_sha256": "98c63abddf0940a2d81c3d12db3eea5911a7eb5b19a201e8bf968768fe7047c0",
+      "model_id": "DUMMY",
+      "model_sha256": "5ab3d01b580e8dcb89e2fe6945d7f49b5f14dda7444d646986fe3e9ef66bc424",
+      "primary_learned_model": false,
+      "run_config_sha256": "faaa16938a52d1c624284bece79fd2685f8466cb6af46e8071ad8e8612271684",
+      "run_id": "DUMMY",
+      "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+      "training_rows": 446363
+    },
+    {
+      "artifact_directory": "artifacts/experiments/baselines/HGB-cap1000",
+      "cap": 1000,
+      "class_order": [
+        "Benign",
+        "Brute Force",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Recon",
+        "Spoofing",
+        "Web-based"
+      ],
+      "exports_sha256": "cf15b1c583a305fb6cfc8fa1197f14c129b9703d8a56ed130307f093dde0d24f",
+      "fit_sha256": "4d1a2d910bc8b244f0cff1e38fd014bcc32b186d87443abe3bf2b38d38b33177",
+      "metrics_sha256": "eaee5044f16f3b6920d7be024a5b84c9d083f6081a71f76b182ea6218a8397fe",
+      "model_id": "HGB",
+      "model_sha256": "9af7fa7b35ec3b877b326a4e51308edd02b15bd25532bbece2ca4d485b5f1914",
+      "primary_learned_model": false,
+      "run_config_sha256": "da47d46e83312907829fa4ace048fbe1fbf0d430af33ef1c29bbc9acdeb30aa5",
+      "run_id": "HGB-cap1000",
+      "sample_manifest_sha256": "da05e63a458dbb340c4958b5d095cad67e918e3ce26d4696307708b9a2f12137",
+      "training_rows": 258876
+    }
+  ],
+  "primary_metric": "equal-device mean per-device macro-F1",
+  "status": "passed"
+}

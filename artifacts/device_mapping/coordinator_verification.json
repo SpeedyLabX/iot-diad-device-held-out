@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "reviewer": "coordinator (independent of map-worker)",
+  "verification_script_sha256": "edf82e11f8e879dcd26a00d9a081fcdccaaab6cb98223a6e81a9e734b4ce3626",
+  "manifest_files": 312,
+  "exact_evidence_rows": 63482843,
+  "audit_identifier_groups_reconciled": 2624,
+  "candidate_rows_checked": 130860,
+  "raw_capture_checks": [
+    {
+      "relative_path": "Device Identification_Anomaly Detection - Packet Based Features/Web-Based/Uploading_Attack/Uploading_Attack.csv",
+      "rows": 12924,
+      "tuples": 494,
+      "raw_sha256": "a1b04378a93836c0e6dfeacc62bff676a7f5dab14480c52b78d7a7dcbef308bc"
+    },
+    {
+      "relative_path": "Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-PingSweep/Recon-PingSweep.csv",
+      "rows": 22619,
+      "tuples": 863,
+      "raw_sha256": "db7c05ce8d7fc480b0f2d0d0c972c148febbaf853cba3e739208250662fa00e2"
+    },
+    {
+      "relative_path": "Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood.pcap_Flow.csv",
+      "rows": 1,
+      "tuples": 1,
+      "raw_sha256": "0745e0a3fefedf715f1573deb495bdec06d0e476860cf08354eeeb9ad32f6699"
+    },
+    {
+      "relative_path": "Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood1.pcap_Flow.csv",
+      "rows": 1,
+      "tuples": 1,
+      "raw_sha256": "4cc1118f74db6fd611c50a6f059581f90daaad4d949dcded58e92305a9d2ec88"
+    },
+    {
+      "relative_path": "Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood10.pcap_Flow.csv",
+      "rows": 1,
+      "tuples": 1,
+      "raw_sha256": "65ad5d0a6953fba959e9392e7e6a588b6811f08e829582a1615bae1545895180"
+    },
+    {
+      "relative_path": "Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood2.pcap_Flow.csv",
+      "rows": 1,
+      "tuples": 1,
+      "raw_sha256": "b5a809253323dc8fe92be5b0ec618c4714d0da8f490364d245f10313aa2af2d7"
+    },
+    {
+      "relative_path": "Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood3.pcap_Flow.csv",
+      "rows": 1,
+      "tuples": 1,
+      "raw_sha256": "f147d607f29481ba11e5f2680e39e208b4dbe4c58a701e262ac512e939ceaa0d"
+    }
+  ],
+  "limits": "Full artifact reconciliation; independent raw parsing covers seven captures only. No physical identities, capture alignment, or exclusions approved."
+}

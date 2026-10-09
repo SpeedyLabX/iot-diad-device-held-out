@@ -1,0 +1,26 @@
+{
+  "decision_date": "2026-10-05",
+  "decision_authority": "project lead",
+  "split_protocol": "physical-device-disjoint and capture-shared",
+  "claim_boundary": "unseen physical devices within shared captures and attack scenarios; no unseen-capture, unseen-environment, or temporal-generalization claim",
+  "duplicate_rule": "exclude every row in every partition whose complete candidate-feature vector occurs in more than one partition",
+  "excluded_duplicate_rows": 58,
+  "excluded_duplicate_rows_by_partition": {
+    "calibration": 13,
+    "test": 21,
+    "train": 24
+  },
+  "unfiltered_rows_by_partition": {
+    "calibration": 6620830,
+    "test": 7912359,
+    "train": 20094118
+  },
+  "filtered_rows_by_partition": {
+    "calibration": 6620817,
+    "test": 7912338,
+    "train": 20094094
+  },
+  "filtered_eligible_rows": 34627249,
+  "source_sha256": "5dabe0e911db0cedd93e0a8e26b09eb6e058400c1239cd0e0502cbf340692c88",
+  "exclusion_manifest_sha256": "75d23a414656eee534b3814625ed35b24e7fb70f2e1054a90e5f4097ae346994"
+}

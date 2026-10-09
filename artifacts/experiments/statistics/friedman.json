@@ -1,0 +1,19 @@
+{
+  "degrees_of_freedom": 2,
+  "devices": 14,
+  "family": "confirmatory_model_comparison",
+  "method": "device-blocked Friedman; chi-square approximation",
+  "models": [
+    "LR",
+    "ET",
+    "HGB"
+  ],
+  "rank_sums": {
+    "ET": 24.0,
+    "HGB": 42.0,
+    "LR": 18.0
+  },
+  "raw_p_value": 1.4478335303304164e-05,
+  "statistic": 22.285714285714278,
+  "tie_correction": 1.0
+}

@@ -1,0 +1,551 @@
+{
+  "checks": "Every source/output row; exact rational CDF; independent membership/metrics",
+  "governance_sha256": {
+    "artifacts/device_mapping/approved_packet_device_mapping.csv": "34cedb70ae1dc2453a61b9c041d93f2cc7c817202b981ecec2dc0cae75475462",
+    "artifacts/splits/cross_partition_duplicate_exclusions.csv": "75d23a414656eee534b3814625ed35b24e7fb70f2e1054a90e5f4097ae346994",
+    "artifacts/splits/device_split_manifest.csv": "647418c400b8032952e63fee39bd5161abe52f074bbc9ac73e85f2c23a8b6064",
+    "docs/reports/gate3_effective_protocol.md": "2dcd0b24513bf1d541fdc83bd523d57a822a10ee14ec777175e303d9f3e73edb",
+    "docs/reports/gate3_protocol.md": "3fa6ba8c8c900cbc4b26a7674fefddbcb1095454718a31bcbc4de1a0bc951bb4"
+  },
+  "models": [
+    {
+      "calibration_rows": 6620817,
+      "exact_quantile_cdf": [
+        {
+          "cdf_at_threshold": "330892713882448801545569/367657914303585888602620",
+          "cdf_strictly_below": "330890729052912627917139/367657914303585888602620",
+          "label": "Benign",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "192941/214378",
+          "cdf_strictly_below": "96470/107189",
+          "label": "Benign",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "224617762068498043501313/249192003251326122331344",
+          "cdf_strictly_below": "74707777830206142726409/83064001083775374110448",
+          "label": "Brute Force",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "21322/23691",
+          "cdf_strictly_below": "7107/7897",
+          "label": "Brute Force",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "5066068612323854770890857437324723035376446475068050779161583/5628938976603112189223234524489313274693695927871231308694000",
+          "cdf_strictly_below": "1688679612222462944538554173176629509569089599801302667469461/1876312992201037396407744841496437758231231975957077102898000",
+          "label": "DDoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "3821403/4246003",
+          "cdf_strictly_below": "3821402/4246003",
+          "label": "DDoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "61879392917357408214585500130351054055986017/68754073032808731957695186410368927526865700",
+          "cdf_strictly_below": "61877104547477800668173195414544418378584557/68754073032808731957695186410368927526865700",
+          "label": "DoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "9/10",
+          "cdf_strictly_below": "475541/528380",
+          "label": "DoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "20457633754099136571174261402416457943/22730557680569329392615130979799795840",
+          "cdf_strictly_below": "40914899842604319834096183662574572851/45461115361138658785230261959599591680",
+          "label": "Mirai",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "558777/620863",
+          "cdf_strictly_below": "1117553/1241726",
+          "label": "Mirai",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1808983246982745322719793456706575230137/2009977085570539231041106223544776244000",
+          "cdf_strictly_below": "361791592850421843061616449564652040301/401995417114107846208221244708955248800",
+          "label": "Recon",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "59770/66411",
+          "cdf_strictly_below": "179309/199233",
+          "label": "Recon",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "561364687867307861177102779/623632555511604843453845640",
+          "cdf_strictly_below": "561202915479367107650915011/623632555511604843453845640",
+          "label": "Spoofing",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "111123/123469",
+          "cdf_strictly_below": "111122/123469",
+          "label": "Spoofing",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "5213220931928422642315097882209/5723583319285789553196731430300",
+          "cdf_strictly_below": "1279456969151748204107121422926/1430895829821447388299182857575",
+          "label": "Web-based",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "39551/43945",
+          "cdf_strictly_below": "7910/8789",
+          "label": "Web-based",
+          "method": "equal_row_diagnostic"
+        }
+      ],
+      "manifest_sha256": "3736401401810a9167ee733bde3374fda7e453430100f534f4b8d8ee9380feb4",
+      "max_probability_sum_error": 6.661338147750939e-16,
+      "model_id": "LR",
+      "source_chunks": 765,
+      "status": "passed",
+      "test_rows": 7912338
+    },
+    {
+      "calibration_rows": 6620817,
+      "exact_quantile_cdf": [
+        {
+          "cdf_at_threshold": "31294744903009362994819062433343/34641675455719674599836977337632",
+          "cdf_strictly_below": "155648922718482060816956336515819/173208377278598372999184886688160",
+          "label": "Benign",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "96472/107189",
+          "cdf_strictly_below": "96468/107189",
+          "label": "Benign",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "2413956096959825527171/2681955754549942891020",
+          "cdf_strictly_below": "4827478781548198251677/5363911509099885782040",
+          "label": "Brute Force",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "21322/23691",
+          "cdf_strictly_below": "7107/7897",
+          "label": "Brute Force",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "5066054792719188966376401525901168428721236722372711602187161/5628938976603112189223234524489313274693695927871231308694000",
+          "cdf_strictly_below": "5066044921024591181153081655617370373069328313723393155945761/5628938976603112189223234524489313274693695927871231308694000",
+          "label": "DDoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "3821404/4246003",
+          "cdf_strictly_below": "3821394/4246003",
+          "label": "DDoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "271097123581756006739298526611074410664448917/301208319953257301909902721416854349165316400",
+          "cdf_strictly_below": "271085182953425418354453433244385272516576117/301208319953257301909902721416854349165316400",
+          "label": "DoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "9/10",
+          "cdf_strictly_below": "475529/528380",
+          "label": "DoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "3300420927623760959807/3667129426378750192896",
+          "cdf_strictly_below": "1581437483450351936105/1757166183473151134096",
+          "label": "Mirai",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "558777/620863",
+          "cdf_strictly_below": "1117553/1241726",
+          "label": "Mirai",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1113317609493825969408368707400729842997/1236908975735716449871449983719862304000",
+          "cdf_strictly_below": "1112068206488032316428700576104043113397/1236908975735716449871449983719862304000",
+          "label": "Recon",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "59770/66411",
+          "cdf_strictly_below": "179309/199233",
+          "label": "Recon",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "14455382280942653113185091507893347/16060829595216521560104023921780850",
+          "cdf_strictly_below": "14451216047584620293065738972505077/16060829595216521560104023921780850",
+          "label": "Spoofing",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "111123/123469",
+          "cdf_strictly_below": "111122/123469",
+          "label": "Spoofing",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "20605048970723409433147816576217/22894333277143158212786925721200",
+          "cdf_strictly_below": "824164156008251724020298154193/915773331085726328511477028848",
+          "label": "Web-based",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "39551/43945",
+          "cdf_strictly_below": "7910/8789",
+          "label": "Web-based",
+          "method": "equal_row_diagnostic"
+        }
+      ],
+      "manifest_sha256": "b746fe3e7c6f9bf467b26280e0d311af602bf656b199ad4938ad229087748f7c",
+      "max_probability_sum_error": 4.596323321948148e-13,
+      "model_id": "ET",
+      "source_chunks": 765,
+      "status": "passed",
+      "test_rows": 7912338
+    },
+    {
+      "calibration_rows": 6620817,
+      "exact_quantile_cdf": [
+        {
+          "cdf_at_threshold": "22341833794395174586192830631/24824255337263012909723761680",
+          "cdf_strictly_below": "22341821441831567667249520411/24824255337263012909723761680",
+          "label": "Benign",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "192941/214378",
+          "cdf_strictly_below": "96470/107189",
+          "label": "Benign",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1962496011465070667754431/2180430028449103570399260",
+          "cdf_strictly_below": "1569713636441089118155441/1744344022759282856319408",
+          "label": "Brute Force",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "21322/23691",
+          "cdf_strictly_below": "7107/7897",
+          "label": "Brute Force",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1688702130508067367961092462295337524897282313497278637795241/1876312992201037396407744841496437758231231975957077102898000",
+          "cdf_strictly_below": "1688678281598093411337051690196939095437374703303748837005881/1876312992201037396407744841496437758231231975957077102898000",
+          "label": "DDoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "3821403/4246003",
+          "cdf_strictly_below": "3821402/4246003",
+          "label": "DDoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "19974908763866187720931374826218356098074101/22194297259713695930203358420189267833233840",
+          "cdf_strictly_below": "2853492319733426529400443048207528031373651/3170613894244813704314765488598466833319120",
+          "label": "DoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "475543/528380",
+          "cdf_strictly_below": "237759/264190",
+          "label": "DoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1948340451375756368085860263730401759/2164815017197078989772869617123790080",
+          "cdf_strictly_below": "1948306843541788642451840130380243039/2164815017197078989772869617123790080",
+          "label": "Mirai",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "58819/65354",
+          "cdf_strictly_below": "1117553/1241726",
+          "label": "Mirai",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "361888027155314873589395131326804209881/401995417114107846208221244708955248800",
+          "cdf_strictly_below": "361481971178431936371002988655381022761/401995417114107846208221244708955248800",
+          "label": "Recon",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "59770/66411",
+          "cdf_strictly_below": "179309/199233",
+          "label": "Recon",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "19164801001968706427213287161822405873761/21068399177570678122178195609179926329400",
+          "cdf_strictly_below": "18883889012934430718917577887033340189369/21068399177570678122178195609179926329400",
+          "label": "Spoofing",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "111123/123469",
+          "cdf_strictly_below": "111122/123469",
+          "label": "Spoofing",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "235927346007348121082426851959631/262140116023289161536410299507740",
+          "cdf_strictly_below": "47185165824892332558745548721007/52428023204657832307282059901548",
+          "label": "Web-based",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "39551/43945",
+          "cdf_strictly_below": "7910/8789",
+          "label": "Web-based",
+          "method": "equal_row_diagnostic"
+        }
+      ],
+      "manifest_sha256": "8e3d6085c5e59f582a9b671d46e9754ef1ddd48984bea83c3d5155cd128f1c4f",
+      "max_probability_sum_error": 8.881784197001252e-16,
+      "model_id": "HGB",
+      "source_chunks": 765,
+      "status": "passed",
+      "test_rows": 7912338
+    },
+    {
+      "calibration_rows": 6620817,
+      "exact_quantile_cdf": [
+        {
+          "cdf_at_threshold": "426639752298776858003415063980989/474043979920374494524084953041280",
+          "cdf_strictly_below": "426639516414222220279273612019869/474043979920374494524084953041280",
+          "label": "Benign",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "192943/214378",
+          "cdf_strictly_below": "96470/107189",
+          "label": "Benign",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "981195549172658241110303/1090215014224551785199630",
+          "cdf_strictly_below": "1308250089548645313770519/1453620018966069046932840",
+          "label": "Brute Force",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "21322/23691",
+          "cdf_strictly_below": "7107/7897",
+          "label": "Brute Force",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "1013223237922194824882061747412687609571503483821779089100011/1125787795320622437844646904897862654938739185574246261738800",
+          "cdf_strictly_below": "202641785715242090181527456830729710379111783541132241725279/225157559064124487568929380979572530987747837114849252347760",
+          "label": "DDoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "3821404/4246003",
+          "cdf_strictly_below": "3821397/4246003",
+          "label": "DDoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "8433919469079914469224221795255183319344031/9370925509656893837196973555191024196254288",
+          "cdf_strictly_below": "42167131961156042513488328925353740584040267/46854627548284469185984867775955120981271440",
+          "label": "DoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "118887/132095",
+          "cdf_strictly_below": "23777/26419",
+          "label": "DoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "14797701631952629841971748519294836249/16435941707488592022352479323855236992",
+          "cdf_strictly_below": "14785212314545723617030751194580660537/16435941707488592022352479323855236992",
+          "label": "Mirai",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "558777/620863",
+          "cdf_strictly_below": "558776/620863",
+          "label": "Mirai",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "2411975388453096543116324003018189547659/2679969447427385641388141631393034992000",
+          "cdf_strictly_below": "2411962987215515610765654707344182037259/2679969447427385641388141631393034992000",
+          "label": "Recon",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "59770/66411",
+          "cdf_strictly_below": "179309/199233",
+          "label": "Recon",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "4353048024166682940142651445596803164083/4836714208080428051394994322730021997800",
+          "cdf_strictly_below": "2176513930554643620254643642186589988699/2418357104040214025697497161365010998900",
+          "label": "Spoofing",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "111123/123469",
+          "cdf_strictly_below": "111122/123469",
+          "label": "Spoofing",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "4718548960349810456401337577325229/5242802320465783230728205990154800",
+          "cdf_strictly_below": "943698835325300720782397655055453/1048560464093156646145641198030960",
+          "label": "Web-based",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "39551/43945",
+          "cdf_strictly_below": "7910/8789",
+          "label": "Web-based",
+          "method": "equal_row_diagnostic"
+        }
+      ],
+      "manifest_sha256": "a3257e2f10315e5e11de300fcb7080fe5c49906e355195ab7e2f754ba8ebebf5",
+      "max_probability_sum_error": 3.552713678800501e-15,
+      "model_id": "RF",
+      "source_chunks": 765,
+      "status": "passed",
+      "test_rows": 7912338
+    },
+    {
+      "calibration_rows": 6620817,
+      "exact_quantile_cdf": [
+        {
+          "cdf_at_threshold": "1621811901429983975527240736102599/1801367123697423079191522821556864",
+          "cdf_strictly_below": "147381478172510895709734507892085/163760647608856643562865711050624",
+          "label": "Benign",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "192941/214378",
+          "cdf_strictly_below": "96470/107189",
+          "label": "Benign",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "3932401554024552596821523/4360860056898207140798520",
+          "cdf_strictly_below": "217986058550647740482501/242270003161011507822140",
+          "label": "Brute Force",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "21322/23691",
+          "cdf_strictly_below": "7107/7897",
+          "label": "Brute Force",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "844345429167916686803406659580960834110009005271941256418697/938156496100518698203872420748218879115615987978538551449000",
+          "cdf_strictly_below": "2533021399675517091772622519845465248995438177983752380879491/2814469488301556094611617262244656637346847963935615654347000",
+          "label": "DDoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "3821403/4246003",
+          "cdf_strictly_below": "3821402/4246003",
+          "label": "DDoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "474403916927787849856281141099448621176521237/527114559918200278342329762479495111039303700",
+          "cdf_strictly_below": "474401827317829996888933249760278022000643497/527114559918200278342329762479495111039303700",
+          "label": "DoS",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "9/10",
+          "cdf_strictly_below": "475541/528380",
+          "label": "DoS",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "301850260642732729930909769247555007/335388849261996452316540283178845440",
+          "cdf_strictly_below": "301848123781937452356255306536931647/335388849261996452316540283178845440",
+          "label": "Mirai",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "558777/620863",
+          "cdf_strictly_below": "1117553/1241726",
+          "label": "Mirai",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "14471868215421794634068036236209565858127/16079816684564313848328849788358209952000",
+          "cdf_strictly_below": "14471665953576705774774346565143045629071/16079816684564313848328849788358209952000",
+          "label": "Recon",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "59770/66411",
+          "cdf_strictly_below": "179309/199233",
+          "label": "Recon",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "3461556859081647457172775438189701/3846169143086296579182920982908700",
+          "cdf_strictly_below": "3461545021619101602729061904123921/3846169143086296579182920982908700",
+          "label": "Spoofing",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "111123/123469",
+          "cdf_strictly_below": "111122/123469",
+          "label": "Spoofing",
+          "method": "equal_row_diagnostic"
+        },
+        {
+          "cdf_at_threshold": "589826135487711319009490534870333/655350290058222903841025748769350",
+          "cdf_strictly_below": "294901630566018692263840537491907/327675145029111451920512874384675",
+          "label": "Web-based",
+          "method": "hierarchical"
+        },
+        {
+          "cdf_at_threshold": "39551/43945",
+          "cdf_strictly_below": "7910/8789",
+          "label": "Web-based",
+          "method": "equal_row_diagnostic"
+        }
+      ],
+      "manifest_sha256": "2e5b2ab6d3017b880898baa903d24ba36a86c2ea7a2a97782a7fa62023982a16",
+      "max_probability_sum_error": 5.551115123125783e-16,
+      "model_id": "MLP",
+      "source_chunks": 765,
+      "status": "passed",
+      "test_rows": 7912338
+    }
+  ],
+  "registry_sha256": "bbc59f587588f9c4e3b238d224a5ad60b49cbfb4804cada1c039ba4cdde4a6fe",
+  "seconds": 385.58652343500034,
+  "status": "passed",
+  "verifier_sha256": "8f29ad350087de0aa7691908a22005521d5c4ce767ecb009c5bca27cb0220c0f"
+}

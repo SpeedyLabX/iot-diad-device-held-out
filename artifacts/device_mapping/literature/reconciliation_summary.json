@@ -1,0 +1,38 @@
+{
+  "source_doi": "10.3390/s23135941",
+  "source_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10346235/fullTextXML",
+  "retrieval_date": "2026-10-03",
+  "inventory_entries": 110,
+  "inventory_mac_entries": 70,
+  "inventory_na_mac_entries": 40,
+  "paper_narrative_device_count": 105,
+  "inventory_count_discrepancy": "110 table entries versus narrative 105; unresolved",
+  "local_identifiers": 115,
+  "local_packet_rows": 35672839,
+  "match_type_identifier_counts": {
+    "exact_name": 54,
+    "mac": 10,
+    "normalized_name": 1,
+    "unmatched": 50
+  },
+  "match_type_local_row_counts": {
+    "exact_name": 5824629,
+    "mac": 27633247,
+    "normalized_name": 35755,
+    "unmatched": 2179208
+  },
+  "ambiguous_matched_identifiers": [
+    "Raspberry Pi 4-2 GB"
+  ],
+  "normalized_name_collisions": {
+    "raspberrypi42gb": 8
+  },
+  "mac_collisions": {},
+  "approved_identities": 0,
+  "hashes_sha256": {
+    "artifacts/device_mapping/literature/ciciot2023.xml": "18be213ca8ec8e9878ce47233390b53fa62e7fa5cd3194c1a160c2e07ff309dd",
+    "artifacts/device_mapping/literature/ciciot2023.pdf": "b565b083a1e6c55fdf92082a74469677c63cbbebc3839a8f22c0fb5645eb4b37",
+    "artifacts/device_mapping/packet_identifier_summary.csv": "0d6882fca594faf7a91af58e4120e6113126177b042a810b4ecddcb98642a213",
+    "scripts/reconcile_published_devices.py": "eed8550001c478c0cb3a14779e9aef6d2a883574578b3c427f1ca0ae37f55c84"
+  }
+}

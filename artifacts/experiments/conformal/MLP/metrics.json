@@ -1,0 +1,1657 @@
+{
+  "absent_test_device_class_cells": [
+    {
+      "coverage": null,
+      "device": "T1-11-right",
+      "label": "Brute Force",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-11-right",
+      "label": "Mirai",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-11-right",
+      "label": "Web-based",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-12-left",
+      "label": "Benign",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-20-left",
+      "label": "Benign",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-54-left",
+      "label": "Brute Force",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-55-left",
+      "label": "Brute Force",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-55-left",
+      "label": "Mirai",
+      "rows": 0
+    },
+    {
+      "coverage": null,
+      "device": "T1-55-left",
+      "label": "Spoofing",
+      "rows": 0
+    }
+  ],
+  "equal_row_diagnostic": {
+    "cells": [
+      {
+        "coverage": 0.9627847697944878,
+        "covered": 30217,
+        "device": "T1-02-left",
+        "label": "Benign",
+        "rows": 31385
+      },
+      {
+        "coverage": 0.9396140749148695,
+        "covered": 4139,
+        "device": "T1-02-left",
+        "label": "Brute Force",
+        "rows": 4405
+      },
+      {
+        "coverage": 0.25247595515713384,
+        "covered": 12364,
+        "device": "T1-02-left",
+        "label": "DDoS",
+        "rows": 48971
+      },
+      {
+        "coverage": 0.6623628147191737,
+        "covered": 1026,
+        "device": "T1-02-left",
+        "label": "DoS",
+        "rows": 1549
+      },
+      {
+        "coverage": 0.2625034925956971,
+        "covered": 1879,
+        "device": "T1-02-left",
+        "label": "Mirai",
+        "rows": 7158
+      },
+      {
+        "coverage": 0.7948717948717948,
+        "covered": 5828,
+        "device": "T1-02-left",
+        "label": "Recon",
+        "rows": 7332
+      },
+      {
+        "coverage": 0.9919565217391304,
+        "covered": 13689,
+        "device": "T1-02-left",
+        "label": "Spoofing",
+        "rows": 13800
+      },
+      {
+        "coverage": 0.8185255198487713,
+        "covered": 433,
+        "device": "T1-02-left",
+        "label": "Web-based",
+        "rows": 529
+      },
+      {
+        "coverage": 0.7965717921368289,
+        "covered": 42568,
+        "device": "T1-05-left",
+        "label": "Benign",
+        "rows": 53439
+      },
+      {
+        "coverage": 0.9528936742934051,
+        "covered": 2832,
+        "device": "T1-05-left",
+        "label": "Brute Force",
+        "rows": 2972
+      },
+      {
+        "coverage": 0.5635135974814109,
+        "covered": 54414,
+        "device": "T1-05-left",
+        "label": "DDoS",
+        "rows": 96562
+      },
+      {
+        "coverage": 0.6258503401360545,
+        "covered": 7912,
+        "device": "T1-05-left",
+        "label": "DoS",
+        "rows": 12642
+      },
+      {
+        "coverage": 0.08049007444168735,
+        "covered": 1038,
+        "device": "T1-05-left",
+        "label": "Mirai",
+        "rows": 12896
+      },
+      {
+        "coverage": 0.7814252125158256,
+        "covered": 25923,
+        "device": "T1-05-left",
+        "label": "Recon",
+        "rows": 33174
+      },
+      {
+        "coverage": 0.5581309560405779,
+        "covered": 9078,
+        "device": "T1-05-left",
+        "label": "Spoofing",
+        "rows": 16265
+      },
+      {
+        "coverage": 0.7433898305084746,
+        "covered": 10965,
+        "device": "T1-05-left",
+        "label": "Web-based",
+        "rows": 14750
+      },
+      {
+        "coverage": 0.9944858903665261,
+        "covered": 3066,
+        "device": "T1-05-right",
+        "label": "Benign",
+        "rows": 3083
+      },
+      {
+        "coverage": 0.9460043196544277,
+        "covered": 438,
+        "device": "T1-05-right",
+        "label": "Brute Force",
+        "rows": 463
+      },
+      {
+        "coverage": 0.6708505632917866,
+        "covered": 45911,
+        "device": "T1-05-right",
+        "label": "DDoS",
+        "rows": 68437
+      },
+      {
+        "coverage": 0.9534135358864733,
+        "covered": 83847,
+        "device": "T1-05-right",
+        "label": "DoS",
+        "rows": 87944
+      },
+      {
+        "coverage": 0.15522107243650046,
+        "covered": 165,
+        "device": "T1-05-right",
+        "label": "Mirai",
+        "rows": 1063
+      },
+      {
+        "coverage": 0.9440745672436751,
+        "covered": 3545,
+        "device": "T1-05-right",
+        "label": "Recon",
+        "rows": 3755
+      },
+      {
+        "coverage": 0.9921739130434782,
+        "covered": 1141,
+        "device": "T1-05-right",
+        "label": "Spoofing",
+        "rows": 1150
+      },
+      {
+        "coverage": 0.9982713915298185,
+        "covered": 1155,
+        "device": "T1-05-right",
+        "label": "Web-based",
+        "rows": 1157
+      },
+      {
+        "coverage": 0.877564281073053,
+        "covered": 9454,
+        "device": "T1-11-right",
+        "label": "Benign",
+        "rows": 10773
+      },
+      {
+        "coverage": 0.4500891999451077,
+        "covered": 16399,
+        "device": "T1-11-right",
+        "label": "DDoS",
+        "rows": 36435
+      },
+      {
+        "coverage": 0.36069114470842334,
+        "covered": 334,
+        "device": "T1-11-right",
+        "label": "DoS",
+        "rows": 926
+      },
+      {
+        "coverage": 0.735423197492163,
+        "covered": 1173,
+        "device": "T1-11-right",
+        "label": "Recon",
+        "rows": 1595
+      },
+      {
+        "coverage": 0.26739383901232416,
+        "covered": 24539,
+        "device": "T1-11-right",
+        "label": "Spoofing",
+        "rows": 91771
+      },
+      {
+        "coverage": 0.9212940608401738,
+        "covered": 1908,
+        "device": "T1-12-left",
+        "label": "Brute Force",
+        "rows": 2071
+      },
+      {
+        "coverage": 0.31932773109243695,
+        "covered": 912,
+        "device": "T1-12-left",
+        "label": "DDoS",
+        "rows": 2856
+      },
+      {
+        "coverage": 0.949688411182894,
+        "covered": 83055,
+        "device": "T1-12-left",
+        "label": "DoS",
+        "rows": 87455
+      },
+      {
+        "coverage": 0.8367684946632316,
+        "covered": 4547,
+        "device": "T1-12-left",
+        "label": "Mirai",
+        "rows": 5434
+      },
+      {
+        "coverage": 0.9449262471277148,
+        "covered": 12748,
+        "device": "T1-12-left",
+        "label": "Recon",
+        "rows": 13491
+      },
+      {
+        "coverage": 0.9505344791448334,
+        "covered": 4535,
+        "device": "T1-12-left",
+        "label": "Spoofing",
+        "rows": 4771
+      },
+      {
+        "coverage": 0.8456962260643243,
+        "covered": 4549,
+        "device": "T1-12-left",
+        "label": "Web-based",
+        "rows": 5379
+      },
+      {
+        "coverage": 0.9826519837079499,
+        "covered": 13028,
+        "device": "T1-15-left",
+        "label": "Benign",
+        "rows": 13258
+      },
+      {
+        "coverage": 0.9399383983572895,
+        "covered": 1831,
+        "device": "T1-15-left",
+        "label": "Brute Force",
+        "rows": 1948
+      },
+      {
+        "coverage": 0.7408421327076,
+        "covered": 22732,
+        "device": "T1-15-left",
+        "label": "DDoS",
+        "rows": 30684
+      },
+      {
+        "coverage": 0.18506998444790046,
+        "covered": 119,
+        "device": "T1-15-left",
+        "label": "DoS",
+        "rows": 643
+      },
+      {
+        "coverage": 0.2967741935483871,
+        "covered": 644,
+        "device": "T1-15-left",
+        "label": "Mirai",
+        "rows": 2170
+      },
+      {
+        "coverage": 0.9446808510638298,
+        "covered": 17094,
+        "device": "T1-15-left",
+        "label": "Recon",
+        "rows": 18095
+      },
+      {
+        "coverage": 0.9878878028049298,
+        "covered": 4649,
+        "device": "T1-15-left",
+        "label": "Spoofing",
+        "rows": 4706
+      },
+      {
+        "coverage": 0.9182442271687123,
+        "covered": 4414,
+        "device": "T1-15-left",
+        "label": "Web-based",
+        "rows": 4807
+      },
+      {
+        "coverage": 0.965772759350741,
+        "covered": 2737,
+        "device": "T1-20-left",
+        "label": "Brute Force",
+        "rows": 2834
+      },
+      {
+        "coverage": 0.8249550195478957,
+        "covered": 121963,
+        "device": "T1-20-left",
+        "label": "DDoS",
+        "rows": 147842
+      },
+      {
+        "coverage": 0.8309158723580605,
+        "covered": 2005,
+        "device": "T1-20-left",
+        "label": "DoS",
+        "rows": 2413
+      },
+      {
+        "coverage": 0.9121353979114152,
+        "covered": 2533,
+        "device": "T1-20-left",
+        "label": "Mirai",
+        "rows": 2777
+      },
+      {
+        "coverage": 0.9977189781021898,
+        "covered": 2187,
+        "device": "T1-20-left",
+        "label": "Recon",
+        "rows": 2192
+      },
+      {
+        "coverage": 0.810126582278481,
+        "covered": 128,
+        "device": "T1-20-left",
+        "label": "Spoofing",
+        "rows": 158
+      },
+      {
+        "coverage": 0.9042553191489362,
+        "covered": 595,
+        "device": "T1-20-left",
+        "label": "Web-based",
+        "rows": 658
+      },
+      {
+        "coverage": 0.8770845044032228,
+        "covered": 14043,
+        "device": "T1-24-left",
+        "label": "Benign",
+        "rows": 16011
+      },
+      {
+        "coverage": 0.9628318584070796,
+        "covered": 1088,
+        "device": "T1-24-left",
+        "label": "Brute Force",
+        "rows": 1130
+      },
+      {
+        "coverage": 0.2965495803543674,
+        "covered": 2862,
+        "device": "T1-24-left",
+        "label": "DDoS",
+        "rows": 9651
+      },
+      {
+        "coverage": 0.8990927094367429,
+        "covered": 78088,
+        "device": "T1-24-left",
+        "label": "DoS",
+        "rows": 86852
+      },
+      {
+        "coverage": 0.2625448028673835,
+        "covered": 293,
+        "device": "T1-24-left",
+        "label": "Mirai",
+        "rows": 1116
+      },
+      {
+        "coverage": 0.953022056717273,
+        "covered": 3327,
+        "device": "T1-24-left",
+        "label": "Recon",
+        "rows": 3491
+      },
+      {
+        "coverage": 0.9856115107913669,
+        "covered": 822,
+        "device": "T1-24-left",
+        "label": "Spoofing",
+        "rows": 834
+      },
+      {
+        "coverage": 0.9696132596685083,
+        "covered": 351,
+        "device": "T1-24-left",
+        "label": "Web-based",
+        "rows": 362
+      },
+      {
+        "coverage": 0.8152866242038217,
+        "covered": 1024,
+        "device": "T1-27-left",
+        "label": "Benign",
+        "rows": 1256
+      },
+      {
+        "coverage": 0.9352941176470588,
+        "covered": 159,
+        "device": "T1-27-left",
+        "label": "Brute Force",
+        "rows": 170
+      },
+      {
+        "coverage": 0.10628465804066543,
+        "covered": 1035,
+        "device": "T1-27-left",
+        "label": "DDoS",
+        "rows": 9738
+      },
+      {
+        "coverage": 0.9450598534929426,
+        "covered": 10579,
+        "device": "T1-27-left",
+        "label": "DoS",
+        "rows": 11194
+      },
+      {
+        "coverage": 0.012379642365887207,
+        "covered": 9,
+        "device": "T1-27-left",
+        "label": "Mirai",
+        "rows": 727
+      },
+      {
+        "coverage": 0.9830975334919244,
+        "covered": 7852,
+        "device": "T1-27-left",
+        "label": "Recon",
+        "rows": 7987
+      },
+      {
+        "coverage": 0.979381443298969,
+        "covered": 570,
+        "device": "T1-27-left",
+        "label": "Spoofing",
+        "rows": 582
+      },
+      {
+        "coverage": 0.7310924369747899,
+        "covered": 348,
+        "device": "T1-27-left",
+        "label": "Web-based",
+        "rows": 476
+      },
+      {
+        "coverage": 0.99801893022232,
+        "covered": 4534,
+        "device": "T1-31-left",
+        "label": "Benign",
+        "rows": 4543
+      },
+      {
+        "coverage": 0.9372262773722628,
+        "covered": 642,
+        "device": "T1-31-left",
+        "label": "Brute Force",
+        "rows": 685
+      },
+      {
+        "coverage": 0.7485307988101284,
+        "covered": 20634,
+        "device": "T1-31-left",
+        "label": "DDoS",
+        "rows": 27566
+      },
+      {
+        "coverage": 0.8720090136133438,
+        "covered": 75073,
+        "device": "T1-31-left",
+        "label": "DoS",
+        "rows": 86092
+      },
+      {
+        "coverage": 0.7510272409070157,
+        "covered": 4935,
+        "device": "T1-31-left",
+        "label": "Mirai",
+        "rows": 6571
+      },
+      {
+        "coverage": 0.9313850063532402,
+        "covered": 2932,
+        "device": "T1-31-left",
+        "label": "Recon",
+        "rows": 3148
+      },
+      {
+        "coverage": 0.9182879377431906,
+        "covered": 236,
+        "device": "T1-31-left",
+        "label": "Spoofing",
+        "rows": 257
+      },
+      {
+        "coverage": 0.999340804218853,
+        "covered": 1516,
+        "device": "T1-31-left",
+        "label": "Web-based",
+        "rows": 1517
+      },
+      {
+        "coverage": 0.9925122643945262,
+        "covered": 3844,
+        "device": "T1-40-left",
+        "label": "Benign",
+        "rows": 3873
+      },
+      {
+        "coverage": 0.9685369690613529,
+        "covered": 1847,
+        "device": "T1-40-left",
+        "label": "Brute Force",
+        "rows": 1907
+      },
+      {
+        "coverage": 0.898276162959803,
+        "covered": 46325,
+        "device": "T1-40-left",
+        "label": "DDoS",
+        "rows": 51571
+      },
+      {
+        "coverage": 0.9501900380076015,
+        "covered": 85500,
+        "device": "T1-40-left",
+        "label": "DoS",
+        "rows": 89982
+      },
+      {
+        "coverage": 0.06467065868263473,
+        "covered": 54,
+        "device": "T1-40-left",
+        "label": "Mirai",
+        "rows": 835
+      },
+      {
+        "coverage": 0.9741773308957953,
+        "covered": 4263,
+        "device": "T1-40-left",
+        "label": "Recon",
+        "rows": 4376
+      },
+      {
+        "coverage": 0.9950142450142451,
+        "covered": 1397,
+        "device": "T1-40-left",
+        "label": "Spoofing",
+        "rows": 1404
+      },
+      {
+        "coverage": 0.8097826086956522,
+        "covered": 447,
+        "device": "T1-40-left",
+        "label": "Web-based",
+        "rows": 552
+      },
+      {
+        "coverage": 0.7692307692307693,
+        "covered": 10,
+        "device": "T1-52-right",
+        "label": "Benign",
+        "rows": 13
+      },
+      {
+        "coverage": 1.0,
+        "covered": 2,
+        "device": "T1-52-right",
+        "label": "Brute Force",
+        "rows": 2
+      },
+      {
+        "coverage": 0.9308460060047931,
+        "covered": 2212405,
+        "device": "T1-52-right",
+        "label": "DDoS",
+        "rows": 2376768
+      },
+      {
+        "coverage": 0.0,
+        "covered": 0,
+        "device": "T1-52-right",
+        "label": "DoS",
+        "rows": 1
+      },
+      {
+        "coverage": 0.9659193698048809,
+        "covered": 744294,
+        "device": "T1-52-right",
+        "label": "Mirai",
+        "rows": 770555
+      },
+      {
+        "coverage": 1.0,
+        "covered": 11,
+        "device": "T1-52-right",
+        "label": "Recon",
+        "rows": 11
+      },
+      {
+        "coverage": 0.4,
+        "covered": 2,
+        "device": "T1-52-right",
+        "label": "Spoofing",
+        "rows": 5
+      },
+      {
+        "coverage": 1.0,
+        "covered": 3,
+        "device": "T1-52-right",
+        "label": "Web-based",
+        "rows": 3
+      },
+      {
+        "coverage": 0.7857142857142857,
+        "covered": 11,
+        "device": "T1-54-left",
+        "label": "Benign",
+        "rows": 14
+      },
+      {
+        "coverage": 0.9360455163595243,
+        "covered": 2247347,
+        "device": "T1-54-left",
+        "label": "DDoS",
+        "rows": 2400895
+      },
+      {
+        "coverage": 0.0,
+        "covered": 0,
+        "device": "T1-54-left",
+        "label": "DoS",
+        "rows": 2
+      },
+      {
+        "coverage": 0.9622421359682548,
+        "covered": 549243,
+        "device": "T1-54-left",
+        "label": "Mirai",
+        "rows": 570795
+      },
+      {
+        "coverage": 1.0,
+        "covered": 11,
+        "device": "T1-54-left",
+        "label": "Recon",
+        "rows": 11
+      },
+      {
+        "coverage": 1.0,
+        "covered": 6,
+        "device": "T1-54-left",
+        "label": "Spoofing",
+        "rows": 6
+      },
+      {
+        "coverage": 0.9931972789115646,
+        "covered": 1752,
+        "device": "T1-54-left",
+        "label": "Web-based",
+        "rows": 1764
+      },
+      {
+        "coverage": 0.8582699987118382,
+        "covered": 79953,
+        "device": "T1-55-left",
+        "label": "Benign",
+        "rows": 93156
+      },
+      {
+        "coverage": 0.05605098410124758,
+        "covered": 4978,
+        "device": "T1-55-left",
+        "label": "DDoS",
+        "rows": 88812
+      },
+      {
+        "coverage": 0.09614089614089615,
+        "covered": 1856,
+        "device": "T1-55-left",
+        "label": "DoS",
+        "rows": 19305
+      },
+      {
+        "coverage": 0.9207638787608418,
+        "covered": 107327,
+        "device": "T1-55-left",
+        "label": "Recon",
+        "rows": 116563
+      },
+      {
+        "coverage": 0.777542671744957,
+        "covered": 11024,
+        "device": "T1-55-left",
+        "label": "Web-based",
+        "rows": 14178
+      }
+    ],
+    "classes": [
+      {
+        "covered": 201752,
+        "device_balanced_coverage": 0.8925146744966358,
+        "device_count": 12,
+        "label": "Benign",
+        "row_weighted_coverage": 0.8741269648706261,
+        "rows": 230804
+      },
+      {
+        "covered": 17623,
+        "device_balanced_coverage": 0.9517642281726055,
+        "device_count": 11,
+        "label": "Brute Force",
+        "row_weighted_coverage": 0.9481357938344004,
+        "rows": 18587
+      },
+      {
+        "covered": 4810281,
+        "device_balanced_coverage": 0.5567598504181358,
+        "device_count": 14,
+        "label": "DDoS",
+        "row_weighted_coverage": 0.8913229498731468,
+        "rows": 5396788
+      },
+      {
+        "covered": 429394,
+        "device_balanced_coverage": 0.5950346152950362,
+        "device_count": 14,
+        "label": "DoS",
+        "row_weighted_coverage": 0.8817125256673511,
+        "rows": 487000
+      },
+      {
+        "covered": 1309634,
+        "device_balanced_coverage": 0.4635563813494146,
+        "device_count": 12,
+        "label": "Mirai",
+        "row_weighted_coverage": 0.9475702501343972,
+        "rows": 1382097
+      },
+      {
+        "covered": 194221,
+        "device_balanced_coverage": 0.9218261896168762,
+        "device_count": 14,
+        "label": "Recon",
+        "row_weighted_coverage": 0.9024258785155723,
+        "rows": 215221
+      },
+      {
+        "covered": 60792,
+        "device_balanced_coverage": 0.8335768639162713,
+        "device_count": 13,
+        "label": "Spoofing",
+        "row_weighted_coverage": 0.44795849943629384,
+        "rows": 135709
+      },
+      {
+        "covered": 37552,
+        "device_balanced_coverage": 0.8853039672679509,
+        "device_count": 13,
+        "label": "Web-based",
+        "row_weighted_coverage": 0.8140119656637476,
+        "rows": 46132
+      }
+    ],
+    "empty_count": 361424,
+    "empty_set_rate": 0.04567853395545034,
+    "mean_set_size": 1.0672631780897126,
+    "rows": 7912338,
+    "singleton_count": 7025373,
+    "singleton_rate": 0.8879010224285161,
+    "total_set_size": 8444547,
+    "worst_device_class_coverage": 0.0
+  },
+  "hierarchical": {
+    "cells": [
+      {
+        "coverage": 0.9822526684722,
+        "covered": 30828,
+        "device": "T1-02-left",
+        "label": "Benign",
+        "rows": 31385
+      },
+      {
+        "coverage": 0.9791146424517594,
+        "covered": 4313,
+        "device": "T1-02-left",
+        "label": "Brute Force",
+        "rows": 4405
+      },
+      {
+        "coverage": 0.973004431193972,
+        "covered": 47649,
+        "device": "T1-02-left",
+        "label": "DDoS",
+        "rows": 48971
+      },
+      {
+        "coverage": 0.9625564880568108,
+        "covered": 1491,
+        "device": "T1-02-left",
+        "label": "DoS",
+        "rows": 1549
+      },
+      {
+        "coverage": 0.9994411846884604,
+        "covered": 7154,
+        "device": "T1-02-left",
+        "label": "Mirai",
+        "rows": 7158
+      },
+      {
+        "coverage": 0.957583196944899,
+        "covered": 7021,
+        "device": "T1-02-left",
+        "label": "Recon",
+        "rows": 7332
+      },
+      {
+        "coverage": 0.9984057971014493,
+        "covered": 13778,
+        "device": "T1-02-left",
+        "label": "Spoofing",
+        "rows": 13800
+      },
+      {
+        "coverage": 0.9073724007561437,
+        "covered": 480,
+        "device": "T1-02-left",
+        "label": "Web-based",
+        "rows": 529
+      },
+      {
+        "coverage": 0.8499597672112128,
+        "covered": 45421,
+        "device": "T1-05-left",
+        "label": "Benign",
+        "rows": 53439
+      },
+      {
+        "coverage": 0.9798115746971736,
+        "covered": 2912,
+        "device": "T1-05-left",
+        "label": "Brute Force",
+        "rows": 2972
+      },
+      {
+        "coverage": 0.9651312110353969,
+        "covered": 93195,
+        "device": "T1-05-left",
+        "label": "DDoS",
+        "rows": 96562
+      },
+      {
+        "coverage": 0.8965353583293783,
+        "covered": 11334,
+        "device": "T1-05-left",
+        "label": "DoS",
+        "rows": 12642
+      },
+      {
+        "coverage": 0.9587468982630273,
+        "covered": 12364,
+        "device": "T1-05-left",
+        "label": "Mirai",
+        "rows": 12896
+      },
+      {
+        "coverage": 0.8858141918369807,
+        "covered": 29386,
+        "device": "T1-05-left",
+        "label": "Recon",
+        "rows": 33174
+      },
+      {
+        "coverage": 0.7746695358130956,
+        "covered": 12600,
+        "device": "T1-05-left",
+        "label": "Spoofing",
+        "rows": 16265
+      },
+      {
+        "coverage": 0.8011525423728814,
+        "covered": 11817,
+        "device": "T1-05-left",
+        "label": "Web-based",
+        "rows": 14750
+      },
+      {
+        "coverage": 0.9954589685371391,
+        "covered": 3069,
+        "device": "T1-05-right",
+        "label": "Benign",
+        "rows": 3083
+      },
+      {
+        "coverage": 0.9935205183585313,
+        "covered": 460,
+        "device": "T1-05-right",
+        "label": "Brute Force",
+        "rows": 463
+      },
+      {
+        "coverage": 0.9991232812659818,
+        "covered": 68377,
+        "device": "T1-05-right",
+        "label": "DDoS",
+        "rows": 68437
+      },
+      {
+        "coverage": 0.9782361502774493,
+        "covered": 86030,
+        "device": "T1-05-right",
+        "label": "DoS",
+        "rows": 87944
+      },
+      {
+        "coverage": 1.0,
+        "covered": 1063,
+        "device": "T1-05-right",
+        "label": "Mirai",
+        "rows": 1063
+      },
+      {
+        "coverage": 0.9869507323568575,
+        "covered": 3706,
+        "device": "T1-05-right",
+        "label": "Recon",
+        "rows": 3755
+      },
+      {
+        "coverage": 1.0,
+        "covered": 1150,
+        "device": "T1-05-right",
+        "label": "Spoofing",
+        "rows": 1150
+      },
+      {
+        "coverage": 0.9991356957649092,
+        "covered": 1156,
+        "device": "T1-05-right",
+        "label": "Web-based",
+        "rows": 1157
+      },
+      {
+        "coverage": 0.9067112225006961,
+        "covered": 9768,
+        "device": "T1-11-right",
+        "label": "Benign",
+        "rows": 10773
+      },
+      {
+        "coverage": 0.775545491972005,
+        "covered": 28257,
+        "device": "T1-11-right",
+        "label": "DDoS",
+        "rows": 36435
+      },
+      {
+        "coverage": 0.9524838012958964,
+        "covered": 882,
+        "device": "T1-11-right",
+        "label": "DoS",
+        "rows": 926
+      },
+      {
+        "coverage": 0.9166144200626959,
+        "covered": 1462,
+        "device": "T1-11-right",
+        "label": "Recon",
+        "rows": 1595
+      },
+      {
+        "coverage": 0.4875287400159092,
+        "covered": 44741,
+        "device": "T1-11-right",
+        "label": "Spoofing",
+        "rows": 91771
+      },
+      {
+        "coverage": 0.9468855625301786,
+        "covered": 1961,
+        "device": "T1-12-left",
+        "label": "Brute Force",
+        "rows": 2071
+      },
+      {
+        "coverage": 0.9439775910364145,
+        "covered": 2696,
+        "device": "T1-12-left",
+        "label": "DDoS",
+        "rows": 2856
+      },
+      {
+        "coverage": 0.9776456463323995,
+        "covered": 85500,
+        "device": "T1-12-left",
+        "label": "DoS",
+        "rows": 87455
+      },
+      {
+        "coverage": 1.0,
+        "covered": 5434,
+        "device": "T1-12-left",
+        "label": "Mirai",
+        "rows": 5434
+      },
+      {
+        "coverage": 0.9759839893262174,
+        "covered": 13167,
+        "device": "T1-12-left",
+        "label": "Recon",
+        "rows": 13491
+      },
+      {
+        "coverage": 0.9960176063718298,
+        "covered": 4752,
+        "device": "T1-12-left",
+        "label": "Spoofing",
+        "rows": 4771
+      },
+      {
+        "coverage": 0.9254508272913181,
+        "covered": 4978,
+        "device": "T1-12-left",
+        "label": "Web-based",
+        "rows": 5379
+      },
+      {
+        "coverage": 0.9866495700709006,
+        "covered": 13081,
+        "device": "T1-15-left",
+        "label": "Benign",
+        "rows": 13258
+      },
+      {
+        "coverage": 0.9450718685831622,
+        "covered": 1841,
+        "device": "T1-15-left",
+        "label": "Brute Force",
+        "rows": 1948
+      },
+      {
+        "coverage": 0.9952744101160214,
+        "covered": 30539,
+        "device": "T1-15-left",
+        "label": "DDoS",
+        "rows": 30684
+      },
+      {
+        "coverage": 0.9875583203732504,
+        "covered": 635,
+        "device": "T1-15-left",
+        "label": "DoS",
+        "rows": 643
+      },
+      {
+        "coverage": 1.0,
+        "covered": 2170,
+        "device": "T1-15-left",
+        "label": "Mirai",
+        "rows": 2170
+      },
+      {
+        "coverage": 0.9620337109698812,
+        "covered": 17408,
+        "device": "T1-15-left",
+        "label": "Recon",
+        "rows": 18095
+      },
+      {
+        "coverage": 0.9978750531236719,
+        "covered": 4696,
+        "device": "T1-15-left",
+        "label": "Spoofing",
+        "rows": 4706
+      },
+      {
+        "coverage": 0.9925109215727065,
+        "covered": 4771,
+        "device": "T1-15-left",
+        "label": "Web-based",
+        "rows": 4807
+      },
+      {
+        "coverage": 0.9918842625264643,
+        "covered": 2811,
+        "device": "T1-20-left",
+        "label": "Brute Force",
+        "rows": 2834
+      },
+      {
+        "coverage": 0.9986877883145521,
+        "covered": 147648,
+        "device": "T1-20-left",
+        "label": "DDoS",
+        "rows": 147842
+      },
+      {
+        "coverage": 0.9838375466224617,
+        "covered": 2374,
+        "device": "T1-20-left",
+        "label": "DoS",
+        "rows": 2413
+      },
+      {
+        "coverage": 0.9996398991717681,
+        "covered": 2776,
+        "device": "T1-20-left",
+        "label": "Mirai",
+        "rows": 2777
+      },
+      {
+        "coverage": 0.9986313868613139,
+        "covered": 2189,
+        "device": "T1-20-left",
+        "label": "Recon",
+        "rows": 2192
+      },
+      {
+        "coverage": 0.9620253164556962,
+        "covered": 152,
+        "device": "T1-20-left",
+        "label": "Spoofing",
+        "rows": 158
+      },
+      {
+        "coverage": 0.9574468085106383,
+        "covered": 630,
+        "device": "T1-20-left",
+        "label": "Web-based",
+        "rows": 658
+      },
+      {
+        "coverage": 0.9386671663231528,
+        "covered": 15029,
+        "device": "T1-24-left",
+        "label": "Benign",
+        "rows": 16011
+      },
+      {
+        "coverage": 0.995575221238938,
+        "covered": 1125,
+        "device": "T1-24-left",
+        "label": "Brute Force",
+        "rows": 1130
+      },
+      {
+        "coverage": 0.979173142679515,
+        "covered": 9450,
+        "device": "T1-24-left",
+        "label": "DDoS",
+        "rows": 9651
+      },
+      {
+        "coverage": 0.9844908580113296,
+        "covered": 85505,
+        "device": "T1-24-left",
+        "label": "DoS",
+        "rows": 86852
+      },
+      {
+        "coverage": 1.0,
+        "covered": 1116,
+        "device": "T1-24-left",
+        "label": "Mirai",
+        "rows": 1116
+      },
+      {
+        "coverage": 0.975651675737611,
+        "covered": 3406,
+        "device": "T1-24-left",
+        "label": "Recon",
+        "rows": 3491
+      },
+      {
+        "coverage": 0.9976019184652278,
+        "covered": 832,
+        "device": "T1-24-left",
+        "label": "Spoofing",
+        "rows": 834
+      },
+      {
+        "coverage": 0.994475138121547,
+        "covered": 360,
+        "device": "T1-24-left",
+        "label": "Web-based",
+        "rows": 362
+      },
+      {
+        "coverage": 0.9498407643312102,
+        "covered": 1193,
+        "device": "T1-27-left",
+        "label": "Benign",
+        "rows": 1256
+      },
+      {
+        "coverage": 0.9823529411764705,
+        "covered": 167,
+        "device": "T1-27-left",
+        "label": "Brute Force",
+        "rows": 170
+      },
+      {
+        "coverage": 0.9748408297391662,
+        "covered": 9493,
+        "device": "T1-27-left",
+        "label": "DDoS",
+        "rows": 9738
+      },
+      {
+        "coverage": 0.996694657852421,
+        "covered": 11157,
+        "device": "T1-27-left",
+        "label": "DoS",
+        "rows": 11194
+      },
+      {
+        "coverage": 1.0,
+        "covered": 727,
+        "device": "T1-27-left",
+        "label": "Mirai",
+        "rows": 727
+      },
+      {
+        "coverage": 0.9962438963315388,
+        "covered": 7957,
+        "device": "T1-27-left",
+        "label": "Recon",
+        "rows": 7987
+      },
+      {
+        "coverage": 1.0,
+        "covered": 582,
+        "device": "T1-27-left",
+        "label": "Spoofing",
+        "rows": 582
+      },
+      {
+        "coverage": 0.9474789915966386,
+        "covered": 451,
+        "device": "T1-27-left",
+        "label": "Web-based",
+        "rows": 476
+      },
+      {
+        "coverage": 0.9984591679506933,
+        "covered": 4536,
+        "device": "T1-31-left",
+        "label": "Benign",
+        "rows": 4543
+      },
+      {
+        "coverage": 0.9927007299270073,
+        "covered": 680,
+        "device": "T1-31-left",
+        "label": "Brute Force",
+        "rows": 685
+      },
+      {
+        "coverage": 0.9818254371326997,
+        "covered": 27065,
+        "device": "T1-31-left",
+        "label": "DDoS",
+        "rows": 27566
+      },
+      {
+        "coverage": 0.9160549179947033,
+        "covered": 78865,
+        "device": "T1-31-left",
+        "label": "DoS",
+        "rows": 86092
+      },
+      {
+        "coverage": 1.0,
+        "covered": 6571,
+        "device": "T1-31-left",
+        "label": "Mirai",
+        "rows": 6571
+      },
+      {
+        "coverage": 0.9907878017789072,
+        "covered": 3119,
+        "device": "T1-31-left",
+        "label": "Recon",
+        "rows": 3148
+      },
+      {
+        "coverage": 1.0,
+        "covered": 257,
+        "device": "T1-31-left",
+        "label": "Spoofing",
+        "rows": 257
+      },
+      {
+        "coverage": 0.999340804218853,
+        "covered": 1516,
+        "device": "T1-31-left",
+        "label": "Web-based",
+        "rows": 1517
+      },
+      {
+        "coverage": 0.9932868577330235,
+        "covered": 3847,
+        "device": "T1-40-left",
+        "label": "Benign",
+        "rows": 3873
+      },
+      {
+        "coverage": 0.983744100681699,
+        "covered": 1876,
+        "device": "T1-40-left",
+        "label": "Brute Force",
+        "rows": 1907
+      },
+      {
+        "coverage": 0.9993407147427817,
+        "covered": 51537,
+        "device": "T1-40-left",
+        "label": "DDoS",
+        "rows": 51571
+      },
+      {
+        "coverage": 0.9845858060500989,
+        "covered": 88595,
+        "device": "T1-40-left",
+        "label": "DoS",
+        "rows": 89982
+      },
+      {
+        "coverage": 1.0,
+        "covered": 835,
+        "device": "T1-40-left",
+        "label": "Mirai",
+        "rows": 835
+      },
+      {
+        "coverage": 0.9901736745886655,
+        "covered": 4333,
+        "device": "T1-40-left",
+        "label": "Recon",
+        "rows": 4376
+      },
+      {
+        "coverage": 1.0,
+        "covered": 1404,
+        "device": "T1-40-left",
+        "label": "Spoofing",
+        "rows": 1404
+      },
+      {
+        "coverage": 0.927536231884058,
+        "covered": 512,
+        "device": "T1-40-left",
+        "label": "Web-based",
+        "rows": 552
+      },
+      {
+        "coverage": 0.8461538461538461,
+        "covered": 11,
+        "device": "T1-52-right",
+        "label": "Benign",
+        "rows": 13
+      },
+      {
+        "coverage": 1.0,
+        "covered": 2,
+        "device": "T1-52-right",
+        "label": "Brute Force",
+        "rows": 2
+      },
+      {
+        "coverage": 0.9920635922395454,
+        "covered": 2357905,
+        "device": "T1-52-right",
+        "label": "DDoS",
+        "rows": 2376768
+      },
+      {
+        "coverage": 1.0,
+        "covered": 1,
+        "device": "T1-52-right",
+        "label": "DoS",
+        "rows": 1
+      },
+      {
+        "coverage": 0.999996106702312,
+        "covered": 770552,
+        "device": "T1-52-right",
+        "label": "Mirai",
+        "rows": 770555
+      },
+      {
+        "coverage": 1.0,
+        "covered": 11,
+        "device": "T1-52-right",
+        "label": "Recon",
+        "rows": 11
+      },
+      {
+        "coverage": 0.8,
+        "covered": 4,
+        "device": "T1-52-right",
+        "label": "Spoofing",
+        "rows": 5
+      },
+      {
+        "coverage": 1.0,
+        "covered": 3,
+        "device": "T1-52-right",
+        "label": "Web-based",
+        "rows": 3
+      },
+      {
+        "coverage": 0.9285714285714286,
+        "covered": 13,
+        "device": "T1-54-left",
+        "label": "Benign",
+        "rows": 14
+      },
+      {
+        "coverage": 0.9955079251695722,
+        "covered": 2390110,
+        "device": "T1-54-left",
+        "label": "DDoS",
+        "rows": 2400895
+      },
+      {
+        "coverage": 1.0,
+        "covered": 2,
+        "device": "T1-54-left",
+        "label": "DoS",
+        "rows": 2
+      },
+      {
+        "coverage": 0.9998353174081763,
+        "covered": 570701,
+        "device": "T1-54-left",
+        "label": "Mirai",
+        "rows": 570795
+      },
+      {
+        "coverage": 1.0,
+        "covered": 11,
+        "device": "T1-54-left",
+        "label": "Recon",
+        "rows": 11
+      },
+      {
+        "coverage": 1.0,
+        "covered": 6,
+        "device": "T1-54-left",
+        "label": "Spoofing",
+        "rows": 6
+      },
+      {
+        "coverage": 0.9971655328798186,
+        "covered": 1759,
+        "device": "T1-54-left",
+        "label": "Web-based",
+        "rows": 1764
+      },
+      {
+        "coverage": 0.8920949804628795,
+        "covered": 83104,
+        "device": "T1-55-left",
+        "label": "Benign",
+        "rows": 93156
+      },
+      {
+        "coverage": 0.9053844075124983,
+        "covered": 80409,
+        "device": "T1-55-left",
+        "label": "DDoS",
+        "rows": 88812
+      },
+      {
+        "coverage": 0.8664076664076664,
+        "covered": 16726,
+        "device": "T1-55-left",
+        "label": "DoS",
+        "rows": 19305
+      },
+      {
+        "coverage": 0.9371327093503085,
+        "covered": 109235,
+        "device": "T1-55-left",
+        "label": "Recon",
+        "rows": 116563
+      },
+      {
+        "coverage": 0.8152771900126957,
+        "covered": 11559,
+        "device": "T1-55-left",
+        "label": "Web-based",
+        "rows": 14178
+      }
+    ],
+    "classes": [
+      {
+        "covered": 209900,
+        "device_balanced_coverage": 0.9390088673598652,
+        "device_count": 12,
+        "label": "Benign",
+        "row_weighted_coverage": 0.9094296459333461,
+        "rows": 230804
+      },
+      {
+        "covered": 18148,
+        "device_balanced_coverage": 0.9809692201973985,
+        "device_count": 11,
+        "label": "Brute Force",
+        "row_weighted_coverage": 0.9763813417980309,
+        "rows": 18587
+      },
+      {
+        "covered": 5344330,
+        "device_balanced_coverage": 0.962777161010723,
+        "device_count": 14,
+        "label": "DDoS",
+        "row_weighted_coverage": 0.990279773821021,
+        "rows": 5396788
+      },
+      {
+        "covered": 469097,
+        "device_balanced_coverage": 0.9633633726859905,
+        "device_count": 14,
+        "label": "DoS",
+        "row_weighted_coverage": 0.9632381930184805,
+        "rows": 487000
+      },
+      {
+        "covered": 1381463,
+        "device_balanced_coverage": 0.9964716171861454,
+        "device_count": 12,
+        "label": "Mirai",
+        "row_weighted_coverage": 0.9995412767700096,
+        "rows": 1382097
+      },
+      {
+        "covered": 202411,
+        "device_balanced_coverage": 0.9695429561532769,
+        "device_count": 14,
+        "label": "Recon",
+        "row_weighted_coverage": 0.9404797858944991,
+        "rows": 215221
+      },
+      {
+        "covered": 84954,
+        "device_balanced_coverage": 0.9241633821036062,
+        "device_count": 13,
+        "label": "Spoofing",
+        "row_weighted_coverage": 0.6260012232055354,
+        "rows": 135709
+      },
+      {
+        "covered": 39992,
+        "device_balanced_coverage": 0.943411006537093,
+        "device_count": 13,
+        "label": "Web-based",
+        "row_weighted_coverage": 0.8669036677360618,
+        "rows": 46132
+      }
+    ],
+    "empty_count": 0,
+    "empty_set_rate": 0.0,
+    "mean_set_size": 1.4776589422747106,
+    "rows": 7912338,
+    "singleton_count": 6315725,
+    "singleton_rate": 0.7982122351193793,
+    "total_set_size": 11691737,
+    "worst_device_class_coverage": 0.4875287400159092
+  },
+  "limitation": "Hierarchical exchangeability is an assumption, not an audited property. The deterministic, temporally structured, capture-shared benchmark supports empirical coverage reporting, not unconditional distribution-free coverage. The equal-row classwise comparator has no clustered-device validity claim."
+}

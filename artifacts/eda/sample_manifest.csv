@@ -1,0 +1,313 @@
+feature_view,coarse_label,capture_id,source_rows,sample_rows,sample_path
+flow,Benign,Anomaly Detection - Flow Based features/Benign/BenignTraffic.pcap_Flow,183630,1000,artifacts/eda/samples/flow/760b0174bbf2.parquet
+flow,Benign,Anomaly Detection - Flow Based features/Benign/BenignTraffic1.pcap_Flow,84526,1000,artifacts/eda/samples/flow/247d043082ab.parquet
+flow,Benign,Anomaly Detection - Flow Based features/Benign/BenignTraffic2.pcap_Flow,91279,1000,artifacts/eda/samples/flow/3ab5c7ceadf3.parquet
+flow,Benign,Anomaly Detection - Flow Based features/Benign/BenignTraffic3.pcap_Flow,38895,1000,artifacts/eda/samples/flow/bf85d09fdd5e.parquet
+flow,Brute Force,Anomaly Detection - Flow Based features/BruteForce/DictionaryBruteForce.pcap_Flow,3619,1000,artifacts/eda/samples/flow/853d8e5fd523.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation.pcap_Flow,323886,1000,artifacts/eda/samples/flow/19b938cf9ca3.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation1.pcap_Flow,137172,1000,artifacts/eda/samples/flow/a23d71ca3baf.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation10.pcap_Flow,166796,1000,artifacts/eda/samples/flow/403ebf1e4077.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation11.pcap_Flow,198622,1000,artifacts/eda/samples/flow/1ff680709ab6.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation12.pcap_Flow,37292,1000,artifacts/eda/samples/flow/11eac3342194.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation2.pcap_Flow,121409,1000,artifacts/eda/samples/flow/3fa7ed45b8d9.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation3.pcap_Flow,174443,1000,artifacts/eda/samples/flow/3837e719403b.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation4.pcap_Flow,152216,1000,artifacts/eda/samples/flow/3af2a755985f.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation5.pcap_Flow,209344,1000,artifacts/eda/samples/flow/56ad4ccbc1c8.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation6.pcap_Flow,209790,1000,artifacts/eda/samples/flow/a4c3e5ea0d10.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation7.pcap_Flow,127543,1000,artifacts/eda/samples/flow/48da5b295585.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation8.pcap_Flow,179379,1000,artifacts/eda/samples/flow/da667fe8a74a.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ACK Fragmentation/DDoS-ACK_Fragmentation9.pcap_Flow,412194,1000,artifacts/eda/samples/flow/929ab8e12bd5.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood.pcap_Flow,10415,1000,artifacts/eda/samples/flow/4c3fef684bbb.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood1.pcap_Flow,8263,1000,artifacts/eda/samples/flow/ed0cecbf082e.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood10.pcap_Flow,7558,1000,artifacts/eda/samples/flow/0dac08ef7ccd.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood11.pcap_Flow,8312,1000,artifacts/eda/samples/flow/5e558f91f02f.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood12.pcap_Flow,7204,1000,artifacts/eda/samples/flow/23cf82116455.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood13.pcap_Flow,5552,1000,artifacts/eda/samples/flow/3ea887ef7f58.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood14.pcap_Flow,6572,1000,artifacts/eda/samples/flow/22d31200afae.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood15.pcap_Flow,10323,1000,artifacts/eda/samples/flow/b44b493e519a.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood16.pcap_Flow,10270,1000,artifacts/eda/samples/flow/4a07ac5f73fe.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood17.pcap_Flow,4643,1000,artifacts/eda/samples/flow/11c4fd90b1ee.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood18.pcap_Flow,4062,1000,artifacts/eda/samples/flow/e8472b10b02c.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood19.pcap_Flow,8121,1000,artifacts/eda/samples/flow/cc332c2dcaeb.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood2.pcap_Flow,10958,1000,artifacts/eda/samples/flow/43419c7e5b68.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood20.pcap_Flow,7322,1000,artifacts/eda/samples/flow/05d1f1206512.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood21.pcap_Flow,7293,1000,artifacts/eda/samples/flow/d75db47811ca.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood22.pcap_Flow,5993,1000,artifacts/eda/samples/flow/ac9647ad7405.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood23.pcap_Flow,5193,1000,artifacts/eda/samples/flow/625dbe878756.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood24.pcap_Flow,6055,1000,artifacts/eda/samples/flow/1bca20b80e92.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood25.pcap_Flow,9442,1000,artifacts/eda/samples/flow/96d5ed8a8b19.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood26.pcap_Flow,5432,1000,artifacts/eda/samples/flow/a961b96d3253.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood3.pcap_Flow,7845,1000,artifacts/eda/samples/flow/1975689c9653.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood4.pcap_Flow,16190,1000,artifacts/eda/samples/flow/0400aa1aed24.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood5.pcap_Flow,7840,1000,artifacts/eda/samples/flow/fd23d4c04302.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood6.pcap_Flow,4783,1000,artifacts/eda/samples/flow/559fc5ea6595.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood7.pcap_Flow,3244,1000,artifacts/eda/samples/flow/c32bb136ef2c.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood8.pcap_Flow,6411,1000,artifacts/eda/samples/flow/8cc6aaa752d8.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS ICMP Flood/DDoS-ICMP_Flood9.pcap_Flow,6955,1000,artifacts/eda/samples/flow/1ea5e377c561.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-HTTP Flood/DDoS-HTTP_Flood-.pcap_Flow,505720,1000,artifacts/eda/samples/flow/95ab906bb89b.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation.pcap_Flow,14479,1000,artifacts/eda/samples/flow/230248f871a5.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation1.pcap_Flow,17480,1000,artifacts/eda/samples/flow/f6e1e3b5dde8.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation10.pcap_Flow,14420,1000,artifacts/eda/samples/flow/30fedbd9253c.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation11.pcap_Flow,11479,1000,artifacts/eda/samples/flow/df77a5f99fb4.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation12.pcap_Flow,18026,1000,artifacts/eda/samples/flow/9cc9a30e5c91.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation13.pcap_Flow,12980,1000,artifacts/eda/samples/flow/f52b2e37e103.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation14.pcap_Flow,13411,1000,artifacts/eda/samples/flow/2cddf5f0554e.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation15.pcap_Flow,9890,1000,artifacts/eda/samples/flow/48b2b861a58c.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation16.pcap_Flow,16489,1000,artifacts/eda/samples/flow/c9175bf5e6b5.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation17.pcap_Flow,41632,1000,artifacts/eda/samples/flow/785fff2f4c6b.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation18.pcap_Flow,9106,1000,artifacts/eda/samples/flow/16af93ce8ece.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation19.pcap_Flow,10963,1000,artifacts/eda/samples/flow/3b82a22cfc53.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation2.pcap_Flow,13462,1000,artifacts/eda/samples/flow/f8b8779af976.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation3.pcap_Flow,23405,1000,artifacts/eda/samples/flow/e9495bb5b409.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation4.pcap_Flow,25593,1000,artifacts/eda/samples/flow/ec20d78681f8.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation5.pcap_Flow,10617,1000,artifacts/eda/samples/flow/75ee9ca5718c.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation6.pcap_Flow,10138,1000,artifacts/eda/samples/flow/4b79326a0ee0.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation7.pcap_Flow,14235,1000,artifacts/eda/samples/flow/96968d466187.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation8.pcap_Flow,12572,1000,artifacts/eda/samples/flow/95273f59b4bb.parquet
+flow,DDoS,Anomaly Detection - Flow Based features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation9.pcap_Flow,20380,1000,artifacts/eda/samples/flow/1dea87ee689f.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood.pcap_Flow,3990181,1000,artifacts/eda/samples/flow/ac9d0763ee3d.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood1.pcap_Flow,1373103,1000,artifacts/eda/samples/flow/5fd104436c1d.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood2.pcap_Flow,2130835,1000,artifacts/eda/samples/flow/31f008b1561c.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood3.pcap_Flow,1923524,1000,artifacts/eda/samples/flow/d6f25f5b33bc.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood4.pcap_Flow,2169821,1000,artifacts/eda/samples/flow/250f8ad18374.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood5.pcap_Flow,1795088,1000,artifacts/eda/samples/flow/5a22989d6ddd.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood6.pcap_Flow,1503778,1000,artifacts/eda/samples/flow/c440ae98154f.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS SYN Flood/DoS-SYN_Flood7.pcap_Flow,1404314,1000,artifacts/eda/samples/flow/efb945fee304.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood.pcap_Flow,932513,1000,artifacts/eda/samples/flow/b23bb193dc38.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood1.pcap_Flow,710231,1000,artifacts/eda/samples/flow/9b7fac58609c.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood.pcap_Flow,1,1,artifacts/eda/samples/flow/496c5114fd0e.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood1.pcap_Flow,1,1,artifacts/eda/samples/flow/f55a283e7813.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood10.pcap_Flow,1,1,artifacts/eda/samples/flow/e57419ee23d0.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood2.pcap_Flow,1,1,artifacts/eda/samples/flow/ceb3868f8bd0.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-TCP_Flood/DoS-TCP_Flood3.pcap_Flow,1,1,artifacts/eda/samples/flow/ea7e67cc654d.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood.pcap_Flow,934001,1000,artifacts/eda/samples/flow/4741f7dc2ef1.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood10.pcap_Flow,61907,1000,artifacts/eda/samples/flow/9ae3b416e606.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood11.pcap_Flow,57086,1000,artifacts/eda/samples/flow/9cc2d8d72261.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood12.pcap_Flow,50017,1000,artifacts/eda/samples/flow/e16690121333.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood13.pcap_Flow,59885,1000,artifacts/eda/samples/flow/4a37ca6b31b5.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood14.pcap_Flow,64565,1000,artifacts/eda/samples/flow/3bc2923a5aa0.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood15.pcap_Flow,66453,1000,artifacts/eda/samples/flow/82ffe09b5b16.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood16.pcap_Flow,35173,1000,artifacts/eda/samples/flow/2d883b7bb457.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood3.pcap_Flow,589185,1000,artifacts/eda/samples/flow/549ba4cfc404.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood4.pcap_Flow,901794,1000,artifacts/eda/samples/flow/0c50524ced69.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood5.pcap_Flow,842995,1000,artifacts/eda/samples/flow/8ce2c676a9b2.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood6.pcap_Flow,862694,1000,artifacts/eda/samples/flow/2c7fe6ff2b45.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood7.pcap_Flow,539459,1000,artifacts/eda/samples/flow/c12e487430f6.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood8.pcap_Flow,74524,1000,artifacts/eda/samples/flow/26d4b96fee6e.parquet
+flow,DoS,Anomaly Detection - Flow Based features/DoS/DoS-UDP_Flood/DoS-UDP_Flood9.pcap_Flow,70798,1000,artifacts/eda/samples/flow/3b5d17db8419.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood.pcap_Flow,5172,1000,artifacts/eda/samples/flow/571e323b9a85.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood1.pcap_Flow,10856,1000,artifacts/eda/samples/flow/269d2527dcf1.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood10.pcap_Flow,8187,1000,artifacts/eda/samples/flow/6632223c02ff.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood11.pcap_Flow,8377,1000,artifacts/eda/samples/flow/93c5eccec804.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood12.pcap_Flow,6423,1000,artifacts/eda/samples/flow/1914a62b10b4.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood13.pcap_Flow,10306,1000,artifacts/eda/samples/flow/ebea9de30b70.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood14.pcap_Flow,2977,1000,artifacts/eda/samples/flow/5ac9607d13d6.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood15.pcap_Flow,3247,1000,artifacts/eda/samples/flow/f217d8f71fde.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood16.pcap_Flow,4438,1000,artifacts/eda/samples/flow/ff3b3cc1719f.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood17.pcap_Flow,2790,1000,artifacts/eda/samples/flow/d52e75b15ac8.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood18.pcap_Flow,3265,1000,artifacts/eda/samples/flow/22a80a3ce496.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood19.pcap_Flow,3481,1000,artifacts/eda/samples/flow/b0113f5611e8.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood2.pcap_Flow,4071,1000,artifacts/eda/samples/flow/422922081d76.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood20.pcap_Flow,4100,1000,artifacts/eda/samples/flow/e66981cedf2f.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood21.pcap_Flow,4507,1000,artifacts/eda/samples/flow/e30b0e0a607b.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood22.pcap_Flow,6609,1000,artifacts/eda/samples/flow/316aa1b74bc6.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood23.pcap_Flow,4572,1000,artifacts/eda/samples/flow/c1491b4cd13a.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood24.pcap_Flow,2546,1000,artifacts/eda/samples/flow/36ed5c91c105.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood25.pcap_Flow,2500,1000,artifacts/eda/samples/flow/22c02e96137e.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood26.pcap_Flow,5482,1000,artifacts/eda/samples/flow/be99742ca644.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood27.pcap_Flow,7602,1000,artifacts/eda/samples/flow/e008c9992b94.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood28.pcap_Flow,8451,1000,artifacts/eda/samples/flow/f5d2393194c3.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood3.pcap_Flow,4647,1000,artifacts/eda/samples/flow/86e6fa02ba67.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood4.pcap_Flow,9012,1000,artifacts/eda/samples/flow/21472b561755.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood5.pcap_Flow,3873,1000,artifacts/eda/samples/flow/1b8805d063a9.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood6.pcap_Flow,11786,1000,artifacts/eda/samples/flow/bd4fceac978f.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood7.pcap_Flow,7789,1000,artifacts/eda/samples/flow/77ab628b7e10.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood8.pcap_Flow,5443,1000,artifacts/eda/samples/flow/10bed9787392.parquet
+flow,Mirai,Anomaly Detection - Flow Based features/Mirai/Mirai-greeth_flood9.pcap_Flow,12079,1000,artifacts/eda/samples/flow/7e19163609a6.parquet
+flow,Recon,Anomaly Detection - Flow Based features/Recon/VulnerabilityScan/VulnerabilityScan.pcap_Flow,442158,1000,artifacts/eda/samples/flow/ab2da7a56384.parquet
+flow,Spoofing,Anomaly Detection - Flow Based features/Spoofing/ARP Spoofing/MITM-ArpSpoofing.pcap_Flow,73033,1000,artifacts/eda/samples/flow/a2b39e27a8ac.parquet
+flow,Spoofing,Anomaly Detection - Flow Based features/Spoofing/ARP Spoofing/MITM-ArpSpoofing1.pcap_Flow,9349,1000,artifacts/eda/samples/flow/479a10383ed1.parquet
+flow,Spoofing,Anomaly Detection - Flow Based features/Spoofing/DNS Spoofing/DNS_Spoofing.pcap_Flow,74856,1000,artifacts/eda/samples/flow/9cb18521b8b0.parquet
+flow,Web-based,Anomaly Detection - Flow Based features/Web-Based/Uploading_Attack/Uploading_Attack.pcap_Flow,1348,1000,artifacts/eda/samples/flow/dc1d58768240.parquet
+flow,Web-based,Anomaly Detection - Flow Based features/Web-Based/XSS/XSS.pcap_Flow,3377,1000,artifacts/eda/samples/flow/e5b8172493b8.parquet
+flow,Web-based,Anomaly Detection - Flow Based features/Web-Based/sqlinjection/SqlInjection.pcap_Flow,6603,1000,artifacts/eda/samples/flow/536281218624.parquet
+packet,Benign,Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic,297063,1000,artifacts/eda/samples/packet/9aa26518f529.parquet
+packet,Benign,Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic1,295201,1000,artifacts/eda/samples/packet/29b50a230196.parquet
+packet,Benign,Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic2,295200,1000,artifacts/eda/samples/packet/4465273402b4.parquet
+packet,Benign,Device Identification_Anomaly Detection - Packet Based Features/BenignTraffic/BenignTraffic3,295334,1000,artifacts/eda/samples/packet/c1caebb5346b.parquet
+packet,Brute Force,Device Identification_Anomaly Detection - Packet Based Features/BruteForce/DictionaryBruteForce/DictionaryBruteForce,131477,1000,artifacts/eda/samples/packet/23fdd4700cb5.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation,291481,1000,artifacts/eda/samples/packet/6e28c6abf318.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation1,289819,1000,artifacts/eda/samples/packet/1a59d8034d7d.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation10,290260,1000,artifacts/eda/samples/packet/b7c88e987eca.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation11,291742,1000,artifacts/eda/samples/packet/c22dda33d64f.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation12,288952,1000,artifacts/eda/samples/packet/f897f61f5b48.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation2,290591,1000,artifacts/eda/samples/packet/9afe53c5c443.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation3,293477,1000,artifacts/eda/samples/packet/56502050e6e6.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation4,195642,1000,artifacts/eda/samples/packet/0e5acd688e54.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation5,295566,1000,artifacts/eda/samples/packet/cbf9dadb9345.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation6,293046,1000,artifacts/eda/samples/packet/1d692c77e457.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation7,293233,1000,artifacts/eda/samples/packet/b52c2ad3f928.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation8,292275,1000,artifacts/eda/samples/packet/8e55d92b13ce.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ACK_Fragmentation/DDoS-ACK_Fragmentation9,290902,1000,artifacts/eda/samples/packet/689fd3c48c9a.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-HTTP_Flood/DDoS-HTTP_Flood-,290346,1000,artifacts/eda/samples/packet/8785ebe633ea.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation,275532,1000,artifacts/eda/samples/packet/15a8aeb9459f.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation1,268610,1000,artifacts/eda/samples/packet/6faadcd7eac8.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation10,294351,1000,artifacts/eda/samples/packet/eddd41ff5588.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation11,292091,1000,artifacts/eda/samples/packet/6a39f4944fff.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation12,293194,1000,artifacts/eda/samples/packet/bdd68ae2e523.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation13,292846,1000,artifacts/eda/samples/packet/526f67191833.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation14,299968,1000,artifacts/eda/samples/packet/d3cfb4fe2cc4.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation15,293290,1000,artifacts/eda/samples/packet/932c44ca042d.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation16,294630,1000,artifacts/eda/samples/packet/99731e0ef9ce.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation17,293901,1000,artifacts/eda/samples/packet/9cb562b8d59b.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation18,279990,1000,artifacts/eda/samples/packet/e7534378dd55.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation19,292567,1000,artifacts/eda/samples/packet/f30338e24d0f.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation2,288872,1000,artifacts/eda/samples/packet/a401ff52ba88.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation3,288678,1000,artifacts/eda/samples/packet/46b3bd322ca1.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation4,281346,1000,artifacts/eda/samples/packet/f153d66d2908.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation5,290024,1000,artifacts/eda/samples/packet/d2427799b744.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation6,288021,1000,artifacts/eda/samples/packet/10294928e9e0.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation7,292459,1000,artifacts/eda/samples/packet/3514cb632a26.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation8,284828,1000,artifacts/eda/samples/packet/bafba4ae9dfa.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-ICMP_Fragmentation/DDoS-ICMP_Fragmentation9,288624,1000,artifacts/eda/samples/packet/aecdbeeea872.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SlowLoris/DDoS-SlowLoris,288591,1000,artifacts/eda/samples/packet/085a22089e2b.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood,211945,1000,artifacts/eda/samples/packet/3f7308535f5a.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood1,193388,1000,artifacts/eda/samples/packet/6daa23ca083e.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood10,191450,1000,artifacts/eda/samples/packet/86404ffe8a38.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood11,188133,1000,artifacts/eda/samples/packet/dff3232844ea.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood12,207117,1000,artifacts/eda/samples/packet/79fb0104abc8.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood13,195775,1000,artifacts/eda/samples/packet/18651065fd0a.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood2,187229,1000,artifacts/eda/samples/packet/a99e83643a8b.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood3,211615,1000,artifacts/eda/samples/packet/3acc48be9859.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood4,193979,1000,artifacts/eda/samples/packet/1ec4f67543e0.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood5,189642,1000,artifacts/eda/samples/packet/d060b3c92f2e.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood6,190209,1000,artifacts/eda/samples/packet/506d3f871914.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood7,189662,1000,artifacts/eda/samples/packet/5e5a9fd702e6.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood8,205451,1000,artifacts/eda/samples/packet/99da451ccb6b.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-SynonymousIP_Flood/DDoS-SynonymousIP_Flood9,208932,1000,artifacts/eda/samples/packet/439bbda64ee1.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood,85423,1000,artifacts/eda/samples/packet/9ba36c224631.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood1,84499,1000,artifacts/eda/samples/packet/6abbe0283de9.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood10,89542,1000,artifacts/eda/samples/packet/64fc406576fd.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood11,87318,1000,artifacts/eda/samples/packet/96d567c36588.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood12,87389,1000,artifacts/eda/samples/packet/ffd5b2e552fd.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood13,85603,1000,artifacts/eda/samples/packet/a98ecaedab66.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood14,85135,1000,artifacts/eda/samples/packet/98bd3990170d.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood15,86620,1000,artifacts/eda/samples/packet/387b1681fed7.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood16,86700,1000,artifacts/eda/samples/packet/2d448b53c007.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood17,86082,1000,artifacts/eda/samples/packet/08fa2da9a541.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood2,86284,1000,artifacts/eda/samples/packet/90486865f713.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood3,88808,1000,artifacts/eda/samples/packet/0cfca7782441.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood4,86553,1000,artifacts/eda/samples/packet/c36a52bd0b0b.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood5,96530,1000,artifacts/eda/samples/packet/c3c4acc8c671.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood6,86816,1000,artifacts/eda/samples/packet/d59805d25592.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood7,84702,1000,artifacts/eda/samples/packet/86b78855d6f5.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood8,85350,1000,artifacts/eda/samples/packet/a239a83070dc.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-TCP_Flood/DDoS-TCP_Flood9,89211,1000,artifacts/eda/samples/packet/c80b02b6b8f4.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood,86615,1000,artifacts/eda/samples/packet/5f13ad2f873d.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood1,86551,1000,artifacts/eda/samples/packet/bba6cdfc9c81.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood10,280198,1000,artifacts/eda/samples/packet/2fdc8a5c8761.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood11,294239,1000,artifacts/eda/samples/packet/f414c600ab05.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood12,291857,1000,artifacts/eda/samples/packet/5ba399628e73.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood13,284645,1000,artifacts/eda/samples/packet/d88134914898.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood14,288675,1000,artifacts/eda/samples/packet/140ab23444bf.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood15,285063,1000,artifacts/eda/samples/packet/a8c4b664a3fa.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood16,43309,1000,artifacts/eda/samples/packet/268ed0dc981e.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood17,88988,1000,artifacts/eda/samples/packet/5c5c0eec74c3.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood18,87556,1000,artifacts/eda/samples/packet/3ece94f9d9ba.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood19,87160,1000,artifacts/eda/samples/packet/71df90fb6516.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood2,86898,1000,artifacts/eda/samples/packet/53c275105770.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood20,149865,1000,artifacts/eda/samples/packet/cd6482be7950.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood3,285102,1000,artifacts/eda/samples/packet/7defa5eb464e.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood4,287815,1000,artifacts/eda/samples/packet/1e703649e2aa.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood5,283632,1000,artifacts/eda/samples/packet/b42303734409.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood6,284584,1000,artifacts/eda/samples/packet/b6999d0047d0.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood7,248982,1000,artifacts/eda/samples/packet/a811b554fd65.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood8,279140,1000,artifacts/eda/samples/packet/6e4b9e0cec19.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Flood/DDoS-UDP_Flood9,272190,1000,artifacts/eda/samples/packet/b0e8b50da0c3.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation,277953,1000,artifacts/eda/samples/packet/f4ff0172e90d.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation1,297691,1000,artifacts/eda/samples/packet/7375b6cc3ecf.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation10,288314,1000,artifacts/eda/samples/packet/40f8c55b46c5.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation11,283076,1000,artifacts/eda/samples/packet/f400bc43aa49.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation12,283056,1000,artifacts/eda/samples/packet/2558be16ff90.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation2,288088,1000,artifacts/eda/samples/packet/4b99c8f507f7.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation3,286499,1000,artifacts/eda/samples/packet/041fa9d693ef.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation4,278675,1000,artifacts/eda/samples/packet/494a27a7a05e.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation5,286738,1000,artifacts/eda/samples/packet/78cc9b8691cd.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation6,281169,1000,artifacts/eda/samples/packet/b8e8bae69bdf.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation7,283330,1000,artifacts/eda/samples/packet/0c0f1d94c2f1.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation8,281509,1000,artifacts/eda/samples/packet/285b82f012cc.parquet
+packet,DDoS,Device Identification_Anomaly Detection - Packet Based Features/DDoS/DDoS-UDP_Fragmentation/DDoS-UDP_Fragmentation9,289482,1000,artifacts/eda/samples/packet/13cbd810eff7.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood,156328,1000,artifacts/eda/samples/packet/ffbae300a251.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-HTTP_Flood/DoS-HTTP_Flood1,157711,1000,artifacts/eda/samples/packet/63c136544045.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood,83359,1000,artifacts/eda/samples/packet/699156d5f0dd.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood1,83443,1000,artifacts/eda/samples/packet/d71c9eae137b.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood2,87376,1000,artifacts/eda/samples/packet/4e33ba2a253f.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood3,87510,1000,artifacts/eda/samples/packet/4a13c25b0935.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood4,88892,1000,artifacts/eda/samples/packet/d27c5c7dee72.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood5,91539,1000,artifacts/eda/samples/packet/f643507c7802.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood6,89374,1000,artifacts/eda/samples/packet/fbf0df9056cb.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-SYN_Flood/DoS-SYN_Flood7,87843,1000,artifacts/eda/samples/packet/4d69e52f903b.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood,89711,1000,artifacts/eda/samples/packet/0c8b7015142b.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood1,46525,1000,artifacts/eda/samples/packet/ce9f97c88762.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood10,89915,1000,artifacts/eda/samples/packet/06157bd206e5.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood2,88337,1000,artifacts/eda/samples/packet/3569010e9c93.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood3,90856,1000,artifacts/eda/samples/packet/a7cc4ba38155.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood4,86892,1000,artifacts/eda/samples/packet/ade18da257ca.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood5,89808,1000,artifacts/eda/samples/packet/112570a925ee.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood6,90309,1000,artifacts/eda/samples/packet/c7002aaf8f4c.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood7,86206,1000,artifacts/eda/samples/packet/fe6a3a5a5c44.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood8,87744,1000,artifacts/eda/samples/packet/cf46b822a48a.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-TCP_Flood/DoS-TCP_Flood9,86711,1000,artifacts/eda/samples/packet/939abdad13c3.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood,87900,1000,artifacts/eda/samples/packet/74703420e7f5.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood1,88412,1000,artifacts/eda/samples/packet/11d615905e01.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood10,89698,1000,artifacts/eda/samples/packet/ab94ed8fc67b.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood11,89293,1000,artifacts/eda/samples/packet/f31064187271.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood12,89693,1000,artifacts/eda/samples/packet/6799943a69cb.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood13,90208,1000,artifacts/eda/samples/packet/e62039d2478d.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood14,90186,1000,artifacts/eda/samples/packet/d5e9bd8760da.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood15,88397,1000,artifacts/eda/samples/packet/4e643238c8ef.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood16,89125,1000,artifacts/eda/samples/packet/14d12e8dbd48.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood2,96998,1000,artifacts/eda/samples/packet/fcb3382b64a4.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood3,96925,1000,artifacts/eda/samples/packet/dc15715c81f4.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood4,95656,1000,artifacts/eda/samples/packet/0834b2183920.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood5,95742,1000,artifacts/eda/samples/packet/22f0919e435a.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood6,94778,1000,artifacts/eda/samples/packet/c0c0227ce654.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood7,91921,1000,artifacts/eda/samples/packet/06e38634dc7e.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood8,89382,1000,artifacts/eda/samples/packet/f2b28c38d2d0.parquet
+packet,DoS,Device Identification_Anomaly Detection - Packet Based Features/DoS/DoS-UDP_Flood/DoS-UDP_Flood9,92977,1000,artifacts/eda/samples/packet/fcfb1f52d948.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood,213030,1000,artifacts/eda/samples/packet/6adec27f9df7.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood1,287514,1000,artifacts/eda/samples/packet/51ea27081d69.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood10,274600,1000,artifacts/eda/samples/packet/caab6a6912c6.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood11,275649,1000,artifacts/eda/samples/packet/7e43251082f6.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood12,281280,1000,artifacts/eda/samples/packet/e23e341dccb1.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood13,275123,1000,artifacts/eda/samples/packet/309939845101.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood14,275251,1000,artifacts/eda/samples/packet/4a653eeffb3f.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood15,282907,1000,artifacts/eda/samples/packet/b164da7dc104.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood16,293466,1000,artifacts/eda/samples/packet/0988cf51018c.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood17,276308,1000,artifacts/eda/samples/packet/013c3f7525fb.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood18,274481,1000,artifacts/eda/samples/packet/92cbfa0c68dd.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood19,287128,1000,artifacts/eda/samples/packet/a985fdef7817.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood2,284280,1000,artifacts/eda/samples/packet/4abead67900d.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood20,278161,1000,artifacts/eda/samples/packet/1ce2b9216a82.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood21,277177,1000,artifacts/eda/samples/packet/da62a6878395.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood3,281195,1000,artifacts/eda/samples/packet/8b8a861b758f.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood4,285496,1000,artifacts/eda/samples/packet/3c7a2b630a4a.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood5,286130,1000,artifacts/eda/samples/packet/5a81794ae082.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood6,286186,1000,artifacts/eda/samples/packet/c217fc645ea9.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood7,286438,1000,artifacts/eda/samples/packet/ced47a57042f.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood8,281550,1000,artifacts/eda/samples/packet/fd1114163dad.parquet
+packet,Mirai,Device Identification_Anomaly Detection - Packet Based Features/Mirai/Mirai-greip_flood/Mirai-greip_flood9,253869,1000,artifacts/eda/samples/packet/ef87ea6d1d05.parquet
+packet,Recon,Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-HostDiscovery/Recon-HostDiscovery,288374,1000,artifacts/eda/samples/packet/19a2e1ec88f9.parquet
+packet,Recon,Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-OSScan/Recon-OSScan,291903,1000,artifacts/eda/samples/packet/2c6acb1a98e9.parquet
+packet,Recon,Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-PingSweep/Recon-PingSweep,22619,1000,artifacts/eda/samples/packet/1ede8189b078.parquet
+packet,Recon,Device Identification_Anomaly Detection - Packet Based Features/Recon/Recon-PortScan/Recon-PortScan,286634,1000,artifacts/eda/samples/packet/aa9ff91e6a3c.parquet
+packet,Recon,Device Identification_Anomaly Detection - Packet Based Features/Recon/VulnerabilityScan/VulnerabilityScan,258929,1000,artifacts/eda/samples/packet/bf8c10bab7d3.parquet
+packet,Spoofing,Device Identification_Anomaly Detection - Packet Based Features/Spoofing/DNS_Spoofing/DNS_Spoofing,296025,1000,artifacts/eda/samples/packet/e732ca554cc3.parquet
+packet,Spoofing,Device Identification_Anomaly Detection - Packet Based Features/Spoofing/MITM-ArpSpoofing/MITM-ArpSpoofing,290437,1000,artifacts/eda/samples/packet/c9c213104891.parquet
+packet,Spoofing,Device Identification_Anomaly Detection - Packet Based Features/Spoofing/MITM-ArpSpoofing/MITM-ArpSpoofing1,297361,1000,artifacts/eda/samples/packet/84d67db58d4f.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/Backdoor_Malware/Backdoor_Malware,33349,1000,artifacts/eda/samples/packet/ea51360fe454.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/BrowserHijacking/BrowserHijacking,59268,1000,artifacts/eda/samples/packet/b5e8b4c0e478.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/CommandInjection/CommandInjection,55632,1000,artifacts/eda/samples/packet/2f99ea6eae21.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/SqlInjection/SqlInjection,52628,1000,artifacts/eda/samples/packet/1f1dd274e34a.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/Uploading_Attack/Uploading_Attack,12924,1000,artifacts/eda/samples/packet/439b8b456486.parquet
+packet,Web-based,Device Identification_Anomaly Detection - Packet Based Features/Web-Based/XSS/XSS,40101,1000,artifacts/eda/samples/packet/ffc3603f15bd.parquet

@@ -1,0 +1,18 @@
+[split]
+seed = 2027
+random_candidates = 50000
+
+[split.partition_sizes]
+train = 40
+calibration = 14
+test = 14
+
+[split.minimum_class_device_support]
+train = 10
+calibration = 5
+test = 5
+
+[split.objective_weights]
+total_rows = 2.0
+class_rows = 1.0
+class_device_support = 0.25

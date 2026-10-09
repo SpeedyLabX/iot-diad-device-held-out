@@ -1,0 +1,59 @@
+{
+  "cap": 2000,
+  "class_order": [
+    "Benign",
+    "Brute Force",
+    "DDoS",
+    "DoS",
+    "Mirai",
+    "Recon",
+    "Spoofing",
+    "Web-based"
+  ],
+  "config_sha256": "84cf8d95df36735e7de013c9968db7ad88aae528d03baf54c7b92f8de03042b7",
+  "estimator": {
+    "categorical_features": "from_dtype",
+    "class_weight": "balanced",
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1,
+    "learning_rate": 0.1,
+    "loss": "log_loss",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "random_state": 2027,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "execution_code_sha256": {
+    "src/iot_diad/modeling/__init__.py": "0cffba54bf23c6f65124002f89d209ec62f963edff52ad89e317c460b89ede85",
+    "src/iot_diad/modeling/baselines.py": "aa18b5b34d2e98de747d27912157a27015f0b462a2e259958dcd02a4c942d64b",
+    "src/iot_diad/modeling/data.py": "d10227e0f94257157572381abe105999cefdab5ed76e83e85279cb7b4a8610c2",
+    "src/iot_diad/modeling/features.py": "f2c469b6906a7ed9ebf2467abf7b25974b876e3641d675913fd044b2cd712c44",
+    "src/iot_diad/modeling/pipeline.py": "b6a47d4f7bd7a8602d398d684b80dc2d9a4eceeb3ee572eee38bba201a34631a",
+    "src/iot_diad/modeling/preprocessing.py": "214e5eb6971e0a0a32fb0d9fbae166c64a63702fe9dc2fd7a50cf12431bde730"
+  },
+  "feature_contract_sha256": "8885be549b24719dad67f37943d105b6bd25535979a9c43e64d692501c8839f5",
+  "model_id": "HGB",
+  "run_id": "HGB",
+  "sample_manifest_sha256": "099f821eb38f657c38dcf0f3b0cb060614417374339a43f7454d49e1ed07162c",
+  "seed": 2027,
+  "software_versions": {
+    "joblib": "1.6.0",
+    "numpy": "2.5.3",
+    "polars": "1.44.2",
+    "python": "3.12.15",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  }
+}
