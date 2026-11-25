@@ -6,11 +6,19 @@ from __future__ import annotations
 import argparse
 import http.cookiejar
 import json
+import os
+import shutil
 import sys
 import time
-from collections import deque
+import tomllib
+from collections import Counter, deque
+from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor, wait
+from contextlib import nullcontext
+from dataclasses import dataclass, replace
 from html.parser import HTMLParser
 from pathlib import Path, PurePosixPath
+from threading import Lock
 from urllib.error import HTTPError, URLError
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 from urllib.request import HTTPCookieProcessor, Request, build_opener
@@ -153,26 +161,131 @@ def format_duration(seconds: float) -> str:
     return f"{secs:d}s"
 
 
-def show_progress(
-    file_index: int,
-    file_count: int,
-    name: str,
-    completed: int,
-    total: int | None,
-    speed: float,
-) -> None:
-    if total:
-        percent = min(completed / total * 100, 100.0)
-        remaining = max(total - completed, 0)
-        eta = remaining / speed if speed > 0 else float("inf")
-        amount = f"{format_bytes(completed)}/{format_bytes(total)} {percent:5.1f}%"
-        eta_text = f"ETA {format_duration(eta)}"
-    else:
-        amount = format_bytes(completed)
-        eta_text = "ETA --"
-    line = f"[{file_index}/{file_count}] {name} | {amount} | {format_bytes(speed)}/s | {eta_text}"
-    sys.stdout.write("\r\033[K" + line)
-    sys.stdout.flush()
+@dataclass
+class Transfer:
+    name: str
+    status: str
+    completed: int = 0
+    total: int | None = None
+    speed: float = 0.0
+    updated_at: float = 0.0
+
+
+class DownloadDashboard:
+    def __init__(self, file_count: int, workers: int) -> None:
+        self.file_count = file_count
+        self.workers = workers
+        self.started_at = time.monotonic()
+        self.lock = Lock()
+        self.active: dict[int, Transfer] = {}
+        self.counts: Counter[str] = Counter()
+        self.events: deque[tuple[str, str]] = deque(maxlen=5)
+        self.color = "NO_COLOR" not in os.environ
+
+    def __enter__(self):
+        sys.stdout.write("\033[?1049h\033[?25l")
+        sys.stdout.flush()
+        return self
+
+    def __exit__(self, *_exc):
+        sys.stdout.write("\033[?25h\033[?1049l")
+        sys.stdout.flush()
+
+    def start(self, index: int, name: str) -> None:
+        with self.lock:
+            self.active[index] = Transfer(name, "CONNECT")
+
+    def progress(self, index: int, completed: int, total: int | None, speed: float) -> None:
+        with self.lock:
+            transfer = self.active[index]
+            transfer.status = "TRANSFER"
+            transfer.completed = completed
+            transfer.total = total
+            transfer.speed = speed
+            transfer.updated_at = time.monotonic()
+
+    def retry(self, index: int, attempt: int, delay: int, error: Exception) -> None:
+        with self.lock:
+            transfer = self.active[index]
+            transfer.status = f"RETRY {attempt}/3"
+            transfer.speed = 0
+            self.events.append(
+                ("RETRY", f"{index:>3} {Path(transfer.name).name} in {delay}s | {error}")
+            )
+
+    def finish(self, index: int, status: str, error: str = "") -> None:
+        with self.lock:
+            transfer = self.active.pop(index)
+            self.counts[status] += 1
+            label = {"downloaded": "DONE", "skipped": "SKIP", "failed": "FAIL"}[status]
+            detail = error or (format_bytes(transfer.completed) if status == "downloaded" else "")
+            item = f"{index:>3} {Path(transfer.name).name}"
+            self.events.append((label, f"{item} | {detail}" if detail else item))
+
+    def draw(self) -> None:
+        width, height = shutil.get_terminal_size((100, 24))
+        with self.lock:
+            active = [(index, replace(item)) for index, item in sorted(self.active.items())]
+            counts = self.counts.copy()
+            events = list(self.events)
+        processed = counts.total()
+        now = time.monotonic()
+        speed = sum(item.speed for _, item in active if now - item.updated_at <= 3)
+        pending = self.file_count - processed - len(active)
+        bar_width = min(28, max(8, width // 4))
+        filled = bar_width * processed // self.file_count
+        lines = [
+            ("1;36", "CIC IoT-DIAD 2024  /  DOWNLOAD MONITOR"),
+            ("2", "-" * min(width - 1, 96)),
+            (
+                "36",
+                f"[{'#' * filled}{'.' * (bar_width - filled)}]  "
+                f"{processed}/{self.file_count} processed  |  "
+                f"{format_duration(now - self.started_at)}",
+            ),
+            (
+                "0",
+                f"{counts['downloaded']} done  |  {counts['skipped']} skipped  |  "
+                f"{counts['failed']} failed  |  {pending} queued",
+            ),
+            ("0", f"{len(active)}/{self.workers} active  |  ~{format_bytes(speed)}/s"),
+        ]
+        if active and height > 7:
+            lines.extend([("0", ""), ("1;36", "ACTIVE TRANSFERS")])
+            row_limit = max(1, height - len(lines) - (4 if events else 1))
+            visible = active[:row_limit]
+            for index, item in visible:
+                speed_text = (
+                    f" {format_bytes(item.speed)}/s"
+                    if item.speed and now - item.updated_at <= 3
+                    else ""
+                )
+                amount = format_bytes(item.completed) if item.completed or item.total else ""
+                if item.total:
+                    amount += f" {min(100, item.completed * 100 // item.total):>3}%"
+                lines.append(
+                    (
+                        "33" if item.status.startswith("RETRY") else "0",
+                        f"{index:>3}  {item.status:<9} {amount:<14}{speed_text:<14} "
+                        f"{Path(item.name).name}",
+                    )
+                )
+            if len(visible) < len(active):
+                lines.append(("2", f"     +{len(active) - len(visible)} more active"))
+        if events:
+            lines.extend([("0", ""), ("1;36", "RECENT EVENTS")])
+            room = max(0, height - len(lines) - 1)
+            for label, message in events[-room:] if room else []:
+                tone = {"DONE": "32", "SKIP": "2", "FAIL": "31", "RETRY": "33"}[label]
+                lines.append((tone, f"{label:<5} {message}"))
+
+        display = []
+        for tone, line in lines[: max(1, height - 1)]:
+            clean = "".join(char if char.isascii() and char.isprintable() else "?" for char in line)
+            clipped = clean if len(clean) < width else clean[: max(0, width - 4)] + "..."
+            display.append(f"\033[{tone}m{clipped}\033[0m" if self.color else clipped)
+        sys.stdout.write("\033[H" + "\033[K\n".join(display) + "\033[J")
+        sys.stdout.flush()
 
 
 def download_one(
@@ -183,6 +296,7 @@ def download_one(
     file_index: int,
     file_count: int,
     display_name: str,
+    on_progress: Callable[[int, int | None, float], None] | None = None,
 ) -> str:
     if destination.exists() and destination.stat().st_size > 0 and not overwrite:
         return "skipped"
@@ -212,37 +326,34 @@ def download_one(
                 output.write(chunk)
                 received += len(chunk)
                 now = time.monotonic()
-                if now - last_update >= PROGRESS_INTERVAL_SECONDS:
+                if on_progress is not None and now - last_update >= PROGRESS_INTERVAL_SECONDS:
                     elapsed = max(now - started_at, 1e-9)
-                    show_progress(
-                        file_index,
-                        file_count,
-                        display_name,
-                        starting_size + received,
-                        total_size,
-                        received / elapsed,
-                    )
+                    on_progress(starting_size + received, total_size, received / elapsed)
                     last_update = now
 
         elapsed = max(time.monotonic() - started_at, 1e-9)
-        show_progress(
-            file_index,
-            file_count,
-            display_name,
-            starting_size + received,
-            total_size,
-            received / elapsed,
-        )
-        sys.stdout.write("\n")
         if response_size is not None and received != response_size:
             raise OSError(f"incomplete response: received {received} of {response_size} bytes")
 
     partial.replace(destination)
+    if on_progress is not None:
+        on_progress(starting_size + received, total_size, received / elapsed)
+    else:
+        print(
+            f"[{file_index}/{file_count}] done {display_name} "
+            f"({format_bytes(starting_size + received)}, {format_bytes(received / elapsed)}/s)",
+            flush=True,
+        )
     return "downloaded"
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        epilog="Local defaults: $XDG_CONFIG_HOME/iot-diad/download.toml "
+        "(normally ~/.config/iot-diad/download.toml). "
+        "Use first_name, last_name, email, institution, job_title, country, and workers.",
+    )
     parser.add_argument(
         "--output",
         type=Path,
@@ -256,8 +367,33 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--job-title")
     parser.add_argument("--country")
     parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument(
+        "--workers",
+        type=int,
+        help="files downloaded in parallel (default: 4, or the local config value)",
+    )
     parser.add_argument("--yes", action="store_true", help="skip confirmation")
-    return parser.parse_args()
+    parser.add_argument("--plain", action="store_true", help="use plain logs in a terminal")
+    args = parser.parse_args()
+    config_home = Path(os.environ.get("XDG_CONFIG_HOME") or Path.home() / ".config")
+    config_path = config_home / "iot-diad" / "download.toml"
+    try:
+        with config_path.open("rb") as config_file:
+            defaults = tomllib.load(config_file)
+    except FileNotFoundError:
+        defaults = {}
+    for field in ("first_name", "last_name", "email", "institution", "job_title", "country"):
+        if getattr(args, field) is None and field in defaults:
+            value = defaults[field]
+            if not isinstance(value, str) or not value.strip():
+                parser.error(f"{config_path}: {field} must be a non-empty string")
+            setattr(args, field, value)
+    if args.workers is None:
+        workers = defaults.get("workers", 4)
+        if type(workers) is not int or workers < 1:
+            parser.error(f"{config_path}: workers must be a positive integer")
+        args.workers = workers
+    return args
 
 
 def main() -> int:
@@ -285,10 +421,20 @@ def main() -> int:
             print("Cancelled.")
             return 0
 
-    downloaded = skipped = 0
-    failures: list[tuple[str, str]] = []
-    for index, (relative_name, url) in enumerate(files, start=1):
+    workers = max(1, args.workers)
+    use_dashboard = sys.stdout.isatty() and os.environ.get("TERM") != "dumb" and not args.plain
+    dashboard = DownloadDashboard(len(files), workers) if use_dashboard else None
+
+    def fetch(item: tuple[int, tuple[str, str]]) -> tuple[str, str, str]:
+        index, (relative_name, url) = item
         destination = safe_destination(args.output, relative_name)
+
+        def update(completed: int, total: int | None, speed: float) -> None:
+            assert dashboard is not None
+            dashboard.progress(index, completed, total, speed)
+
+        if dashboard:
+            dashboard.start(index, relative_name)
         for attempt in range(1, 4):
             try:
                 status = download_one(
@@ -299,21 +445,45 @@ def main() -> int:
                     index,
                     len(files),
                     relative_name,
+                    update if dashboard else None,
                 )
-                if status == "skipped":
-                    skipped += 1
-                    print(f"[{index}/{len(files)}] SKIP {relative_name}")
-                else:
-                    downloaded += 1
-                break
+                if dashboard:
+                    dashboard.finish(index, status)
+                elif status == "skipped":
+                    print(f"[{index}/{len(files)}] SKIP {relative_name}", flush=True)
+                return status, relative_name, ""
             except (HTTPError, URLError, TimeoutError, OSError) as exc:
                 if attempt == 3:
-                    failures.append((relative_name, str(exc)))
-                    print(f"  FAILED: {exc}", file=sys.stderr)
+                    if dashboard:
+                        dashboard.finish(index, "failed", str(exc))
+                    else:
+                        print(f"  FAILED {relative_name}: {exc}", file=sys.stderr, flush=True)
+                    return "failed", relative_name, str(exc)
+                delay = 2**attempt
+                if dashboard:
+                    dashboard.retry(index, attempt, delay, exc)
                 else:
-                    delay = 2**attempt
-                    print(f"  retry {attempt}/3 in {delay}s: {exc}")
-                    time.sleep(delay)
+                    print(f"  retry {attempt}/3 in {delay}s ({relative_name}): {exc}", flush=True)
+                time.sleep(delay)
+        raise AssertionError("unreachable")
+
+    with ThreadPoolExecutor(max_workers=workers) as pool, dashboard or nullcontext():
+        if dashboard:
+            dashboard.draw()
+        futures = [pool.submit(fetch, item) for item in enumerate(files, start=1)]
+        try:
+            pending = set(futures)
+            while dashboard and pending:
+                _, pending = wait(pending, timeout=PROGRESS_INTERVAL_SECONDS)
+                dashboard.draw()
+            results = [future.result() for future in futures]
+        except KeyboardInterrupt:
+            for future in futures:
+                future.cancel()
+            raise
+    downloaded = sum(status == "downloaded" for status, _, _ in results)
+    skipped = sum(status == "skipped" for status, _, _ in results)
+    failures = [(name, error) for status, name, error in results if status == "failed"]
 
     print(f"Complete: {downloaded} downloaded, {skipped} skipped, {len(failures)} failed")
     if failures:
